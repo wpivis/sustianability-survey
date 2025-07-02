@@ -31,13 +31,13 @@
             "response": [
                 {
                     "id": "q1-productivity-manager",
-                    "prompt": "What productivity manager(to do list, schedule, planner), if any, do you currently use? $",
+                    "prompt": "What productivity manager(to do list, schedule, planner), if any, do you currently use?",
                     "type": "longText",
                     "required": true
                 },
                 {
                     "id": "q2-experience-gamification",
-                    "prompt": "Have you used any platforms that include gamification elements (progress bars, xp points, etc.)? If so, which ones and what was your experience like? $",
+                    "prompt": "Have you used any platforms that include gamification elements (progress bars, xp points, etc.)? If so, which ones and what was your experience like?",
                     "type": "longText",
                     "required": true
                 },
@@ -54,7 +54,7 @@
         },
         "P1-dashboard": {
             "type": "image",
-            "path": "initial-prototype/assets/Prototype1.jpg",
+            "path": "initial-prototype/assets/Prototype1.0.jpg",
             "instruction": "Have you finished looking at this prototype?",
             "style": {
                 "width": "800px"
@@ -75,7 +75,7 @@
         },
         "P2-list": {
             "type": "image",
-            "path": "initial-prototype/assets/Prototype2.jpg",
+            "path": "initial-prototype/assets/Prototype2.0.jpg",
             "instruction": "Have you finished looking at this prototype?",
             "style": {
                 "width": "800px"
@@ -96,7 +96,7 @@
         },
         "P3-complete": {
             "type": "image",
-            "path": "initial-prototype/assets/Prototype3.jpg",
+            "path": "initial-prototype/assets/Prototype3.0.jpg",
             "instruction": "Have you finished looking at this prototype?",
             "style": {
                 "width": "800px"
@@ -135,7 +135,7 @@
                 },
                 {
                     "id": "q2-opinion",
-                    "prompt": "How would your motivation to complete your tasks change using the gamified versus non gamified version of the platform?$",
+                    "prompt": "How would your motivation to complete your tasks change using the gamified versus non gamified version of the platform?",
                     "required": true,
                     "withDivider": true,
                     "location": "aboveStimulus",
@@ -146,7 +146,7 @@
                 },
                 {
                     "id": "q3-opinion",
-                    "prompt": "Are there any aspects of the gamified prototype screens shown that were missing components or could be improved? $",
+                    "prompt": "Are there any aspects of the gamified prototype screens shown that were missing components or could be improved?",
                     "required": true,
                     "location": "aboveStimulus",
                     "type": "longText"
