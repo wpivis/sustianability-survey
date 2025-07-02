@@ -1,6 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.1.1/src/parser/GlobalConfigSchema.json",
   "configsList": [
+    "initial-prototype",
     "tutorial",
     "example-brush-interactions",
     "example-cleveland",
@@ -36,6 +37,9 @@
 
   ],
   "configs": {
+    "initial-prototype": {
+      "path": "initial-prototype/config.json"
+    },
     "tutorial": {
       "path": "tutorial/config.json"
     },
