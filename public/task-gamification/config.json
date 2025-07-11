@@ -14,7 +14,7 @@
     },
     "uiConfig": {
         "contactEmail": "cmpolit@wpi.edu",
-        "helpTextPath": "initial-prototype/assets/help.md",
+        "helpTextPath": "task-gamification/assets/help.md",
         "logoPath": "revisitAssets/revisitLogoSquare.svg",
         "withProgressBar": true,
         "autoDownloadStudy": false,
@@ -23,7 +23,7 @@
     "components": {
         "introduction": {
             "type": "markdown",
-            "path": "initial-prototype/assets/introduction.md",
+            "path": "task-gamification/assets/introduction.md",
             "response": []
         },
         "past-experience-survey": {
@@ -54,7 +54,7 @@
         },
         "P1-dashboard": {
             "type": "image",
-            "path": "initial-prototype/assets/Prototype1.0.jpg",
+            "path": "task-gamification/assets/Prototype1.0.jpg",
             "instruction": "Have you finished looking at this prototype?",
             "style": {
                 "width": "800px"
@@ -75,7 +75,7 @@
         },
         "P2-list": {
             "type": "image",
-            "path": "initial-prototype/assets/Prototype2.0.jpg",
+            "path": "task-gamification/assets/Prototype2.0.jpg",
             "instruction": "Have you finished looking at this prototype?",
             "style": {
                 "width": "800px"
@@ -96,7 +96,7 @@
         },
         "P3-complete": {
             "type": "image",
-            "path": "initial-prototype/assets/Prototype3.0.jpg",
+            "path": "task-gamification/assets/Prototype3.0.jpg",
             "instruction": "Have you finished looking at this prototype?",
             "style": {
                 "width": "800px"
