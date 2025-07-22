@@ -1,6 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.1.1/src/parser/GlobalConfigSchema.json",
   "configsList": [
+    "productivity-manager",
     "task-gamification",
     "tutorial",
     "example-brush-interactions",
@@ -37,6 +38,9 @@
 
   ],
   "configs": {
+    "productivity-manager": {
+      "path": "productivity-manager/config.json"
+    }, 
     "task-gamification": {
       "path": "task-gamification/config.json"
     },
