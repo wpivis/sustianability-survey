@@ -20,7 +20,7 @@
         "autoDownloadStudy": false,
         "sidebar": true,
         "urlParticipantIdParam": "PROLIFIC_PID",
-        "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [yourProlificLink](yourProlificLink)"
+        "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: https://app.prolific.com/submissions/complete?cc=CXZ06NLG"
     },
 "baseComponents": {
   "ungamified-prototype-base": {
