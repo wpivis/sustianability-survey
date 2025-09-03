@@ -1,0 +1,303 @@
+{
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Sustainability Stoplight",
+        "version": "pilot",
+        "authors": [
+            "Sustainability Stoplight IQP Team"
+        ],
+        "date": "2025-08-29",
+        "description": "A sustainability stoplight  questionnaire study",
+        "organizations": [
+            "University of Utah",
+            "WPI",
+            "University of Toronto"
+        ]
+    },
+    "uiConfig": {
+        "contactEmail": "contact@revisit.dev",
+        "helpTextPath": "assets/help.md",
+        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "sidebar": true
+    },
+    "components": {
+        "introduction": {
+            "type": "markdown",
+            "path": "sustainability-stoplight/assets/introduction.md",
+            "response": []
+        },
+        "first-question-set": {
+            "type": "questionnaire",
+            "response": [
+                {
+                    "id": "q1-water",
+                    "prompt": "How many times a day do you shower?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Enter your answer",
+                    "options": [
+                        "Less than once a day",
+                        "Once a day",
+                        "Twice a day",
+                        "More than twice a day"
+                    ]
+                },
+                {
+                    "id": "q2-paper",
+                    "prompt": "How do you get rid of the majority of paper products you no longer use/need?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please choose your route",
+                    "options": [
+                        "Throw Away",
+                        "Recycle when I remember",
+                        "Always Recycle"
+                    ]
+                },
+                {
+                    "id": "q3-water",
+                    "prompt": "Estimate the average length of your showers.",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Less than 10 minutes",
+                        "10-20 minutes",
+                        "More than 20 minutes"
+                    ]
+                },
+                {
+                    "id": "q4-water",
+                    "prompt": "If you have a dishwasher, how frequently do you use it?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Every time dishes need cleaning",
+                        "Use only when full and wash manually if not too many objects",
+                        "Almost never, mainly wash manually",
+                        "I do not own a dishwasher"
+                    ]
+                },
+                {
+                    "id": "q5-plastic",
+                    "prompt": "What type of utensils do you use most often?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your choice",
+                    "options": [
+                        "Metal utensils",
+                        "Plastic utensils that are reused",
+                        "Single-use plastic utensils"
+                    ]
+                },
+                {
+                    "id": "q6-plastic",
+                    "prompt": "How often do you purchase bottled drinks in plastic bottles?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Very often(more than once a day)",
+                        "Sometimes(3-4 a week)",
+                        "Rarely, I use my own bottle a majority of the time"
+                    ]
+                },
+                {
+                    "id": "q7-electricity",
+                    "prompt": "How often do you leave lights on while not in use or not in the room?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Green (Always)",
+                        "Yellow (Sometimes)",
+                        "Red (Never)"
+                    ]
+                },
+                {
+                    "id": "q8-electricity",
+                    "prompt": "How often do you leave lights or electronics on overnight?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Green (Always)",
+                        "Yellow (Sometimes)",
+                        "Red (Never)"
+                    ]
+                },
+                {
+                    "id": "q9-electricity",
+                    "prompt": "Do you leave chargers connected when not in use or overnight?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Green (Always)",
+                        "Yellow (Sometimes)",
+                        "Red (Never)"
+                    ]
+                },
+                {
+                    "id": "q10-electricity",
+                    "prompt": "If you own an AC unit, how old is it?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "1-3 years",
+                        "4-7 years",
+                        "Older than 7 years",
+                        "I don’t own an AC unit"
+                    ]
+                },
+                {
+                    "id": "q11-electricity",
+                    "prompt": "If you own an AC unit, how often do you use it in the summer?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Everyday",
+                        "A few times a week",
+                        "Once a week",
+                        "Very rarely",
+                        "I don’t own an AC unit"
+                    ]
+                },
+                {
+                    "id": "q12-paper",
+                    "prompt": "Do you use paper towels for cleaning?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your answer",
+                    "options": [
+                        "I use both paper towels and rags/reusable wipes",
+                        "I only use rags/reusable wipes",
+                        "I only use paper towels"
+                    ]
+                },
+                {
+                    "id": "q13-paper",
+                    "prompt": "Do you use any reusable bags for shopping?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Green (Yes)",
+                        "Yellow (Sometimes/When I remember)",
+                        "Red (No)"
+                    ]
+                },
+                {
+                    "id": "q14-paper",
+                    "prompt": "How well do you think you know what is recyclable and what is not?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Green (Always/Very well)",
+                        "Yellow (Somewhat)",
+                        "Red (Never/Not at all)"
+                    ]
+                },
+                {
+                    "id": "q15-sustainability",
+                    "prompt": "Do you keep up with politics related to sustainability?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Green (Yes)",
+                        "Yellow (Casually/Sometimes)",
+                        "Red (No)"
+                    ]
+                },
+                {
+                    "id": "q16-sustainability",
+                    "prompt": "How important would you say sustainability is for you personally?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Green (Very important)",
+                        "Yellow (Somewhat important)",
+                        "Red (Not important)"
+                    ]
+                },
+                {
+                    "id": "q17-sustainability",
+                    "prompt": "Are you affiliated with any sustainability organizations, groups, or clubs?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Green (Yes)",
+                        "Red (No)"
+                    ]
+                },
+                {
+                    "id": "q18-sustainability",
+                    "prompt": "Are you interested in learning about your own level of sustainability?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Green (Yes)",
+                        "Yellow(Maybe)",
+                        "Red (No)"
+                    ]
+                },
+                {
+                    "id": "q19-device",
+                    "prompt": "Do you use an Android or Apple mobile device?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Please select your estimate",
+                    "options": [
+                        "Apple",
+                        "Android",
+                        "Other"
+                    ]
+                },
+                {
+                    "id": "q20-general",
+                    "prompt": "Do you have any general comments, questions, or concerns based on this survey?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "longText",
+                    "placeholder": "Please enter your comments, or write N/A if you have none"
+                }
+            ]
+        }
+    },
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "introduction",
+            "first-question-set"
+        ]
+    }
+}
