@@ -28,7 +28,42 @@
             "path": "sustainability-stoplight/assets/introduction.md",
             "response": []
         },
-        "q1-water": {
+
+
+
+
+
+        "stoplight": {
+"meta": {
+        "difficulty": 1, 
+        "nr-dots": 20,
+        "temp": "low" 
+      },
+      "description": "Low temperature variant",
+      "instruction": "How many times a day do you shower?",
+      "type": "image",
+            "path": "sustainability-stoplight/assets/stoplight_image.png",
+            "style": {
+                "width": "800px"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "stoplight-image/assets-response",
+                    "prompt": "Answer:",
+                    "location": "belowStimulus",
+                    "type": "dropdown",
+                    "options": [
+                        "Red - I shower more than 2 times a day",
+                        "Yellow - I shower twice a day.",
+                        "Green - I shower once a day.",
+                        "I shower less than one time a day"
+                    ]
+                }
+            ]
+        },
+
+       "q1-water": {
             "type": "questionnaire",
             "response": [
                 {
@@ -388,6 +423,7 @@
         "order": "fixed",
         "components": [
             "introduction",
+            "stoplight",
             "q1-water",
             "q2-water",
             "q3-water",
