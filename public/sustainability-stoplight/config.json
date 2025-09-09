@@ -20,19 +20,16 @@
         "logoPath": "revisitAssets/revisitLogoSquare.svg",
         "withProgressBar": true,
         "autoDownloadStudy": false,
+        "recordStudyAudio": true,
         "sidebar": true
     },
     "components": {
         "introduction": {
             "type": "markdown",
             "path": "sustainability-stoplight/assets/introduction.md",
+            "recordAudio": false,
             "response": []
         },
-
-
-
-
-
         "stoplight": {
 "meta": {
         "difficulty": 1, 
