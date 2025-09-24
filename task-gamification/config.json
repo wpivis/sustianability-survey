@@ -1,0 +1,168 @@
+{
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.1.1/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Initial Prototype Study",
+        "version": "pilot",
+        "authors": [
+            "Chloe Polit"
+        ],
+        "date": "2025-06-25",
+        "description": "A simple prototype study",
+        "organizations": [
+            "WPI"
+        ]
+    },
+    "uiConfig": {
+        "contactEmail": "cmpolit@wpi.edu",
+        "helpTextPath": "task-gamification/assets/help.md",
+        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "sidebar": true
+    },
+    "components": {
+        "introduction": {
+            "type": "markdown",
+            "path": "task-gamification/assets/introduction.md",
+            "response": []
+        },
+        "past-experience-survey": {
+            "type": "questionnaire",
+            "response": [
+                {
+                    "id": "q1-productivity-manager",
+                    "prompt": "What productivity manager(to do list, schedule, planner), if any, do you currently use?",
+                    "type": "longText",
+                    "required": true
+                },
+                {
+                    "id": "q2-experience-gamification",
+                    "prompt": "Have you used any platforms that include gamification elements (progress bars, xp points, etc.)? If so, which ones and what was your experience like?",
+                    "type": "longText",
+                    "required": true
+                },
+                {
+                    "id": "q3-rating-current-platforms",
+                    "prompt": "How motivated do you feel by current productivity platforms?",
+                    "type": "likert",
+                    "required": true,
+                    "numItems": 5,
+                    "leftLabel": "Not at all",
+                    "rightLabel": "Extremely"
+                }
+            ]
+        },
+        "P1-dashboard": {
+            "type": "image",
+            "path": "task-gamification/assets/Prototype1.0.jpg",
+            "instruction": "Have you finished looking at this prototype?",
+            "style": {
+                "width": "800px"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                    "id": "dashboard-response",
+                    "prompt": "Answer:",
+                    "location": "sidebar",
+                    "type": "radio",
+                    "options": [
+                        "Yes",
+                        "No"
+                    ]
+                }
+            ]
+        },
+        "P2-list": {
+            "type": "image",
+            "path": "task-gamification/assets/Prototype2.0.jpg",
+            "instruction": "Have you finished looking at this prototype?",
+            "style": {
+                "width": "800px"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                    "id": "list-response",
+                    "prompt": "Answer:",
+                    "location": "sidebar",
+                    "type": "radio",
+                    "options": [
+                        "Yes",
+                        "No"
+                    ]
+                }
+            ]
+        },
+        "P3-complete": {
+            "type": "image",
+            "path": "task-gamification/assets/Prototype3.0.jpg",
+            "instruction": "Have you finished looking at this prototype?",
+            "style": {
+                "width": "800px"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                    "id": "list-response",
+                    "prompt": "Answer:",
+                    "location": "sidebar",
+                    "type": "radio",
+                    "options": [
+                        "Yes",
+                        "No"
+                    ]
+                }
+            ]
+        },
+        "post-prototype-survey": {
+            "type": "questionnaire",
+            "response": [
+                {
+                    "id": "elements-question",
+                    "prompt": "Which gamification elements did you notice the most?",
+                    "required": true,
+                    "withDivider": true,
+                    "location": "aboveStimulus",
+                    "type": "dropdown",
+                    "placeholder": "Enter your preference",
+                    "options": [
+                        "Progress Bar",
+                        "Streaks",
+                        "Goals",
+                        "Celebration Popup"
+                    ]
+                },
+                {
+                    "id": "q2-opinion",
+                    "prompt": "How would your motivation to complete your tasks change using the gamified versus non gamified version of the platform?",
+                    "required": true,
+                    "withDivider": true,
+                    "location": "aboveStimulus",
+                    "type": "likert",
+                    "numItems": 5,
+                    "leftLabel": "Significantly worse",
+                    "rightLabel": "Significantly better"
+                },
+                {
+                    "id": "q3-opinion",
+                    "prompt": "Are there any aspects of the gamified prototype screens shown that were missing components or could be improved?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "longText"
+                }
+            ]
+        }
+    },
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "introduction",
+            "past-experience-survey",
+            "P1-dashboard",
+            "P2-list",
+            "P3-complete",
+            "post-prototype-survey"
+        ]
+    }
+}

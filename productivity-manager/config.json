@@ -1,0 +1,222 @@
+{
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.1.1/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Productivity Manager Study",
+        "version": "pilot",
+        "authors": [
+            "Chloe Polit"
+        ],
+        "date": "2025-07-21",
+        "description": "An interactive productivity manager study",
+        "organizations": [
+            "WPI"
+        ]
+    },
+    "uiConfig": {
+        "contactEmail": "cmpolit@wpi.edu",
+        "helpTextPath": "productivity-gamification/assets/help.md",
+        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "sidebar": true,
+        "urlParticipantIdParam": "PROLIFIC_PID",
+        "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=CXZ06NLG](https://app.prolific.com/submissions/complete?cc=CXZ06NLG)"
+    },
+"baseComponents": {
+  "ungamified-prototype-base": {
+    "type": "website",
+    "instruction": "### How to interact with this prototype:\n\nThis is a clickable Figma prototype — when you hover or tap, blue highlight boxes will show which elements are interactive (e.g., buttons, notes, icons). Not everything behaves like a real app, but the main navigation and key actions are active.\n\nExplore as you naturally would on your phone:\n\n- Scroll through the screen\n- Tap highlighted areas to open items or navigate\n- Use the arrows at the bottom to move between screens if needed\n\n**If you're unsure where to click, look for the blue highlight that appears on interactive elements.**",
+    "path": "productivity-manager/assets/ungamified-prototype.html",
+    "response": [
+      {
+        "id": "prototype-feedback",
+        "prompt": "What are your thoughts on this version?",
+        "required": true,
+        "location": "belowStimulus",
+        "type": "longText"
+      }
+    ]
+  },
+  "gamified-prototype-base": {
+    "type": "website",
+    "path": "productivity-manager/assets/gamified-prototype.html",
+    "instruction": "### How to interact with this prototype:\n\nThis is a clickable Figma prototype — when you hover or tap, blue highlight boxes will show which elements are interactive (e.g., buttons, notes, icons). Not everything behaves like a real app, but the main navigation and key actions are active.\n\nExplore as you naturally would on your phone:\n\n- Scroll through the screen\n- Tap highlighted areas to open items or navigate\n- Use the arrows at the bottom to move between screens if needed\n\n**If you're unsure where to click, look for the blue highlight that appears on interactive elements.**",
+    "response": [
+      {
+        "id": "prototype-feedback",
+        "prompt": "What are your thoughts on this version?",
+        "required": true,
+        "location": "belowStimulus",
+        "type": "longText"
+      }
+    ]
+  }
+},
+    "components": {
+        "introduction": {
+            "type": "markdown",
+            "path": "productivity-manager/assets/introduction.md",
+            "response": [
+                  {
+            "id": "prolificId",
+            "prompt": "Please enter your Prolific ID",
+            "required": true,
+            "location": "belowStimulus",
+            "type": "shortText",
+            "placeholder": "Prolific ID",
+            "paramCapture": "PROLIFIC_PID"
+            }
+
+            ]
+        },
+        "pre-prototype-instructions": {
+            "type": "markdown",
+            "path": "productivity-manager/assets/pre-prototype-instructions.md",
+            "response": []
+        },
+      "ungamified-prototype": {
+    "baseComponent": "ungamified-prototype-base"
+  },
+  "gamified-prototype": {
+    "baseComponent": "gamified-prototype-base"
+  },
+
+ "post-interactive-survey": {
+            "type": "questionnaire",
+            "response": [
+                {
+                    "id": "motivation-disruption",
+                    "prompt": "What typically disrupts your sense of motivation or focus when using productivity tools?",
+                    "required": true,
+                    "type": "longText",
+                    "withDivider": true,
+                    "location": "aboveStimulus"
+                },
+                {
+                    "id": "motivation-followup",
+                    "prompt": "Did the gamified system minimize or amplify that feeling? Why?",
+                    "required": true,
+                    "type": "longText"
+                },
+                {
+                    "id": "motivation-type",
+                    "prompt": "Did you feel more external reward or personal enjoyment motivated when using the gamified system?",
+                    "required": true,
+"type": "dropdown",
+                    "placeholder": "Enter your preference",
+                    "options": [
+                        "Entirely reward motivated",
+                        "Mostly reward motivated",
+                        "A balance of both",
+                        "Mostly personal enjoyment motivated",
+                        "Entirely personal enjoyment motivated"
+                    ]
+                },
+                {
+                    "id": "emotional-reaction",
+                    "prompt": "Describe how you felt emotionally when completing the list.",
+                    "required": true,
+                    "type": "longText",
+                    "withDivider": true
+                },
+                {
+                    "id": "emotion-label",
+                    "prompt": "Which of these emotions best describes your reaction to the progress bars?",
+                    "required": false,
+"type": "dropdown",
+                    "placeholder": "Enter your preference",
+                    "options": [
+                        "Proud",
+                        "Excited",
+                        "Indifferent",
+                        "Anxious",
+                        "Other"
+                    ]
+                },
+                {
+                    "id": "overwhelming-elements",
+                    "prompt": "Did any gamification elements feel overwhelming, unnecessary, or emotionally disengaging?",
+                    "required": true,
+                    "type": "longText",
+                    "withDivider": true
+                },
+                {
+                    "id": "overwhelming-cause",
+                    "prompt": "What do you think caused that reaction?",
+                    "required": true,
+                    "type": "longText"
+                },
+                {
+                    "id": "frustration-elements",
+                    "prompt": "Did any aspect of the gamification system frustrate or confuse you? If so, when and why?",
+                    "required": true,
+                    "type": "longText",
+                    "withDivider": true
+                },
+                {
+                    "id": "workflow-change",
+                    "prompt": "Did the gamification change your workflow or how you would think about the tasks?",
+                    "required": true,
+                    "type": "longText"
+                },
+                {
+                    "id": "focus-difference",
+                    "prompt": "Did you notice a difference in your attention or focus when interacting with gamified vs. non-gamified elements?",
+                    "required": true,
+                    "type": "longText",
+                    "withDivider": true
+                },
+                {
+                    "id": "flow-experience",
+                    "prompt": "To what extent did the system help you feel \"in flow\" or \"in control\" during task completion?",
+                    "required": true,
+                  "type": "dropdown",
+                    "placeholder": "Enter your preference",
+                    "options": [
+                        "Very distracted",
+                        "Somewhat distracted",
+                        "Neutral / No change",
+                        "Somewhat in flow / in control",
+                        "Very in flow / in control"
+                    ]
+                },
+                {
+                    "id": "emotional-difference",
+                    "prompt": "In what cognitive or emotional ways did the gamified version feel different from a traditional task manager?",
+                    "required": true,
+                    "type": "longText",
+                    "withDivider": true
+                },
+                {
+                    "id": "longterm-usefulness",
+                    "prompt": "Do you believe you would be more productive with the gamified system in the long term? Why or why not?",
+                    "required": true,
+                    "type": "longText"
+                },
+                {
+                    "id": "continue-using",
+                    "prompt": "Would you continue using this platform beyond the study?",
+                    "required": true,
+                    "type": "dropdown",
+                    "placeholder": "Enter your preference",
+                    "options": [
+                        "Yes, definitely",
+                        "Maybe, depending on improvements and full implementation",
+                        "No, not likely"
+                    ],
+                    "withDivider": true
+                }
+            ]
+        }
+    },
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "introduction",
+            "pre-prototype-instructions",
+            "ungamified-prototype",
+            "gamified-prototype",
+            "post-interactive-survey"
+        ]
+    }
+}
