@@ -2,6 +2,7 @@
 
 Files that are in the `public` folder are exposed on the study website. For technical reasons, all static files (including reVISit configurations) have to be in the public folder. 
 
+
 If you want to create a new experiment, you should create a new subfolder in this `public` folder that contains your reVISit config.
 
 Example projects that explain basic reVISit functionality are: 
