@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.1.1/src/parser/StudyConfigSchema.json",
     "studyMetadata": {
         "title": "Sustainability Stoplight",
         "version": "pilot",
@@ -20,7 +20,6 @@
         "logoPath": "revisitAssets/revisitLogoSquare.svg",
         "withProgressBar": true,
         "autoDownloadStudy": false,
-        "recordStudyAudio": true,
         "sidebar": true
     },
     "components": {
@@ -31,14 +30,14 @@
             "response": []
         },
         "stoplight": {
-"meta": {
-        "difficulty": 1, 
-        "nr-dots": 20,
-        "temp": "low" 
-      },
-      "description": "Low temperature variant",
-      "instruction": "How many times a day do you shower?",
-      "type": "image",
+            "meta": {
+                "difficulty": 1,
+                "nr-dots": 20,
+                "temp": "low"
+            },
+            "description": "Low temperature variant",
+            "instruction": "How many times a day do you shower?",
+            "type": "image",
             "path": "sustainability-stoplight/assets/stoplight_image.png",
             "style": {
                 "width": "800px"
@@ -53,365 +52,744 @@
                     "options": [
                         "Red - I shower more than 2 times a day",
                         "Yellow - I shower twice a day.",
-                        "Green - I shower once a day.",
+                        "Green - I shower once (or less) per day.",
                         "I shower less than one time a day"
                     ]
                 }
             ]
         },
-
-       "q1-water": {
-            "type": "questionnaire",
+        "q1-water": {
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q1-shower",
+                "questionText": "How many times a day do you shower?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - I shower more than 2 times a day",
+                        "label": "I shower more than 2 times a day",
+                        "icon": "🚿"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - I shower twice a day",
+                        "label": "I shower twice a day",
+                        "icon": "🚿🚿"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - I shower once a day",
+                        "label": "I shower once a day",
+                        "icon": "🚿"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q1-shower",
-                    "prompt": "How many times a day do you shower?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Enter your answer",
-                    "options": [
-                        "Red - I shower more than 2 times a day",
-                        "Yellow - I shower twice a day.",
-                        "Green - I shower once a day.",
-                        "I shower less than one time a day"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q2-water": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q2-shower-length",
+                "questionText": "Estimate the average length of your showers.",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - I take showers that last longer than 20 minutes",
+                        "label": "I take showers that last longer than 20 minutes",
+                        "icon": "⏱️"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - I take 10-20 minute showers",
+                        "label": "I take 10-20 minute showers",
+                        "icon": "⏱️💧"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - I take less than 10 minute showers",
+                        "label": "I take less than 10 minute showers",
+                        "icon": "⏱️💚"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q2-shower-length",
-                    "prompt": "Estimate the average length of your showers.",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Red - I take showers that last longer than 20 minutes.",
-                        "Yellow - I take 10-20 minute showers.",
-                        "Green - I take less than 10 minute showers."
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q3-water": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q3-dishwasher",
+                "questionText": "If you have a dishwasher, how frequently do you use it?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - I just use dishwasher no matter it's full or not",
+                        "label": "I just use dishwasher no matter it's full or not",
+                        "icon": "🍽️"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - Sometimes I use dishwasher when it's not full",
+                        "label": "Sometimes I use dishwasher when it's not full",
+                        "icon": "🍽️💧"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - I manually wash dishes if there's few items and use dishwasher when it's full",
+                        "label": "I manually wash dishes if there's few items and use dishwasher when it's full",
+                        "icon": "🍽️✅"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q3-dishwasher",
-                    "prompt": "If you have a dishwasher, how frequently do you use it?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Red - I just use dishwasher no matter it’s full or not",
-                        "Yellow - Sometimes I use dishwasher when it’s not full",
-                        "Green - I manually wash dishes if there’s few items and use dishwasher when it’s full"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q4-waste": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q4-recycling",
+                "questionText": "How do you get rid of the majority of paper products you no longer need/use?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - I throw waste away anywhere",
+                        "label": "I throw waste away anywhere",
+                        "icon": "🗑️"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - I recycle my waste when convenient",
+                        "label": "I recycle my waste when convenient",
+                        "icon": "♻️"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - I clean and sort all my waste into appropriate bins",
+                        "label": "I clean and sort all my waste into appropriate bins",
+                        "icon": "♻️🗑️"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q4-recycling",
-                    "prompt": "How do you get rid of the majority of paper products you no longer need/use?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your choice",
-                    "options": [
-                        "Red - I throw waste away anywhere. ",
-                        "Yellow - I recycle my waste when convenient. ",
-                        "Green - I clean and sort all my waste into appropriate bins. "
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q5-waste": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q5-utensils_dishes",
+                "questionText": "What type of materials (utensils, disposables) do you use most often when preparing food and eating?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - I always use disposable material that produce trash",
+                        "label": "I always use disposable material that produce trash (like paper towel, plastic dishes and utensils, plastic shopping bags)",
+                        "icon": "🥤"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - I sometimes use disposable material",
+                        "label": "I sometimes use disposable material (like paper towel, dishes, utensils, plastic shopping bags)",
+                        "icon": "🍴"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - I always use reusable material when preparing food and eating",
+                        "label": "I basically always use reusable material when preparing food and eating",
+                        "icon": "🍽️♻️"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q5-utensils_dishes",
-                    "prompt": "What type of materials(utensils, disposables) do you use most often when preparing food and eating?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your choice",
-                    "options": [
-                        "Red - I always use disposable material that produce trash (like paper towel, plastic dishes and utensils, plastic shopping bags)",
-                        "Yellow - I sometimes use disposable material (like paper towel, dishes, utensils, plastic shopping bags)",
-                        "Green - I always use reusable material when preparing food and eating. "
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q6-waste": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q6-bottled_water",
+                "questionText": "How often do you purchase bottled drinks in plastic bottles?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - I often use bottled water in plastic bottle (1 or more a day)",
+                        "label": "I often use bottled water in plastic bottle (1 or more a day)",
+                        "icon": "🧴"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - I sometimes use my own water bottle and sometimes plastic bottled water (3-4 times a week)",
+                        "label": "I sometimes use my own water bottle and sometimes plastic bottled water (3-4 times a week)",
+                        "icon": "🧴💧"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - I always use my own water bottle",
+                        "label": "I always use my own water bottle",
+                        "icon": "🚰"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q6-bottled_water",
-                    "prompt": "How often do you purchase bottled drinks in plastic bottles?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Red - I often use bottled water in plastic bottle (1 or more a day)",
-                        "Yellow -I sometimes use my own water bottle and sometimes plastic bottled water (3-4 times a week)",
-                        "Green - I always use my own water bottle"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q7-electricity": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q7-lights",
+                "questionText": "How often do you leave lights on while not in use or not in the room?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - I always leave lights on when not in use and/or while not in room",
+                        "label": "I always leave lights on when not in use and/or while not in room",
+                        "icon": "💡"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - I sometimes leave lights on when not in use and/or while not in room",
+                        "label": "I sometimes leave lights on when not in use and/or while not in room",
+                        "icon": "💡⚡"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - I never leave lights on when not in use and/or while not in room",
+                        "label": "I never leave lights on when not in use and/or while not in room",
+                        "icon": "🔦"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q7-lights",
-                    "prompt": "How often do you leave lights on while not in use or not in the room?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Red - I always leave lights on when not in use and/or while not in room",
-                        "Yellow - I sometimes leave lights on when not in use and/or while not in room",
-                        "Green - I never leave lights on when not in use and/or while not in room"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q8-electricity": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q8-overnight",
+                "questionText": "How often do you leave lights or electronics on overnight?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - I always leave the light and electronics on overnight",
+                        "label": "I always leave the light and electronics on overnight",
+                        "icon": "🌙💡"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - Sometimes I leave the light and electronics on overnight",
+                        "label": "Sometimes I leave the light and electronics on overnight",
+                        "icon": "🌙⚡"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - I never leave the light and electronics on overnight",
+                        "label": "I never leave the light and electronics on overnight",
+                        "icon": "🌙✅"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q8-overnight",
-                    "prompt": "How often do you leave lights or electronics on overnight?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Red - I always leave the light and electronics on overnight",
-                        "Yellow - Sometimes I leave the light and electronics on overnight",
-                        "Green - I never leave the light and electronics on overnight"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q9-electricity": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q9-chargers",
+                "questionText": "Do you leave chargers connected when not in use or overnight?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - I always leave chargers connected when they are not in use",
+                        "label": "I always leave chargers connected when they are not in use",
+                        "icon": "🔌"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - I sometimes leave chargers connected when they are not in use",
+                        "label": "I sometimes leave chargers connected when they are not in use",
+                        "icon": "🔌⚡"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - I never leave chargers connected when they are not in use",
+                        "label": "I never leave chargers connected when they are not in use",
+                        "icon": "🔋"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q9-chargers",
-                    "prompt": "Do you leave chargers connected when not in use or overnight?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Red - I always leave chargers connected when they are not in use",
-                        "Yellow - I sometimes leave chargers connected when they are not in use",
-                        "Green - I never leave chargers connected when they are not in use"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q10-electricity": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q10-ac",
+                "questionText": "If you own an AC unit, how old is it?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - My AC is old and not efficient",
+                        "label": "My AC is old and not efficient",
+                        "icon": "🌡️"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - My AC is either old or not efficient",
+                        "label": "My AC is either old or not efficient",
+                        "icon": "🌡️⚠️"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - My AC is not old and it's efficient",
+                        "label": "My AC is not old and it's efficient",
+                        "icon": "❄️"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q10-ac",
-                    "prompt": "If you own an AC unit, how old is it?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Red - My AC is old and not efficient",
-                        "Yellow - My AC is either old or not efficient",
-                        "Green - My AC is not old and it’s efficient"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q11-electricity": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q11-ac",
+                "questionText": "If you own an AC unit, how often do you use it in the summer?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - I keep the temperature as low as possible using AC",
+                        "label": "I keep the temperature as low as possible using AC",
+                        "icon": "❄️❄️"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - I keep temperature lower than normal using AC",
+                        "label": "I keep temperature lower than normal using AC",
+                        "icon": "❄️"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - I keep temperature in normal range using AC and other energy efficient methods",
+                        "label": "I keep temperature in normal range using AC and other energy efficient methods",
+                        "icon": "🌡️✅"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q11-ac",
-                    "prompt": "If you own an AC unit, how often do you use it in the summer?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Red - I keep the temperature as low as possible using AC ",
-                        "Yellow - I keep temperature lower than normal using AC",
-                        "Green - I keep temperature in normal range using AC and other energy efficient methods"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q12-shower": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q11-paper",
+                "questionText": "Do you use paper towels for cleaning?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - I only use paper towels",
+                        "label": "I only use paper towels",
+                        "icon": "🧻"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - I use both paper towels and rags/reusable wipes",
+                        "label": "I use both paper towels and rags/reusable wipes",
+                        "icon": "🧻🧽"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - I only use rags/reusable wipes",
+                        "label": "I only use rags/reusable wipes",
+                        "icon": "🧽"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q11-paper",
-                    "prompt": "Do you use paper towels for cleaning?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your answer",
-                    "options": [
-                        "I use both paper towels and rags/reusable wipes",
-                        "I only use rags/reusable wipes",
-                        "I only use paper towels"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q13-paper": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q12-paper",
+                "questionText": "Do you use any reusable bags for shopping?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - No",
+                        "label": "No",
+                        "icon": "🛍️"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - Sometimes/When I remember",
+                        "label": "Sometimes/When I remember",
+                        "icon": "🛍️♻️"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - Yes",
+                        "label": "Yes",
+                        "icon": "♻️🛍️"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q12-paper",
-                    "prompt": "Do you use any reusable bags for shopping?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Green (Yes)",
-                        "Yellow (Sometimes/When I remember)",
-                        "Red (No)"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q14-paper": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q13-paper",
+                "questionText": "How well do you think you know what is recyclable and what is not?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - Never/Not at all",
+                        "label": "Never/Not at all",
+                        "icon": "❓"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - Somewhat",
+                        "label": "Somewhat",
+                        "icon": "♻️"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - Always/Very well",
+                        "label": "Always/Very well",
+                        "icon": "♻️✅"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q13-paper",
-                    "prompt": "How well do you think you know what is recyclable and what is not?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Green (Always/Very well)",
-                        "Yellow (Somewhat)",
-                        "Red (Never/Not at all)"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q15-sustainability": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q14-sustainability",
+                "questionText": "Do you keep up with politics related to sustainability?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - No",
+                        "label": "No",
+                        "icon": "📰"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - Casually/Sometimes",
+                        "label": "Casually/Sometimes",
+                        "icon": "📰🌍"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - Yes",
+                        "label": "Yes",
+                        "icon": "🌍📰"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q14-sustainability",
-                    "prompt": "Do you keep up with politics related to sustainability?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Green (Yes)",
-                        "Yellow (Casually/Sometimes)",
-                        "Red (No)"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q16-sustainability": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q15-sustainability",
+                "questionText": "How important would you say sustainability is for you personally?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - Not important",
+                        "label": "Not important",
+                        "icon": "🌍"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - Somewhat important",
+                        "label": "Somewhat important",
+                        "icon": "🌍💚"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - Very important",
+                        "label": "Very important",
+                        "icon": "💚🌍"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q15-sustainability",
-                    "prompt": "How important would you say sustainability is for you personally?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Green (Very important)",
-                        "Yellow (Somewhat important)",
-                        "Red (Not important)"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q17-sustainability": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q16-sustainability",
+                "questionText": "Are you affiliated with any sustainability organizations, groups, or clubs?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - No",
+                        "label": "No",
+                        "icon": "🏢"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - Yes",
+                        "label": "Yes",
+                        "icon": "🌱🏢"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q16-sustainability",
-                    "prompt": "Are you affiliated with any sustainability organizations, groups, or clubs?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Green (Yes)",
-                        "Red (No)"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q18-sustainability": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q17-sustainability",
+                "questionText": "Are you interested in learning about your own level of sustainability?",
+                "options": [
+                    {
+                        "color": "red",
+                        "value": "Red - No",
+                        "label": "No",
+                        "icon": "📊"
+                    },
+                    {
+                        "color": "yellow",
+                        "value": "Yellow - Maybe",
+                        "label": "Maybe",
+                        "icon": "📊🤔"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Green - Yes",
+                        "label": "Yes",
+                        "icon": "📊✅"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q17-sustainability",
-                    "prompt": "Are you interested in learning about your own level of sustainability?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Green (Yes)",
-                        "Yellow (Maybe)",
-                        "Red (No)"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q19-device": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+            "parameters": {
+                "questionId": "q18-device",
+                "questionText": "Do you use an Android or Apple mobile device?",
+                "options": [
+                    {
+                        "color": "green",
+                        "value": "Apple",
+                        "label": "Apple",
+                        "icon": "🍎"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Android",
+                        "label": "Android",
+                        "icon": "🤖"
+                    },
+                    {
+                        "color": "green",
+                        "value": "Other",
+                        "label": "Other",
+                        "icon": "📱"
+                    }
+                ]
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q18-device",
-                    "prompt": "Do you use an Android or Apple mobile device?",
+                    "prompt": "Your answer",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "dropdown",
-                    "placeholder": "Please select your estimate",
-                    "options": [
-                        "Apple",
-                        "Android",
-                        "Other"
-                    ]
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         },
         "q20-general": {
-            "type": "questionnaire",
+            "type": "react-component",
+            "path": "sustainability-stoplight/assets/StoplightTextInput.tsx",
+            "parameters": {
+                "questionId": "q19-general",
+                "questionText": "Do you have any general comments, questions, or concerns based on this survey?",
+                "placeholder": "Please enter your comments, or write N/A if you have none"
+            },
+            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "q19-general",
-                    "prompt": "Do you have any general comments, questions, or concerns based on this survey?",
+                    "prompt": "Your comments",
                     "required": true,
-                    "location": "aboveStimulus",
-                    "type": "longText",
-                    "placeholder": "Please enter your comments, or write N/A if you have none"
+                    "location": "sidebar",
+                    "type": "reactive"
                 }
             ]
         }
@@ -420,7 +798,6 @@
         "order": "fixed",
         "components": [
             "introduction",
-            "stoplight",
             "q1-water",
             "q2-water",
             "q3-water",
@@ -444,4 +821,3 @@
         ]
     }
 }
-
