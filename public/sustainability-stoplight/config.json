@@ -57,7 +57,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q1-shower",
+        "questionId": "lengthOfShowers",
         "questionText": "How many times a day do you shower?",
         "options": [
           {
@@ -83,7 +83,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q1-shower",
+          "id": "lengthOfShowers",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -95,7 +95,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q2-shower-length",
+        "questionId": "durationOfShowers",
         "questionText": "Estimate the average length of your showers.",
         "options": [
           {
@@ -121,7 +121,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q2-shower-length",
+          "id": "durationOfShowers",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -133,7 +133,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q3-dishwasher",
+        "questionId": "dishwasherUsage",
         "questionText": "If you have a dishwasher, how frequently do you use it?",
         "options": [
           {
@@ -159,7 +159,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q3-dishwasher",
+          "id": "dishwasherUsage",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -171,7 +171,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q4-recycling",
+        "questionId": "disposalOfPaperProducts",
         "questionText": "How do you get rid of the majority of paper products you no longer need/use?",
         "options": [
           {
@@ -197,7 +197,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q4-recycling",
+          "id": "disposalOfPaperProducts",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -209,7 +209,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q5-utensils_dishes",
+        "questionId": "useOfDisposableUtensils",
         "questionText": "What type of materials (utensils, disposables) do you use most often when preparing food and eating?",
         "options": [
           {
@@ -235,7 +235,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q5-utensils_dishes",
+          "id": "useOfDisposableUtensils",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -247,7 +247,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q6-bottled_water",
+        "questionId": "disposableBottlePurchaseFrequency",
         "questionText": "How often do you purchase bottled drinks in plastic bottles?",
         "options": [
           {
@@ -273,7 +273,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q6-bottled_water",
+          "id": "disposableBottlePurchaseFrequency",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -285,7 +285,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q7-lights",
+        "questionId": "lightsLeftOnFrequency",
         "questionText": "How often do you leave lights on while not in use or not in the room?",
         "options": [
           {
@@ -311,7 +311,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q7-lights",
+          "id": "lightsLeftOnFrequency",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -323,7 +323,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q8-overnight",
+        "questionId": "overnightElectronicsUsageFrequency",
         "questionText": "How often do you leave lights or electronics on overnight?",
         "options": [
           {
@@ -349,7 +349,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q8-overnight",
+          "id": "overnightElectronicsUsageFrequency",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -361,7 +361,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q9-chargers",
+        "questionId": "overnightChargerUsageFrequency",
         "questionText": "Do you leave chargers connected when not in use or overnight?",
         "options": [
           {
@@ -387,7 +387,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q9-chargers",
+          "id": "overnightChargerUsageFrequency",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -399,7 +399,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q10-ac",
+        "questionId": "airConditionerEfficiency",
         "questionText": "If you own an AC unit, how old is it?",
         "options": [
           {
@@ -425,7 +425,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q10-ac",
+          "id": "airConditionerEfficiency",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -437,7 +437,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q11-ac",
+        "questionId": "airConditionerUsageFrequency",
         "questionText": "If you own an AC unit, how often do you use it in the summer?",
         "options": [
           {
@@ -463,7 +463,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q11-ac",
+          "id": "airConditionerUsageFrequency",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -475,7 +475,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q11-paper",
+        "questionId": "useOfPaperTowels",
         "questionText": "Do you use paper towels for cleaning?",
         "options": [
           {
@@ -501,7 +501,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q11-paper",
+          "id": "useOfPaperTowels",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -513,7 +513,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q12-paper",
+        "questionId": "useOfReusableShoppingBags",
         "questionText": "Do you use any reusable bags for shopping?",
         "options": [
           {
@@ -539,7 +539,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q12-paper",
+          "id": "useOfReusableShoppingBags",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -551,7 +551,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q13-paper",
+        "questionId": "recyclingLiteracy",
         "questionText": "How well do you think you know what is recyclable and what is not?",
         "options": [
           {
@@ -577,7 +577,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q13-paper",
+          "id": "recyclingLiteracy",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -589,7 +589,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q14-sustainability",
+        "questionId": "politicalAwarenessOfSustainability",
         "questionText": "Do you keep up with politics related to sustainability?",
         "options": [
           {
@@ -615,7 +615,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q14-sustainability",
+          "id": "politicalAwarenessOfSustainability",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -627,7 +627,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q15-sustainability",
+        "questionId": "importanceOfSustainability",
         "questionText": "How important would you say sustainability is for you personally?",
         "options": [
           {
@@ -653,7 +653,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q15-sustainability",
+          "id": "importanceOfSustainability",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -665,7 +665,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q16-sustainability",
+        "questionId": "sustainabilityAffiliations",
         "questionText": "Are you affiliated with any sustainability organizations, groups, or clubs?",
         "options": [
           {
@@ -685,7 +685,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q16-sustainability",
+          "id": "sustainabilityAffiliations",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -697,7 +697,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q17-sustainability",
+        "questionId": "sustainabilityInterest",
         "questionText": "Are you interested in learning about your own level of sustainability?",
         "options": [
           {
@@ -723,7 +723,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q17-sustainability",
+          "id": "sustainabilityInterest",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -735,7 +735,7 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "q18-device",
+        "questionId": "deviceType",
         "questionText": "Do you use an Android or Apple mobile device?",
         "options": [
           {
@@ -761,7 +761,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q18-device",
+          "id": "deviceType",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -773,14 +773,14 @@
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightTextInput.tsx",
       "parameters": {
-        "questionId": "q19-general",
+        "questionId": "generalComments",
         "questionText": "Do you have any general comments, questions, or concerns based on this survey?",
         "placeholder": "Please enter your comments, or write N/A if you have none"
       },
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "q19-general",
+          "id": "generalComments",
           "prompt": "Your comments",
           "required": true,
           "location": "sidebar",
