@@ -14,18 +14,28 @@
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "withProgressBar": true,
     "autoDownloadStudy": false,
+    "urlParticipantIdParam": "PROLIFIC_PID",
+      "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=CKXCP9KA](https://app.prolific.com/submissions/complete?cc=CKXCP9KA)",
+
     "withSidebar": true,
     "recordAudio": true
   },
-  "importedLibraries": [
-    "mic-check"
-  ],
+  "importedLibraries": ["mic-check"],
   "components": {
     "introduction": {
       "type": "markdown",
       "path": "sustainability-stoplight/assets/introduction.md",
       "recordAudio": false,
-      "response": []
+      "response": [
+        {
+          "id": "prolificId",
+          "prompt": "Please enter your Prolific ID",
+          "location": "belowStimulus",
+          "type": "shortText",
+          "placeholder": "Prolific ID",
+          "paramCapture": "PROLIFIC_PID"
+        }
+      ]
     },
     "stoplight": {
       "meta": {
@@ -877,7 +887,7 @@
             "Prefer not to say"
           ]
         },
-         {
+        {
           "id": "housing",
           "prompt": "What is your **housing** situation?",
           "required": true,
