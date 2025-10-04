@@ -53,11 +53,11 @@
         }
       ]
     },
-    "lengthOfShowers": {
+    "numberfShowers": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
-        "questionId": "lengthOfShowers",
+        "questionId": "numberOfShowers",
         "questionText": "How many times a day do you shower?",
         "options": [
           {
@@ -83,7 +83,7 @@
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "lengthOfShowers",
+          "id": "numberOfShowers",
           "prompt": "Your answer",
           "required": true,
           "location": "sidebar",
@@ -793,7 +793,7 @@
     "order": "fixed",
     "components": [
       "introduction",
-      "lengthOfShowers",
+      "numberOfShowers",
       "durationOfShowers",
       "dishwasherUsage",
       "disposalOfPaperProducts",
