@@ -17,6 +17,9 @@
     "withSidebar": true,
     "recordAudio": true
   },
+  "importedLibraries": [
+    "mic-check"
+  ],
   "components": {
     "introduction": {
       "type": "markdown",
@@ -912,6 +915,7 @@
     "order": "fixed",
     "components": [
       "introduction",
+      "$mic-check.co.audioTest",
       "numberOfShowers",
       "durationOfShowers",
       "dishwasherUsage",
