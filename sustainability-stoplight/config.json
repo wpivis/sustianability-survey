@@ -53,7 +53,7 @@
         }
       ]
     },
-    "q1-water": {
+    "lengthOfShowers": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -91,7 +91,7 @@
         }
       ]
     },
-    "q2-water": {
+    "durationOfShowers": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -129,7 +129,7 @@
         }
       ]
     },
-    "q3-water": {
+    "dishwasherUsage": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -167,7 +167,7 @@
         }
       ]
     },
-    "q4-waste": {
+    "disposalOfPaperProducts": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -205,7 +205,7 @@
         }
       ]
     },
-    "q5-waste": {
+    "useOfDisposableUtensils": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -243,7 +243,7 @@
         }
       ]
     },
-    "q6-waste": {
+    "disposableBottlePurchaseFrequency": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -281,7 +281,7 @@
         }
       ]
     },
-    "q7-electricity": {
+    "lightsLeftOnFrequency": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -319,7 +319,7 @@
         }
       ]
     },
-    "q8-electricity": {
+    "overnightElectronicsUsageFrequency": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -357,7 +357,7 @@
         }
       ]
     },
-    "q9-electricity": {
+    "overnightChargerUsageFrequency": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -395,7 +395,7 @@
         }
       ]
     },
-    "q10-electricity": {
+    "airConditionerEfficiency": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -433,7 +433,7 @@
         }
       ]
     },
-    "q11-electricity": {
+    "airConditionerUsageFrequency": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -471,7 +471,7 @@
         }
       ]
     },
-    "q12-shower": {
+    "useOfPaperTowels": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -509,7 +509,7 @@
         }
       ]
     },
-    "q13-paper": {
+    "useOfReusableShoppingBags": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -547,7 +547,7 @@
         }
       ]
     },
-    "q14-paper": {
+    "recyclingLiteracy": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -585,7 +585,7 @@
         }
       ]
     },
-    "q15-sustainability": {
+    "politicalAwarenessOfSustainability": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -623,7 +623,7 @@
         }
       ]
     },
-    "q16-sustainability": {
+    "importanceOfSustainability": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -661,7 +661,7 @@
         }
       ]
     },
-    "q17-sustainability": {
+    "sustainabilityAffiliations": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -693,7 +693,7 @@
         }
       ]
     },
-    "q18-sustainability": {
+    "sustainabilityInterest": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -731,7 +731,7 @@
         }
       ]
     },
-    "q19-device": {
+    "deviceType": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -769,7 +769,7 @@
         }
       ]
     },
-    "q20-general": {
+    "generalComments": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightTextInput.tsx",
       "parameters": {
@@ -793,26 +793,26 @@
     "order": "fixed",
     "components": [
       "introduction",
-      "q1-water",
-      "q2-water",
-      "q3-water",
-      "q4-waste",
-      "q5-waste",
-      "q6-waste",
-      "q7-electricity",
-      "q8-electricity",
-      "q9-electricity",
-      "q10-electricity",
-      "q11-electricity",
-      "q12-shower",
-      "q13-paper",
-      "q14-paper",
-      "q15-sustainability",
-      "q16-sustainability",
-      "q17-sustainability",
-      "q18-sustainability",
-      "q19-device",
-      "q20-general"
+      "lengthOfShowers",
+      "durationOfShowers",
+      "dishwasherUsage",
+      "disposalOfPaperProducts",
+      "useOfDisposableUtensils",
+      "disposableBottlePurchaseFrequency",
+      "lightsLeftOnFrequency",
+      "overnightElectronicsUsageFrequency",
+      "overnightChargerUsageFrequency",
+      "airConditionerEfficiency",
+      "airConditionerUsage",
+      "useOfPaperTowels",
+      "useOfReusableShoppingBags",
+      "recyclingLiteracy",
+      "politicalAwarenessOfSustainability",
+      "importanceOfSustainability",
+      "sustainabilityAffiliations",
+      "sustainabilityInterest",
+      "deviceType",
+      "generalComments"
     ]
   }
 }
