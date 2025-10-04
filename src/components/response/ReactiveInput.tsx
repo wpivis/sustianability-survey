@@ -23,7 +23,7 @@ export function Reactive({
     >
       {answer.value && (
       <List>
-        {Array.isArray(answer.value) ? (answer.value).map((item) => <List.Item key={item}>{item}</List.Item>) : <List.Item>{answer.value}</List.Item>}
+        {Array.isArray(answer.value) ? (answer.value).map((item) => <List.Item key={item} pr="md">{item}</List.Item>) : <List.Item pr="md">{answer.value}</List.Item>}
       </List>
       )}
     </Input.Wrapper>
