@@ -53,7 +53,7 @@
         }
       ]
     },
-    "numberfShowers": {
+    "numberOfShowers": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
       "parameters": {
@@ -787,8 +787,127 @@
           "type": "reactive"
         }
       ]
+    },
+    "demographics": {
+      "type": "questionnaire",
+      "description": "Basic demographic questions including gender, age, and education",
+      "response": [
+        {
+          "id": "gender",
+          "prompt": "What is your **gender**?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "withOther": true,
+          "options": [
+            "Woman",
+            "Man",
+            "Non-binary / Genderqueer / Third gender",
+            "Genderfluid / Gender non-conforming",
+            "Questioning",
+            "Prefer not to say"
+          ]
+        },
+        {
+          "id": "age",
+          "prompt": "What is your **age**?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "options": [
+            "Under 18 years",
+            "18-24 years",
+            "25-34 years",
+            "35-44 years",
+            "45-54 years",
+            "55-64 years",
+            "65 years or older",
+            "Prefer not to say"
+          ]
+        },
+        {
+          "id": "education",
+          "prompt": "What is the **highest degree or level of education** you have completed?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "withOther": true,
+          "options": [
+            "Less than high school",
+            "High school diploma or equivalent",
+            "Bachelor's degree or equivalent",
+            "Master's degree or equivalent",
+            "Doctoral degree or equivalent",
+            "Prefer not to say"
+          ]
+        },
+        {
+          "id": "race",
+          "prompt": "What is your **race**?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "withOther": true,
+          "options": [
+            "Asian",
+            "Black",
+            "Hispanic or Latino",
+            "Native American or Alaska Native",
+            "Native Hawaiian or Other Pacific Islander",
+            "White",
+            "Prefer not to say"
+          ]
+        },
+        {
+          "id": "employment",
+          "prompt": "What is your **employment** status?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "withOther": true,
+          "options": [
+            "Full-time",
+            "Part-time",
+            "Unemployed",
+            "Student",
+            "Retired",
+            "Prefer not to say"
+          ]
+        },
+         {
+          "id": "housing",
+          "prompt": "What is your **housing** situation?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "withOther": true,
+          "options": [
+            "Rent",
+            "Own",
+            "Temporary housing",
+            "Living with family or friends",
+            "Prefer not to say"
+          ]
+        },
+        {
+          "id": "income",
+          "prompt": "What is your yearly income?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "withOther": true,
+          "options": [
+            "< $40,000",
+            "$40,000 - $80,000",
+            "$80,000 - $120,000",
+            "> $120,000",
+            "Prefer not to say"
+          ]
+        }
+      ]
     }
   },
+
   "sequence": {
     "order": "fixed",
     "components": [
@@ -812,7 +931,8 @@
       "sustainabilityAffiliations",
       "sustainabilityInterest",
       "deviceType",
-      "generalComments"
+      "generalComments",
+      "demographics"
     ]
   }
 }
