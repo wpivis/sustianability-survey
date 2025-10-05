@@ -15,7 +15,7 @@
     "withProgressBar": true,
     "autoDownloadStudy": false,
     "urlParticipantIdParam": "PROLIFIC_PID",
-      "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=CKXCP9KA](https://app.prolific.com/submissions/complete?cc=CKXCP9KA)",
+    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=CKXCP9KA](https://app.prolific.com/submissions/complete?cc=CKXCP9KA)",
 
     "withSidebar": true,
     "recordAudio": true
@@ -69,6 +69,7 @@
     "numberOfShowers": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "numberOfShowers",
         "questionText": "How many times a day do you shower?",
@@ -107,6 +108,7 @@
     "durationOfShowers": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "durationOfShowers",
         "questionText": "Estimate the average length of your showers.",
@@ -145,6 +147,7 @@
     "dishwasherUsage": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "dishwasherUsage",
         "questionText": "If you have a dishwasher, how frequently do you use it?",
@@ -183,6 +186,7 @@
     "disposalOfPaperProducts": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "disposalOfPaperProducts",
         "questionText": "How do you get rid of the majority of paper products you no longer need/use?",
@@ -221,6 +225,7 @@
     "useOfDisposableUtensils": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "useOfDisposableUtensils",
         "questionText": "What type of materials (utensils, disposables) do you use most often when preparing food and eating?",
@@ -259,6 +264,7 @@
     "disposableBottlePurchaseFrequency": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "disposableBottlePurchaseFrequency",
         "questionText": "How often do you purchase bottled drinks in plastic bottles?",
@@ -297,6 +303,7 @@
     "lightsLeftOnFrequency": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "lightsLeftOnFrequency",
         "questionText": "How often do you leave lights on while not in use or not in the room?",
@@ -335,6 +342,8 @@
     "overnightElectronicsUsageFrequency": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+
       "parameters": {
         "questionId": "overnightElectronicsUsageFrequency",
         "questionText": "How often do you leave lights or electronics on overnight?",
@@ -373,6 +382,7 @@
     "overnightChargerUsageFrequency": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "overnightChargerUsageFrequency",
         "questionText": "Do you leave chargers connected when not in use or overnight?",
@@ -411,6 +421,7 @@
     "airConditionerEfficiency": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "airConditionerEfficiency",
         "questionText": "If you own an AC unit, how old is it?",
@@ -449,6 +460,7 @@
     "airConditionerUsageFrequency": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "airConditionerUsageFrequency",
         "questionText": "If you own an AC unit, how often do you use it in the summer?",
@@ -487,6 +499,7 @@
     "useOfPaperTowels": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "useOfPaperTowels",
         "questionText": "Do you use paper towels for cleaning?",
@@ -525,6 +538,7 @@
     "useOfReusableShoppingBags": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "useOfReusableShoppingBags",
         "questionText": "Do you use any reusable bags for shopping?",
@@ -563,6 +577,7 @@
     "recyclingLiteracy": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "recyclingLiteracy",
         "questionText": "How well do you think you know what is recyclable and what is not?",
@@ -601,6 +616,7 @@
     "politicalAwarenessOfSustainability": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "politicalAwarenessOfSustainability",
         "questionText": "Do you keep up with politics related to sustainability?",
@@ -639,6 +655,7 @@
     "importanceOfSustainability": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "importanceOfSustainability",
         "questionText": "How important would you say sustainability is for you personally?",
@@ -677,6 +694,7 @@
     "sustainabilityAffiliations": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "sustainabilityAffiliations",
         "questionText": "Are you affiliated with any sustainability organizations, groups, or clubs?",
@@ -709,6 +727,7 @@
     "sustainabilityInterest": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "sustainabilityInterest",
         "questionText": "Are you interested in learning about your own level of sustainability?",
@@ -747,6 +766,7 @@
     "deviceType": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "deviceType",
         "questionText": "Do you use an Android or Apple mobile device?",
@@ -785,6 +805,7 @@
     "generalComments": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightTextInput.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
       "parameters": {
         "questionId": "generalComments",
         "questionText": "Do you have any general comments, questions, or concerns based on this survey?",
