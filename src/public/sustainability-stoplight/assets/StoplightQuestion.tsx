@@ -6,6 +6,7 @@ interface StoplightOption {
   value: string;
   label: string;
   icon?: string;
+  path?: string;
 }
 
 interface StoplightParams {
@@ -164,20 +165,32 @@ function StoplightQuestion({ parameters, setAnswer }: StimulusParams<StoplightPa
               }}
               >
                 {/* Placeholder for illustration */}
-                <div style={{
-                  fontSize: '60px',
-                  opacity: 0.3,
-                }}
-                >
-                  {option.icon || (option.color === 'red' ? '🚿' : option.color === 'yellow' ? '🚿🚿' : '🚿🚿🚿')}
-                </div>
+                {option.icon ? (
+                  <div style={{
+                    fontSize: '60px',
+                    opacity: 0.3,
+                  }}
+                  >
+                    {option.icon || (option.color === 'red' ? '🚿' : option.color === 'yellow' ? '🚿🚿' : '🚿🚿🚿')}
+                  </div>
+                ) : (
+                  <img
+                    src={option.path}
+                    style={{
+                      width: '200px',
+                      height: '190px',
+                      objectFit: 'contain',
+                      opacity: 0.8,
+                    }}
+                  />
+                )}
               </div>
 
               {/* Option Label/Description */}
               <div style={{
                 padding: '20px',
                 backgroundColor: 'white',
-                minHeight: '120px',
+                height: '145px',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
