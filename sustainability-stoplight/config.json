@@ -144,6 +144,123 @@
         }
       ]
     },
+    "personalSafety": {
+      "type": "react-component",
+      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "parameters": {
+        "questionId": "personalSafety",
+        "questionText": "Do you feel safe where you live?",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - We feel unsafe most of the time. Violence, threats, or robberies happen often, and we avoid going out.",
+            "label": "We feel unsafe most of the time. Violence, threats, or robberies happen often, and we avoid going out.",
+            "path": "https://raw.githubusercontent.com/kimsta007/hacking/refs/heads/multivariate/outdoors.png"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - We sometimes feel unsafe, especially at night or in certain places nearby. There are occasional thefts or fights.",
+            "label": "We sometimes feel unsafe, especially at night or in certain places nearby. There are occasional thefts or fights.",
+            "path": "https://raw.githubusercontent.com/kimsta007/hacking/refs/heads/multivariate/indoors.png"
+          },
+          {
+            "color": "green",
+            "value": "Green - We feel safe in our neighborhood, both day and night. We can walk freely without fear of being attacked or robbed.",
+            "label": "We feel safe in our neighborhood, both day and night. We can walk freely without fear of being attacked or robbed.",
+            "path": "https://raw.githubusercontent.com/kimsta007/hacking/refs/heads/multivariate/happy.png"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "personalSafety",
+          "prompt": "Your answer",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "familyCoexistence": {
+      "type": "react-component",
+      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "parameters": {
+        "questionId": "familyCoexistence",
+        "questionText": "Does your family get along well?",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - There is some type of violence in my family, but no member recognizes it or takes action to prevent it or report it.",
+            "label": "There is some type of violence in my family, but no member recognizes it or takes action to prevent it or report it.",
+            "path": "https://raw.githubusercontent.com/kimsta007/hacking/refs/heads/multivariate/gbvfamily.png"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - If there were any type of violence in my family, a member would identify it, but would NOT take action to prevent it or report it.",
+            "label": "If there were any type of violence in my family, a member would identify it, but would NOT take action to prevent it or report it.",
+            "path": "https://raw.githubusercontent.com/kimsta007/hacking/refs/heads/multivariate/arguingfamily.png"
+          },
+          {
+            "color": "green",
+            "value": "Green - My family lives respectfully and free of violence, and if it ever occurred, we would recognize it and take action.",
+            "label": "My family lives respectfully and free of violence, and if it ever occurred, we would recognize it and take action.",
+            "path": "https://raw.githubusercontent.com/kimsta007/hacking/refs/heads/multivariate/happyfamily.png"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "familyCoexistence",
+          "prompt": "Your answer",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "safeHousing": {
+      "type": "react-component",
+      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
+      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "parameters": {
+        "questionId": "safeHousing",
+        "questionText": "Does you live in a safe home?",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - Our house is in bad condition because of, e.g.: flooding risk, doors and windows don’t lock properly.",
+            "label": "Our house is in bad condition because of, e.g.: flooding risk, doors and windows don’t lock properly.",
+            "path": "https://raw.githubusercontent.com/kimsta007/hacking/refs/heads/multivariate/badhome.png"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - Our house has a few safety issues that may be bad for those living there, e.g.: risk of flooding.",
+            "label": "Our house has a few safety issues that may be bad for those living there, e.g.: risk of flooding.",
+            "path": "https://raw.githubusercontent.com/kimsta007/hacking/refs/heads/multivariate/needrepairshome.png"
+          },
+          {
+            "color": "green",
+            "value": "Green - Our house is very safe. There is no structural damage and the building can withstand all weather conditions.",
+            "label": "Our house is very safe. There is no structural damage and the building can withstand all weather conditions.",
+            "path": "https://raw.githubusercontent.com/kimsta007/hacking/refs/heads/multivariate/goodhome.png"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "safeHousing",
+          "prompt": "Your answer",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
     "dishwasherUsage": {
       "type": "react-component",
       "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
@@ -965,6 +1082,9 @@
       "importanceOfSustainability",
       "sustainabilityAffiliations",
       "sustainabilityInterest",
+      "personalSafety",
+      "familyCoexistence",
+      "safeHousing",
       "deviceType",
       "generalComments",
       "demographics"
