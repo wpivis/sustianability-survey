@@ -2,6 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.2.0/src/parser/GlobalConfigSchema.json",
   "configsList": [
     "sustainability-stoplight",
+    "sustainability-stoplight-pt",
     "productivity-manager",
     "task-gamification",
     "tutorial",
@@ -55,9 +56,12 @@
     "sustainability-stoplight": {
       "path": "sustainability-stoplight/config.json"
     },
+    "sustainability-stoplight-pt": {
+      "path": "sustainability-stoplight-pt/config.json"
+    },
     "productivity-manager": {
       "path": "productivity-manager/config.json"
-    }, 
+    },
     "task-gamification": {
       "path": "task-gamification/config.json"
     },
