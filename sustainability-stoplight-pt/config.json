@@ -2119,7 +2119,7 @@
             "Não-binário / Gênero queer / Terceiro gênero",
             "Gênero fluido / Não conforme ao gênero",
             "Em questionamento",
-            "Prefiro não dizer"
+            "Prefiro não informar"
           ]
         },
         {
@@ -2130,29 +2130,29 @@
           "type": "radio",
           "options": [
             "Menos de 18 anos",
-            "18 a 24 anos",
-            "25 a 34 anos",
-            "35 a 44 anos",
-            "45 a 54 anos",
-            "55 a 64 anos",
+            "18-24 anos",
+            "25-34 anos",
+            "35-44 anos",
+            "45-54 anos",
+            "55-64 anos",
             "65 anos ou mais",
-            "Prefiro não dizer"
+            "Prefiro não informar"
           ]
         },
         {
           "id": "education",
-          "prompt": "Qual é o **maior grau ou nível de escolaridade** que você concluiu?",
+          "prompt": "Qual é o **mais alto nível de escolaridade** que você concluiu?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "Inferior ao ensino médio",
+            "Menos que o ensino médio",
             "Ensino médio completo ou equivalente",
             "Graduação / Bacharelado ou equivalente",
             "Mestrado ou equivalente",
             "Doutorado ou equivalente",
-            "Prefiro não dizer"
+            "Prefiro não informar"
           ]
         },
         {
@@ -2167,25 +2167,25 @@
             "Negro(a)",
             "Hispânico(a) ou Latino(a)",
             "Nativo(a) Americano(a) ou Nativo(a) do Alasca",
-            "Nativo(a) Havaiano(a) ou Outro Ilhéu(a) do Pacífico",
+            "Nativo(a) do Havaí ou de outras ilhas do Pacífico",
             "Branco(a)",
-            "Prefiro não dizer"
+            "Prefiro não informar"
           ]
         },
         {
           "id": "employment",
-          "prompt": "Qual é a sua **situação profissional**?",
+          "prompt": "Qual é a sua **situação de emprego**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "Tempo integral",
-            "Meio período",
+            "Trabalhando em tempo integral",
+            "Trabalhando em meio período",
             "Desempregado(a)",
             "Estudante",
             "Aposentado(a)",
-            "Prefiro não dizer"
+            "Prefiro não informar"
           ]
         },
         {
@@ -2200,27 +2200,28 @@
             "Imóvel próprio",
             "Moradia temporária",
             "Morando com familiares ou amigos",
-            "Prefiro não dizer"
+            "Prefiro não informar"
           ]
         },
         {
           "id": "income",
-          "prompt": "Qual é a sua **renda anual**?",
+          "prompt": "Qual é a sua **renda mensal**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "< R$ 1,000",
-            "R$ 1,000 - R$ 2,000",
-            "R$ 2,000 - R$ 3,000",
-            "R$ 3,000 - R$ 4,000",
-            "> 5,000",
-            "Prefiro não dizer"
+            "Menos R$ 1.000",
+            "R$ 1001 - R$ 2000",
+            "R$ 2001 - R$ 3000",
+            "R$ 3001 - R$ 5000",
+            "Mais de R$ 5001",
+            "Prefiro não informar"
           ]
         }
       ]
-    }},
+    }
+  },
   "sequence": {
     "order": "fixed",
     "components": [
