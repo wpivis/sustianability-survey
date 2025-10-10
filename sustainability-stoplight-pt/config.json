@@ -1020,19 +1020,19 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Roupa suficiente e adequada",
-            "label": "Nome do mapa de vida: Roupa suficiente e adequada",
+            "value": "Green - Todos os membros da minha família têm  roupas e sapatos adequados para a estação, em quantidade suficiente para trocar  diariamente.",
+            "label": "Todos os membros da minha família têm  roupas e sapatos adequados para a estação, em quantidade suficiente para trocar  diariamente.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/roupaGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Todos os membros da minha família têm  roupas e sapatos adequados para a estação,  em quantidade suficiente para trocar  diariamente.",
-            "label": "Todos os membros da minha família têm  roupas e sapatos adequados para a estação,  em quantidade suficiente para trocar  diariamente.",
+            "value": "Yellow - Todos os membros da minha família têm  roupas e sapatos adequados para a estação, mas não para trocar diariamente.",
+            "label": "Todos os membros da minha família têm  roupas e sapatos adequados para a estação,  em quantidade suficiente para trocar diariamente.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/roupaYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Pelo menos um membro da minha  família não possui roupas e  sapatos adequados para a  estação ou para trocar diariamente.",
+            "value": "Red - Pelo menos um membro da minha  família não possui roupas e sapatos adequados para a  estação ou para trocar diariamente.",
             "label": "Pelo menos um membro da minha  família não possui roupas e  sapatos adequados para a  estação ou para trocar diariamente.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/roupaRed.png"
           }
@@ -1059,20 +1059,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Segurança da pessoa",
-            "label": "Nome do mapa de vida: Segurança da pessoa",
+            "value": "Green - Nenhum membro da minha  família sofreu atos de violência nos últimos doze meses.",
+            "label": "Nenhum membro da minha  família sofreu atos de violência nos últimos doze meses.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/segurancaDaPessoaGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Nenhum membro da minha  família sofreu atos de violência nos últimos doze meses.",
-            "label": "Nenhum membro da minha  família sofreu atos de violência nos últimos doze meses.",
+            "value": "Yellow - Pelo menos um membro da minha  família sofreu um ato de violência  nos últimos doze meses,  mas ele também pôde continuar com  suas atividades ou ir ao trabalho.",
+            "label": "Pelo menos um membro da minha  família sofreu um ato de violência  nos últimos doze meses,  mas ele também pôde continuar com  suas atividades ou ir ao trabalho.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/segurancaDaPessoaYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Pelo menos um membro da minha  família sofreu um ato de violência  nos últimos doze meses,  mas ele também pôde continuar com  suas atividades ou ir ao trabalho.",
-            "label": "Pelo menos um membro da minha  família sofreu um ato de violência  nos últimos doze meses,  mas ele também pôde continuar com  suas atividades ou ir ao trabalho.",
+            "value": "Red - Pelo menos um membro da minha  família sofreu um ato de violência, nos últimos doze meses e como resultado, não pôde trabalhar por um dia inteiro ou mais, ou foi  uma causa de morte.",
+            "label": "Pelo menos um membro da minha  família sofreu um ato de violência, nos últimos doze meses e como resultado, não pôde trabalhar por um dia inteiro ou mais, ou foi  uma causa de morte.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/segurancaDaPessoaRed.png"
           }
         ]
