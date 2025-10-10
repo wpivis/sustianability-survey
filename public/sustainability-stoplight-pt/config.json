@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.2.0/src/parser/StudyConfigSchema.json",
   "studyMetadata": {
-    "title": "Sustainability Stoplight - PT",
+    "title": "Poverty Stoplight - Brazil",
     "version": "pilot",
     "authors": [
-      "Sustainability Stoplight PT version"
+      "ViewLab"
     ],
     "date": "2025-09-09",
-    "description": "A sustainability stoplight questionnaire study",
+    "description": "Poverty stoplight survey - Brazil",
     "organizations": [
       "University of Utah",
       "WPI",
@@ -21,7 +21,7 @@
     "withProgressBar": true,
     "autoDownloadStudy": false,
     "urlParticipantIdParam": "PROLIFIC_PID",
-    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=CKXCP9KA](https://app.prolific.com/submissions/complete?cc=CKXCP9KA)",
+    "studyEndMsg": "**Obrigado por completar a pesquisa.**",
     "withSidebar": true,
     "recordAudio": true
   },
@@ -31,52 +31,14 @@
   "components": {
     "introduction": {
       "type": "markdown",
-      "path": "sustainability-stoplight/assets/introduction.md",
+      "path": "sustainability-stoplight-pt/assets/introduction.md",
       "recordAudio": false,
-      "response": [
-        {
-          "id": "prolificId",
-          "prompt": "Please enter your Prolific ID",
-          "location": "belowStimulus",
-          "type": "shortText",
-          "placeholder": "Prolific ID",
-          "paramCapture": "PROLIFIC_PID"
-        }
-      ]
-    },
-    "stoplight": {
-      "meta": {
-        "difficulty": 1,
-        "nr-dots": 20,
-        "temp": "low"
-      },
-      "description": "Low temperature variant",
-      "instruction": "How many times a day do you shower?",
-      "type": "image",
-      "path": "sustainability-stoplight/assets/stoplight_image.png",
-      "style": {
-        "width": "800px"
-      },
-      "nextButtonLocation": "belowStimulus",
-      "response": [
-        {
-          "id": "stoplight-image/assets-response",
-          "prompt": "Answer:",
-          "location": "belowStimulus",
-          "type": "dropdown",
-          "options": [
-            "Red - I shower more than 2 times a day",
-            "Yellow - I shower twice a day.",
-            "Green - I shower once (or less) per day.",
-            "I shower less than one time a day"
-          ]
-        }
-      ]
+      "response": []
     },
     "renda": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "renda",
         "questionText": "Renda acima da linha da pobreza",
@@ -105,7 +67,7 @@
       "response": [
         {
           "id": "renda",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -114,8 +76,8 @@
     },
     "poupanca": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "poupanca",
         "questionText": "Poupança da Família",
@@ -144,7 +106,7 @@
       "response": [
         {
           "id": "poupanca",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -153,8 +115,8 @@
     },
     "credito": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "credito",
         "questionText": "Acesso ao crédito",
@@ -183,7 +145,7 @@
       "response": [
         {
           "id": "credito",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -192,8 +154,8 @@
     },
     "diversificacao": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "diversificacao",
         "questionText": "Fonte diversificada de renda",
@@ -222,7 +184,7 @@
       "response": [
         {
           "id": "diversificacao",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -231,8 +193,8 @@
     },
     "carteiraDeIdentidade": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "carteiraDeIdentidade",
         "questionText": "Documentos: carteira de identidade",
@@ -261,7 +223,7 @@
       "response": [
         {
           "id": "carteiraDeIdentidade",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -270,8 +232,8 @@
     },
     "meioAmbiente": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "meioAmbiente",
         "questionText": "Ambiente não contaminado",
@@ -300,7 +262,7 @@
       "response": [
         {
           "id": "meioAmbiente",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -309,8 +271,8 @@
     },
     "lixo": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "lixo",
         "questionText": "Disposição do lixo",
@@ -339,7 +301,7 @@
       "response": [
         {
           "id": "lixo",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -348,8 +310,8 @@
     },
     "agua": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "agua",
         "questionText": "Acesso à água potável",
@@ -378,7 +340,7 @@
       "response": [
         {
           "id": "agua",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -387,8 +349,8 @@
     },
     "acessoAServicosDeSaude": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "acessoAServicosDeSaude",
         "questionText": "Acesso a serviços de saúde",
@@ -417,7 +379,7 @@
       "response": [
         {
           "id": "acessoAServicosDeSaude",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -426,8 +388,8 @@
     },
     "alimentosNutritivos": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "alimentosNutritivos",
         "questionText": "Alimentos nutritivos",
@@ -456,7 +418,7 @@
       "response": [
         {
           "id": "alimentosNutritivos",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -465,8 +427,8 @@
     },
     "higiene": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "higiene",
         "questionText": "Higiene pessoal",
@@ -495,7 +457,7 @@
       "response": [
         {
           "id": "higiene",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -504,8 +466,8 @@
     },
     "saudeSexual": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "saudeSexual",
         "questionText": "Saúde sexual",
@@ -534,7 +496,7 @@
       "response": [
         {
           "id": "saudeSexual",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -543,8 +505,8 @@
     },
     "dentesEOlhos": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "dentesEOlhos",
         "questionText": "Dentes e olhos saudáveis",
@@ -573,7 +535,7 @@
       "response": [
         {
           "id": "dentesEOlhos",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -582,8 +544,8 @@
     },
     "vacinas": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "vacinas",
         "questionText": "Vacinação",
@@ -612,7 +574,7 @@
       "response": [
         {
           "id": "vacinas",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -621,8 +583,8 @@
     },
     "seguro": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "seguro",
         "questionText": "Seguros",
@@ -651,7 +613,7 @@
       "response": [
         {
           "id": "seguro",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -660,8 +622,8 @@
     },
     "examesDeSaude": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "examesDeSaude",
         "questionText": "Exames de saúde",
@@ -690,7 +652,7 @@
       "response": [
         {
           "id": "examesDeSaude",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -699,8 +661,8 @@
     },
     "saudeMental": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "saudeMental",
         "questionText": "Saúde mental",
@@ -729,7 +691,7 @@
       "response": [
         {
           "id": "saudeMental",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -738,8 +700,8 @@
     },
     "atividadeFisica": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "atividadeFisica",
         "questionText": "Atividade física",
@@ -768,7 +730,7 @@
       "response": [
         {
           "id": "atividadeFisica",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -777,8 +739,8 @@
     },
     "habitacaoSegura": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "habitacaoSegura",
         "questionText": "Habitação segura",
@@ -807,7 +769,7 @@
       "response": [
         {
           "id": "habitacaoSegura",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -816,8 +778,8 @@
     },
     "conforto": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "conforto",
         "questionText": "Conforto do lar",
@@ -846,7 +808,7 @@
       "response": [
         {
           "id": "conforto",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -855,8 +817,8 @@
     },
     "quartosSeparados": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "quartosSeparados",
         "questionText": "Quartos separados",
@@ -885,7 +847,7 @@
       "response": [
         {
           "id": "quartosSeparados",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -894,8 +856,8 @@
     },
     "cozinha": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "cozinha",
         "questionText": "Cozinha ventilada e fogão elevado",
@@ -924,7 +886,7 @@
       "response": [
         {
           "id": "cozinha",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -933,8 +895,8 @@
     },
     "banheiro": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "banheiro",
         "questionText": "Banheiro",
@@ -963,7 +925,7 @@
       "response": [
         {
           "id": "banheiro",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -972,8 +934,8 @@
     },
     "geladeiraEOutrosBens": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "geladeiraEOutrosBens",
         "questionText": "Geladeira e outros bens",
@@ -1002,7 +964,7 @@
       "response": [
         {
           "id": "geladeiraEOutrosBens",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1011,8 +973,8 @@
     },
     "telefone": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "telefone",
         "questionText": "Telefone fixo ou telefone celular",
@@ -1041,7 +1003,7 @@
       "response": [
         {
           "id": "telefone",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1050,8 +1012,8 @@
     },
     "roupa": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "roupa",
         "questionText": "Roupa suficiente e adequada",
@@ -1080,7 +1042,7 @@
       "response": [
         {
           "id": "roupa",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1089,8 +1051,8 @@
     },
     "segurancaDaPessoa": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "segurancaDaPessoa",
         "questionText": "Segurança da pessoa",
@@ -1119,7 +1081,7 @@
       "response": [
         {
           "id": "segurancaDaPessoa",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1128,8 +1090,8 @@
     },
     "segurancaDaPropriedade": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "segurancaDaPropriedade",
         "questionText": "Segurança da propriedade",
@@ -1158,7 +1120,7 @@
       "response": [
         {
           "id": "segurancaDaPropriedade",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1167,8 +1129,8 @@
     },
     "eletricidade": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "eletricidade",
         "questionText": "Eletricidade",
@@ -1197,7 +1159,7 @@
       "response": [
         {
           "id": "eletricidade",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1206,8 +1168,8 @@
     },
     "meioDeTransporte": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "meioDeTransporte",
         "questionText": "Meio de transporte regular",
@@ -1236,7 +1198,7 @@
       "response": [
         {
           "id": "meioDeTransporte",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1245,8 +1207,8 @@
     },
     "estradas": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "estradas",
         "questionText": "Estradas de acesso para todas as condições climáticas",
@@ -1275,7 +1237,7 @@
       "response": [
         {
           "id": "estradas",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1284,8 +1246,8 @@
     },
     "criancasNaEscola": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "criancasNaEscola",
         "questionText": "Crianças na escola até o 3º ano do ensino médio",
@@ -1314,7 +1276,7 @@
       "response": [
         {
           "id": "criancasNaEscola",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1323,8 +1285,8 @@
     },
     "alfabetizacao": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "alfabetizacao",
         "questionText": "Saber ler, escrever e entender",
@@ -1353,7 +1315,7 @@
       "response": [
         {
           "id": "alfabetizacao",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1362,8 +1324,8 @@
     },
     "materialEscolar": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "materialEscolar",
         "questionText": "Material escolar e livros",
@@ -1392,7 +1354,7 @@
       "response": [
         {
           "id": "materialEscolar",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1401,8 +1363,8 @@
     },
     "orcamento": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "orcamento",
         "questionText": "Capacidade de planejar e orçar",
@@ -1431,7 +1393,7 @@
       "response": [
         {
           "id": "orcamento",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1440,8 +1402,8 @@
     },
     "gerarRenda": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "gerarRenda",
         "questionText": "Capacidade de gerar renda",
@@ -1470,7 +1432,7 @@
       "response": [
         {
           "id": "gerarRenda",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1479,8 +1441,8 @@
     },
     "informacao": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "informacao",
         "questionText": "Acesso à informação (TV e internet)",
@@ -1509,7 +1471,7 @@
       "response": [
         {
           "id": "informacao",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1518,8 +1480,8 @@
     },
     "entretenimento": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "entretenimento",
         "questionText": "Acesso ao entretenimento",
@@ -1548,7 +1510,7 @@
       "response": [
         {
           "id": "entretenimento",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1557,8 +1519,8 @@
     },
     "diversidade": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "diversidade",
         "questionText": "Respeito pela diversidade",
@@ -1587,7 +1549,7 @@
       "response": [
         {
           "id": "diversidade",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1596,8 +1558,8 @@
     },
     "direitosHumanos": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "direitosHumanos",
         "questionText": "Consciência dos direitos humanos",
@@ -1626,7 +1588,7 @@
       "response": [
         {
           "id": "direitosHumanos",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1635,8 +1597,8 @@
     },
     "trabalhoInfantil": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "trabalhoInfantil",
         "questionText": "Trabalho infantil",
@@ -1665,7 +1627,7 @@
       "response": [
         {
           "id": "trabalhoInfantil",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1674,8 +1636,8 @@
     },
     "grupos": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "grupos",
         "questionText": "É parte de um grupo",
@@ -1704,7 +1666,7 @@
       "response": [
         {
           "id": "grupos",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1713,8 +1675,8 @@
     },
     "impactoNoSetorPublico": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "impactoNoSetorPublico",
         "questionText": "Impacto no setor público",
@@ -1743,7 +1705,7 @@
       "response": [
         {
           "id": "impactoNoSetorPublico",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1752,8 +1714,8 @@
     },
     "problemasEConflitos": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "problemasEConflitos",
         "questionText": "Capacidade de resolver problemas e conflitos",
@@ -1782,7 +1744,7 @@
       "response": [
         {
           "id": "problemasEConflitos",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1791,8 +1753,8 @@
     },
     "votacao": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "votacao",
         "questionText": "Voto nas eleições",
@@ -1821,7 +1783,7 @@
       "response": [
         {
           "id": "votacao",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1830,8 +1792,8 @@
     },
     "mapaDeVida": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "mapaDeVida",
         "questionText": "Consciência de suas necessidades",
@@ -1860,7 +1822,7 @@
       "response": [
         {
           "id": "mapaDeVida",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1869,8 +1831,8 @@
     },
     "autoconfianca": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "autoconfianca",
         "questionText": "Confiança em si mesmo",
@@ -1899,7 +1861,7 @@
       "response": [
         {
           "id": "autoconfianca",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1908,8 +1870,8 @@
     },
     "conscienciaMoral": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "conscienciaMoral",
         "questionText": "Consciência moral",
@@ -1938,7 +1900,7 @@
       "response": [
         {
           "id": "conscienciaMoral",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1947,8 +1909,8 @@
     },
     "controleEmocional": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "controleEmocional",
         "questionText": "Capacidade emocional – afetiva",
@@ -1977,7 +1939,7 @@
       "response": [
         {
           "id": "controleEmocional",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -1986,8 +1948,8 @@
     },
     "violencia": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "violencia",
         "questionText": "Violência doméstica",
@@ -2016,7 +1978,7 @@
       "response": [
         {
           "id": "violencia",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -2025,8 +1987,8 @@
     },
     "espiritoEmpreendedor": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "espiritoEmpreendedor",
         "questionText": "Espírito empreendedor",
@@ -2055,7 +2017,7 @@
       "response": [
         {
           "id": "espiritoEmpreendedor",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -2064,8 +2026,8 @@
     },
     "autonomia": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "autonomia",
         "questionText": "Autonomia e capacidade de tomar decisões",
@@ -2094,7 +2056,7 @@
       "response": [
         {
           "id": "autonomia",
-          "prompt": "Your answer",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -2103,8 +2065,8 @@
     },
     "tempoEnFamilia": {
       "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightQuestion.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
+      "path": "sustainability-stoplight-pt/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "tempoEnFamilia",
         "questionText": "Tempo en família",
@@ -2133,27 +2095,7 @@
       "response": [
         {
           "id": "tempoEnFamilia",
-          "prompt": "Your answer",
-          "required": true,
-          "location": "sidebar",
-          "type": "reactive"
-        }
-      ]
-    },
-    "generalComments": {
-      "type": "react-component",
-      "path": "sustainability-stoplight/assets/StoplightTextInput.tsx",
-      "instruction": "Please verbalize your thoughts, reactions, and decision-making process as you consider the question.",
-      "parameters": {
-        "questionId": "generalComments",
-        "questionText": "Do you have any general comments, questions, or concerns based on this survey?",
-        "placeholder": "Please enter your comments, or write N/////A if you have none"
-      },
-      "nextButtonLocation": "sidebar",
-      "response": [
-        {
-          "id": "generalComments",
-          "prompt": "Your comments",
+          "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
           "type": "reactive"
@@ -2162,126 +2104,127 @@
     },
     "demographics": {
       "type": "questionnaire",
-      "description": "Basic demographic questions including gender, age, and education",
+      "description": "Perguntas demográficas básicas, incluindo gênero, idade e escolaridade",
       "response": [
         {
           "id": "gender",
-          "prompt": "What is your **gender**?",
+          "prompt": "Qual é o seu **gênero**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "Woman",
-            "Man",
-            "Non-binary / Genderqueer / Third gender",
-            "Genderfluid / Gender non-conforming",
-            "Questioning",
-            "Prefer not to say"
+            "Mulher",
+            "Homem",
+            "Não-binário / Gênero queer / Terceiro gênero",
+            "Gênero fluido / Não conforme ao gênero",
+            "Em questionamento",
+            "Prefiro não dizer"
           ]
         },
         {
           "id": "age",
-          "prompt": "What is your **age**?",
+          "prompt": "Qual é a sua **idade**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "options": [
-            "Under 18 years",
-            "18-24 years",
-            "25-34 years",
-            "35-44 years",
-            "45-54 years",
-            "55-64 years",
-            "65 years or older",
-            "Prefer not to say"
+            "Menos de 18 anos",
+            "18 a 24 anos",
+            "25 a 34 anos",
+            "35 a 44 anos",
+            "45 a 54 anos",
+            "55 a 64 anos",
+            "65 anos ou mais",
+            "Prefiro não dizer"
           ]
         },
         {
           "id": "education",
-          "prompt": "What is the **highest degree or level of education** you have completed?",
+          "prompt": "Qual é o **maior grau ou nível de escolaridade** que você concluiu?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "Less than high school",
-            "High school diploma or equivalent",
-            "Bachelor's degree or equivalent",
-            "Master's degree or equivalent",
-            "Doctoral degree or equivalent",
-            "Prefer not to say"
+            "Inferior ao ensino médio",
+            "Ensino médio completo ou equivalente",
+            "Graduação / Bacharelado ou equivalente",
+            "Mestrado ou equivalente",
+            "Doutorado ou equivalente",
+            "Prefiro não dizer"
           ]
         },
         {
           "id": "race",
-          "prompt": "What is your **race**?",
+          "prompt": "Qual é a sua **raça**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "Asian",
-            "Black",
-            "Hispanic or Latino",
-            "Native American or Alaska Native",
-            "Native Hawaiian or Other Pacific Islander",
-            "White",
-            "Prefer not to say"
+            "Asiático(a)",
+            "Negro(a)",
+            "Hispânico(a) ou Latino(a)",
+            "Nativo(a) Americano(a) ou Nativo(a) do Alasca",
+            "Nativo(a) Havaiano(a) ou Outro Ilhéu(a) do Pacífico",
+            "Branco(a)",
+            "Prefiro não dizer"
           ]
         },
         {
           "id": "employment",
-          "prompt": "What is your **employment** status?",
+          "prompt": "Qual é a sua **situação profissional**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "Full-time",
-            "Part-time",
-            "Unemployed",
-            "Student",
-            "Retired",
-            "Prefer not to say"
+            "Tempo integral",
+            "Meio período",
+            "Desempregado(a)",
+            "Estudante",
+            "Aposentado(a)",
+            "Prefiro não dizer"
           ]
         },
         {
           "id": "housing",
-          "prompt": "What is your **housing** situation?",
+          "prompt": "Qual é a sua situação de **moradia**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "Rent",
-            "Own",
-            "Temporary housing",
-            "Living with family or friends",
-            "Prefer not to say"
+            "Aluguel",
+            "Imóvel próprio",
+            "Moradia temporária",
+            "Morando com familiares ou amigos",
+            "Prefiro não dizer"
           ]
         },
         {
           "id": "income",
-          "prompt": "What is your yearly income?",
+          "prompt": "Qual é a sua **renda anual**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "< $40,000",
-            "$40,000 - $80,000",
-            "$80,000 - $120,000",
-            "> $120,000",
-            "Prefer not to say"
+            "< R$ 1,000",
+            "R$ 1,000 - R$ 2,000",
+            "R$ 2,000 - R$ 3,000",
+            "R$ 3,000 - R$ 4,000",
+            "> 5,000",
+            "Prefiro não dizer"
           ]
         }
       ]
-    }
-  },
+    }},
   "sequence": {
     "order": "fixed",
     "components": [
+      "introduction",
       "renda",
       "poupanca",
       "credito",
@@ -2334,7 +2277,8 @@
       "violencia",
       "espiritoEmpreendedor",
       "autonomia",
-      "tempoEnFamilia"
+      "tempoEnFamilia",
+      "demographics"
     ]
   }
 }
