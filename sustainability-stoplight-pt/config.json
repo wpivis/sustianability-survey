@@ -396,20 +396,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Todos os membros da minha família: a) Consumiram uma boa variedade de alimentos durante a última semana: * Carnes (vaca, frango, peixe, cordeiro, etc.), * Leite e/ou derivados, * Vegetais variados,  * Ovos, * Frutas variadas, * Arroz, macarrão, batata, mandioca, milho, etc. b) Eles tiveram pelo menos três refeições durante o dia: café da manhã, almoço e jantar.  Se eles pularam uma refeição, foi por razões voluntárias não associadas  à falta de dinheiro ou comida (por exemplo, por motivos religiosos ou filosóficos).",
+            "value": "Green - Todos os membros da minha família:\n\n- **a)** Consumiram uma boa variedade de alimentos durante a última semana:\n  - Carnes (vaca, frango, peixe, cordeiro, etc.)\n  - Leite e/ou derivados\n  - Vegetais variados\n  - Ovos\n  - Frutas variadas\n  - Arroz, macarrão, batata, mandioca, milho, etc.\n- **b)** Eles tiveram pelo menos três refeições durante o dia: café da manhã, almoço e jantar. Se eles pularam uma refeição, foi por razões voluntárias não associadas à falta de dinheiro ou comida (por exemplo, por motivos religiosos ou filosóficos).",
             "label": "Todos os membros da minha família: a) Consumiram uma boa variedade de alimentos durante a última semana: * Carnes (vaca, frango, peixe, cordeiro, etc.), * Leite e/ou derivados, * Vegetais variados, * Ovos, * Frutas variadas, * Arroz, macarrão, batata, mandioca, milho, etc. b) Eles tiveram pelo menos três refeições durante o dia: café da manhã, almoço e jantar.  Se eles pularam uma refeição, foi por razões voluntárias não associadas  à falta de dinheiro ou comida (por exemplo, por motivos religiosos ou filosóficos).",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/alimentosNutritivosGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Todos os membros da minha família:",
-            "label": "Todos os membros da minha família:",
+            "value": "Yellow -Os membros da minha família não incluíram na dieta todos os componentes mencionados no nível verde, mas na última semana todos os membros da minha família fizeram três refeições por dia, ou se pularam uma, foi por razões voluntárias não associadas à falta de  dinheiro ou comida.",
+            "label": "Os membros da minha família não incluíram na dieta todos os componentes mencionados no nível verde, mas na última semana todos os membros da minha família fizeram três refeições por dia, ou se pularam uma, foi por razões voluntárias não associadas à falta de  dinheiro ou comida.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/alimentosNutritivosYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - a) Consumiram uma boa variedade de alimentos durante a última semana:",
-            "label": "a) Consumiram uma boa variedade de alimentos durante a última semana:",
+            "value": "Red - Na última semana, pelo menos uma vez, um membro da minha  família foi dormir com fome ou pulou uma refeição involuntariamente devido à falta de comida ou dinheiro.",
+            "label": "Na última semana, pelo menos uma vez, um membro da minha  família foi dormir com fome ou pulou uma refeição involuntariamente devido à falta de comida ou dinheiro.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/alimentosNutritivosRed.png"
           }
         ]
@@ -435,7 +435,7 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Higiene pessoal",
+            "value": "Green - Todos os membros da minha família:\n\n- **a)** Lavam as mãos com sabão sempre que utilizam o banheiro;\n- **b)** Lavam as mãos com sabão antes de consumir e preparar sua refeição;\n- **c)** Escovam os dentes diariamente;\n- **d)** Tomam banho diariamente.",
             "label": "Nome do mapa de vida: Higiene pessoal",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/higieneGreen.png"
           },
@@ -447,8 +447,8 @@
           },
           {
             "color": "red",
-            "value": "Red - Todos os membros da minha família:",
-            "label": "Todos os membros da minha família:",
+            "value": "Red - Alguns membros da minha família não cumprem mais de um dos hábitos de higiene descritos no nível verde. Ou não sei ao certo quais são os hábitos de higiene da minha família.",
+            "label": "Alguns membros da minha família não cumprem mais de um dos hábitos de higiene descritos no nível verde. Ou não sei ao certo quais são os hábitos de higiene da minha família.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/higieneRed.png"
           }
         ]
@@ -474,14 +474,14 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Saúde sexual",
+            "value": "Green - Os membros da minha família já viram ou escutaram (através de TV, revista, escola, Unidade Básica de Saúde, amigos e família) que a prevenção de doenças sexualmente transmissíveis e a gravidez indesejada se dá através do uso de métodos contraceptivos (camisinha feminina, camisinha masculina e anticoncepcional). Tanto os adultos quanto os adolescentes da minha família usam algum método de prevenção. A gravidez é planejada.",
             "label": "Os membros da minha família já viram ou escutaram (através de TV, revista, escola, Unidade Básica de Saúde, amigos e família) que a prevenção de doenças sexualmente transmissíveis e a gravidez indesejada se dá através do uso de métodos contraceptivos (camisinha feminina, camisinha masculina e anticoncepcional). Tanto os adultos quanto os adolescentes da minha família usam algum método de prevenção. A gravidez é planejada.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/saudeSexualGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Os membros da minha família já viram ou escutaram (através de TV, revista, escola, Unidade Básica de Saúde, amigos e família) que a prevenção de doenças sexualmente transmissíveis e a gravidez indesejada se dá através do uso de métodos contraceptivos (camisinha feminina, camisinha masculina e anticoncepcional). Tanto os adultos quanto os adolescentes da minha família usam algum método de prevenção. A gravidez é planejada.",
-            "label": "Os membros da minha família já viram ou escutaram (através de TV, revista, escola, Unidade Básica de Saúde, amigos e família) que a prevenção de doenças sexualmente transmissíveis e a gravidez indesejada se dá através do uso de métodos contraceptivos (camisinha feminina, camisinha masculina e anticoncepcional). Tanto os adultos quanto os adolescentes da minha família usam algum método de prevenção. A gravidez é planejada.",
+            "value": "Yellow - Alguns membros da minha família já viram ou escutaram (TV, revista, escola, unidade básica de saúde, amigos e família) que a prevenção de doenças sexualmente transmissíveis e a gravidez indesejada se dá através do uso de métodos contraceptivos (camisinha feminina, camisinha masculina e anticoncepcional). Nem todos os adultos e adolescentes da minha família usam algum método de prevenção. A gravidez nem sempre é planejada.",
+            "label": "Alguns membros da minha família já viram ou escutaram (TV, revista, escola, unidade básica de saúde, amigos e família) que a prevenção de doenças sexualmente transmissíveis e a gravidez indesejada se dá através do uso de métodos contraceptivos (camisinha feminina, camisinha masculina e anticoncepcional). Nem todos os adultos e adolescentes da minha família usam algum método de prevenção. A gravidez nem sempre é planejada.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/saudeSexualYellow.png"
           },
           {
@@ -513,20 +513,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Dentes e olhos saudáveis",
-            "label": "Nome do mapa de vida: Dentes e olhos saudáveis",
+            "value": "Green - Minha família sabe da importância de manter cuidados com os dentes e olhos, visita preventivamente e periodicamente profissionais qualificados nestas áreas.",
+            "label": "Minha família sabe da importância de manter cuidados com os dentes e olhos, visita preventivamente e periodicamente profissionais qualificados nestas áreas.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/dentesEOlhosGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Minha família sabe da importância de manter cuidados com os dentes e olhos, visita preventivamente e periodicamente profissionais qualificados nestas áreas.",
-            "label": "Minha família sabe da importância de manter cuidados com os dentes e olhos, visita preventivamente e periodicamente profissionais qualificados nestas áreas.",
+            "value": "Yellow - Minha família sabe da importância de manter cuidados com os dentes e olhos, porém não de forma preventiva a doenças relacionadas.",
+            "label": "Minha família sabe da importância de manter cuidados com os dentes e olhos, porém não de forma preventiva a doenças relacionadas.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/dentesEOlhosYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Minha família sabe da importância de manter cuidados com os dentes e olhos, porém não de forma preventiva a doenças relacionadas.",
-            "label": "Minha família sabe da importância de manter cuidados com os dentes e olhos, porém não de forma preventiva a doenças relacionadas.",
+            "value": "Red - Minha família não dá atenção para as necessidades de cuidados com os dentes e olhos, e só buscam atendimento em situações de dor.",
+            "label": "Minha família não dá atenção para as necessidades de cuidados com os dentes e olhos, e só buscam atendimento em situações de dor.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/dentesEOlhosRed.png"
           }
         ]
@@ -552,8 +552,8 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Vacinação",
-            "label": "Nome do mapa de vida: Vacinação",
+            "value": "Green - Todos os membros da minha família estão imunizados e atualizados com todas as vacinas obrigatórias, de acordo com o cronograma de vacinação do Ministério da Saúde.",
+            "label": "Todos os membros da minha família estão imunizados e atualizados com todas as vacinas obrigatórias, de acordo com o cronograma de vacinação do Ministério da Saúde.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/vacinasGreen.png"
           },
           {
@@ -591,8 +591,8 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Seguros",
-            "label": "Nome do mapa de vida: Seguros",
+            "value": "Green - Minha família conhece as opções de seguros que existem e sabem da importância de adquiri-los. Todos os membros adultos tem pelo menos um tipo de seguro contratado.",
+            "label": "Minha família conhece as opções de seguros que existem e sabem da importância de adquiri-los. Todos os membros adultos tem pelo menos um tipo de seguro contratado.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/seguroGreen.png"
           },
           {
@@ -630,14 +630,14 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Exames de saúde",
-            "label": "Nome do mapa de vida: Exames de saúde",
+            "value": "Green - Todos os membros da minha família realizam os exames preventivos necessários (ginecológico para mulheres, urológico para homens, pediátrico para crianças).",
+            "label": "Todos os membros da minha família realizam os exames preventivos necessários (ginecológico para mulheres, urológico para homens, pediátrico para crianças).",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/examesDeSaudeGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Todos os membros da minha família realizam os exames preventivos necessários (ginecológico para mulheres, urológico para homens, pediátrico para crianças).",
-            "label": "Todos os membros da minha família realizam os exames preventivos necessários (ginecológico para mulheres, urológico para homens, pediátrico para crianças).",
+            "value": "Yellow - Alguns dos membros da minha família realizam os exames preventivos necessários (ginecológico para mulheres, urológico para homens, pediátrico para crianças)..",
+            "label": "Alguns dos membros da minha família realizam os exames preventivos necessários (ginecológico para mulheres, urológico para homens, pediátrico para crianças).",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/examesDeSaudeYellow.png"
           },
           {
@@ -669,14 +669,14 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Saúde mental",
-            "label": "Nome do mapa de vida: Saúde mental",
+            "value": "Green - Preocupo-me com o meu bem-estar emocional e pratico alguma atividade (prática religiosa, ler livros, passear no parque, ioga, meditação etc.).",
+            "label": "Preocupo-me com o meu bem-estar emocional e pratico alguma atividade (prática religiosa, ler livros, passear no parque, ioga, meditação etc.).",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/saudeMentalGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Preocupo-me com o meu bem-estar emocional e pratico alguma atividade (prática religiosa, ler livros, passear no parque, ioga, meditação etc.).",
-            "label": "Preocupo-me com o meu bem-estar emocional e pratico alguma atividade (prática religiosa, ler livros, passear no parque, ioga, meditação etc.).",
+            "value": "Yellow - Ouvi falar de várias atividades de bem-estar emocional e elas parecem importantes para mim, mas não tenho tempo nem recursos para praticá-las.",
+            "label": "Ouvi falar de várias atividades de bem-estar emocional e elas parecem importantes para mim, mas não tenho tempo nem recursos para praticá-las.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/saudeMentalYellow.png"
           },
           {
@@ -708,8 +708,8 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Atividade física",
-            "label": "Nome do mapa de vida: Atividade física",
+            "value": "Green - Pratico atividade física regularmente (pelo menos três vezes por semana, durante uma hora).",
+            "label": "Pratico atividade física regularmente (pelo menos três vezes por semana, durante uma hora).",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/atividadeFisicaGreen.png"
           },
           {
@@ -720,8 +720,8 @@
           },
           {
             "color": "red",
-            "value": "Red - Pratico atividade física regularmente (pelo menos três vezes por semana, durante uma hora).",
-            "label": "Pratico atividade física regularmente (pelo menos três vezes por semana, durante uma hora).",
+            "value": "Red - Não pratico nenhuma atividade física.",
+            "label": "Não pratico nenhuma atividade física.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/atividadeFisicaRed.png"
           }
         ]
@@ -747,8 +747,8 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Habitação segura",
-            "label": "Nome do mapa de vida: Habitação segura",
+            "value": "Green - Minha família tem uma casa com:\n\n- **a)** Telhado de telha, chapa de zinco ou concreto armado;\n- **b)** Paredes sólidas de madeira, cimento ou material assado (tijolo, azulejo, cimento, cerâmica ou similar);\n- **c)** Piso ou material de madeira cozida, portas e janelas externas feitas de madeira maciça ou metal e fechadas com segurança usando cadeados, fechaduras, alfinetes resistentes ou similares. A casa está preparada para diferentes condições climáticas.",
+            "label": "Minha família tem uma casa com:\n\n- **a)** Telhado de telha, chapa de zinco ou concreto armado;\n- **b)** Paredes sólidas de madeira, cimento ou material assado (tijolo, azulejo, cimento, cerâmica ou similar);\n- **c)** Piso ou material de madeira cozida, portas e janelas externas feitas de madeira maciça ou metal e fechadas com segurança usando cadeados, fechaduras, alfinetes resistentes ou similares. A casa está preparada para diferentes condições climáticas.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/habitacaoSeguraGreen.png"
           },
           {
@@ -759,8 +759,8 @@
           },
           {
             "color": "red",
-            "value": "Red - Minha família tem uma casa com:",
-            "label": "Minha família tem uma casa com:",
+            "value": "Red -Minha família tem uma casa que não possui dois ou mais componentes do nível verde.",
+            "label": "Minha família tem uma casa que não possui dois ou mais componentes do nível verde.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/habitacaoSeguraRed.png"
           }
         ]
@@ -786,20 +786,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Conforto do lar",
-            "label": "Nome do mapa de vida: Conforto do lar",
+            "value": "Green - Minha família tem, suficiente para todos os membros:\n\n- **a)** Móveis (cadeiras, mesas e camas)\n- **b)** Utensílios (talheres, panelas, pratos e copos)\n- **c)** Roupas de cama e banho (toalhas, cobertores e lençóis)\n- **d)** Climatizadores (ventilador, estufa, fogão a lenha ou outros)",
+            "label": "Minha família tem, suficiente para todos os membros:\n\n- **a)** Móveis (cadeiras, mesas e camas)\n- **b)** Utensílios (talheres, panelas, pratos e copos)\n- **c)** Roupas de cama e banho (toalhas, cobertores e lençóis)\n- **d)** Climatizadores (ventilador, estufa, fogão a lenha ou outros)",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/confortoGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Minha família tem, suficiente para todos os membros:",
-            "label": "Minha família tem, suficiente para todos os membros:",
+            "value": "Yellow - Minha família não possui um dos elementos descritos no nível verde, ou ela os possui mas eles não são suficientes.",
+            "label": "Minha família não possui um dos elementos descritos no nível verde, ou ela os possui mas eles não são suficientes.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/confortoYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - a) Móveis (cadeiras, mesas e camas)",
-            "label": "a) Móveis (cadeiras, mesas e camas)",
+            "value": "Red - Minha família não possui dois ou mais dos elementos descritos no nível verde, ou ela os possui mas eles não são suficientes.",
+            "label": "Minha família não possui dois ou mais dos elementos descritos no nível verde, ou ela os possui mas eles não são suficientes.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/confortoRed.png"
           }
         ]
@@ -825,14 +825,14 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Quartos separados",
-            "label": "Nome do mapa de vida: Quartos separados",
+            "value": "Green - Cada quarto é usado em média por dois ou menos membros da minha  família. Se alguns dos grupos (crianças, adolescentes e adultos) o compartilham, é por sua vontade.",
+            "label": "Cada quarto é usado em média por dois ou menos membros da minha  família. Se alguns dos grupos (crianças, adolescentes e adultos) o compartilham, é por sua vontade.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/quartosSeparadosGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Cada quarto é usado em média por dois ou menos membros da minha  família. Se alguns dos grupos (crianças, adolescentes e adultos) o compartilham, é por sua vontade.",
-            "label": "Cada quarto é usado em média por dois ou menos membros da minha  família. Se alguns dos grupos (crianças, adolescentes e adultos) o compartilham, é por sua vontade.",
+            "value": "Yellow - Cada quarto é usado em média por dois ou menos membros da minha família. Alguns dos grupos (crianças, adolescentes e adultos) compartilham o cômodo por falta de espaço.",
+            "label": "Cada quarto é usado em média por dois ou menos membros da minha família. Alguns dos grupos (crianças, adolescentes e adultos) compartilham o cômodo por falta de espaço.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/quartosSeparadosYellow.png"
           },
           {
@@ -864,19 +864,19 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Cozinha ventilada e fogão elevado",
-            "label": "Nome do mapa de vida: Cozinha ventilada e fogão elevado",
+            "value": "Green - Minha família cozinha em um espaço  coberto, protegido e ventilado. Possui cozinha, fogão a gás ou elétrico.",
+            "label": "Minha família cozinha em um espaço  coberto, protegido e ventilado. Possui cozinha, fogão a gás ou elétrico.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/cozinhaGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Minha família cozinha em um espaço  coberto, protegido e ventilado. Possui  cozinha, fogão a gás ou elétrico.",
-            "label": "Minha família cozinha em um espaço  coberto, protegido e ventilado. Possui  cozinha, fogão a gás ou elétrico.",
+            "value": "Yellow - Minha família cozinha em um espaço  coberto, protegido, mas não ventilado, ou cozinha ao ar livre. Possui fogão a gás ou elétrico.",
+            "label": "Minha família cozinha em um espaço  coberto, protegido, mas não ventilado, ou cozinha ao ar livre. Possui fogão a gás ou elétrico.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/cozinhaYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Minha família cozinha  principalmente usando, carvão ou lenha.",
+            "value": "Red - Minha família cozinha principalmente usando, carvão ou lenha.",
             "label": "Minha família cozinha  principalmente usando, carvão ou lenha.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/cozinhaRed.png"
           }
@@ -903,14 +903,14 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Banheiro",
-            "label": "Nome do mapa de vida: Banheiro",
+            "value": "Green - Minha família possui um banheiro com as seguintes características:\n\n- **a)** Tem um banheiro completo\n- **b)** Cisterna\n- **c)** Garante privacidade e é um espaço fechado e coberto\n- **d)** Possui um bom sistema de evacuação\n- **e)** Não é compartilhado com outra família\n- **f)** É mantido limpo",
+            "label": "Minha família possui um banheiro com as seguintes características:\n\n- **a)** Tem um banheiro completo\n- **b)** Cisterna\n- **c)** Garante privacidade e é um espaço fechado e coberto\n- **d)** Possui um bom sistema de evacuação\n- **e)** Não é compartilhado com outra família\n- **f)** É mantido limpo",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/banheiroGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Minha família possui um banheiro com as seguintes características:  a)Tem um banheiro completo ; b) cisterna; c) garante  privacidade e é um espaço  fechado e coberto; d) Possui um bom sistema de evacuação; e)  não é compartilhado com outra  família e f) é mantido limpo.",
-            "label": "Minha família possui um banheiro com as seguintes características:  a)Tem um banheiro completo ; b) cisterna; c) garante  privacidade e é um espaço  fechado e coberto; d) Possui um bom sistema de evacuação; e)  não é compartilhado com outra  família e f) é mantido limpo.",
+            "value": "Yellow - Embora o banheiro da minha família não atenda a todos os requisitos descritos para o nível verde, ele possui algum tipo de banheiro com água, uma latrina com laje e boa ventilação ou banheiro orgânico. Não é compartilhado com outra família",
+            "label": "Embora o banheiro da minha família não atenda a todos os requisitos descritos para o nível verde, ele possui algum tipo de banheiro com água, uma latrina com laje e boa ventilação ou banheiro orgânico. Não é compartilhado com outra família",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/banheiroYellow.png"
           },
           {
@@ -942,8 +942,8 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Geladeira e outros bens",
-            "label": "Nome do mapa de vida: Geladeira e outros bens",
+            "value": "Green - Minha família tem uma geladeira e dois ou mais dos seguintes ativos: rádio, TV, telefone, motocicleta, máquina de lavar.",
+            "label": "Minha família tem uma geladeira e dois ou mais dos seguintes ativos: rádio, TV, telefone, motocicleta, máquina de lavar.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/geladeiraEOutrosBensGreen.png"
           },
           {
@@ -981,20 +981,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Telefone fixo ou telefone celular",
-            "label": "Nome do mapa de vida: Telefone fixo ou telefone celular",
+            "value": "Green - Minha família tem um serviço de telefone fixo/celular com plano de telefonia.",
+            "label": "Minha família tem um serviço de telefone fixo/celular com plano de telefonia.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/telefoneGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Minha família tem um serviço de telefone fixo/celular com plano de telefonia.",
-            "label": "Minha família tem um serviço de telefone fixo/celular com plano de telefonia.",
+            "value": "Yellow - Minha família tem um serviço de telefone fixo/celular, porém nem sempre tem crédito ou a rede disponível.  ",
+            "label": "Minha família tem um serviço de telefone fixo/celular, porém nem sempre tem crédito ou a rede disponível.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/telefoneYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Minha família tem um serviço de telefone fixo/celular, porém nem sempre tem crédito ou a rede disponível.",
-            "label": "Minha família tem um serviço de telefone fixo/celular, porém nem sempre tem crédito ou a rede disponível.",
+            "value": "Red - Minha família não tem serviço de telefone (nem telefone celular, nem  telefone fixo).",
+            "label": "Minha família não tem serviço de telefone (nem telefone celular, nem  telefone fixo).",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/telefoneRed.png"
           }
         ]
