@@ -1,37 +1,19 @@
-# Welcome to the Sustainability Stoplight Survey! 🌍💚
+# Bem-vindo à Pesquisa sobre Semáforos de Pobreza!
 
-Thank you for participating in our study exploring everyday sustainability habits and behaviors.
+## 🎤 Protocolo Pense em Voz Alta
 
-## About This Survey
+**Recomendamos fortemente que você pense em voz alta ao responder a cada pergunta!**
 
-This questionnaire assesses your daily habits across several key areas:
-- 💧 **Water Usage** - How you use water in your daily routine
-- ♻️ **Waste & Recycling** - Your approach to waste management and recycling
-- ⚡ **Energy Consumption** - Your electricity and energy usage patterns
-- 🌱 **Sustainability Awareness** - Your knowledge and engagement with environmental issues
+Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar cada pergunta. Isso nos ajuda a entender:
+- Como você interpreta as perguntas
+- Quais fatores influenciam suas escolhas
 
-For each question, you'll see **stoplight-style cards** representing different levels of sustainability:
-- 🔴 **Red** - Less sustainable practices
-- 🟡 **Yellow** - Moderate sustainability
-- 🟢 **Green** - Most sustainable practices
+Seu navegador solicitará permissão para usar o microfone - permita-a para que possamos gravar seu áudio. Não se preocupe em pausar ou ser perfeito - queremos ouvir seus pensamentos e reações naturais!
 
-Simply click on the card that best describes your behavior!
+## Compromisso de Tempo
 
-## 🎤 Think-Aloud Protocol
-
-**We strongly encourage you to think aloud as you answer each question!**
-
-Please verbalize your thoughts, reactions, and decision-making process as you consider each question. This helps us understand:
-- How you interpret the questions
-- What factors influence your choices
-- Your overall experience with the survey
-
-Your browser will ask for microphone permission - please allow it so we can record your audio. Don't worry about pausing or being perfect - we want to hear your natural thoughts and reactions!
-
-## Time Commitment
-
-This survey takes approximately **5-10 minutes** to complete.
+Esta pesquisa leva aproximadamente **5 a 10 minutos** para ser concluída.
 
 ---
 
-When you're ready to begin, click the **Next** button below.
+Quando estiver pronto para começar, clique no botão **Avançar** abaixo.
