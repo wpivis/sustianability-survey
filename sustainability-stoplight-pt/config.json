@@ -1143,13 +1143,13 @@
           },
           {
             "color": "yellow",
-            "value": "Yellow - Minha família tem acesso à  eletricidade, mas o acesso é  clandestino e/ou insuficiente (a  família passa quatro horas ou mais  do dia sem eletricidade).",
+            "value": "Yellow - Minha família tem acesso à eletricidade, mas o acesso é  clandestino e/ou insuficiente (a  família passa quatro horas ou mais  do dia sem eletricidade).",
             "label": "Minha família tem acesso à  eletricidade, mas o acesso é  clandestino e/ou insuficiente (a  família passa quatro horas ou mais  do dia sem eletricidade).",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/eletricidadeYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Minha família tem acesso permanente  e não clandestino à eletricidade.",
+            "value": "Red - Minha família tem acesso permanente e não clandestino à eletricidade.",
             "label": "Minha família tem acesso permanente  e não clandestino à eletricidade.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/eletricidadeRed.png"
           }
@@ -1176,8 +1176,8 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Meio de transporte regular",
-            "label": "Nome do mapa de vida: Meio de transporte regular",
+            "value": "Green - Minha família tem acesso a transporte  regular e confiável, próprio ou  público,  a menos de dez minutos da casa e que  passa pelo menos a cada hora.",
+            "label": "Minha família tem acesso a transporte  regular e confiável, próprio ou  público,  a menos de dez minutos da casa e que  passa pelo menos a cada hora.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/meioDeTransporteGreen.png"
           },
           {
@@ -1215,14 +1215,14 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Estradas de acesso para todas as condições climáticas",
-            "label": "Nome do mapa de vida: Estradas de acesso para todas as condições climáticas",
+            "value": "Green - A estrada que minha família usa para se mover ao centro urbano mais próximo é pavimentada. É acessível o tempo todo, mesmo durante chuva forte.",
+            "label": "A estrada que minha família usa para se mover ao centro urbano mais próximo é pavimentada. É acessível o tempo todo, mesmo durante chuva forte.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/estradasGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - A estrada que minha família usa para se mover ao centro urbano mais próximo é pavimentada de paralelepipedos. É acessível o tempo todo, mesmo durante chuva forte.",
-            "label": "A estrada que minha família usa para se mover ao centro urbano mais próximo é pavimentada de paralelepipedos. É acessível o tempo todo, mesmo durante chuva forte.",
+            "value": "Yellow - A estrada que minha família usa  para se mover para o centro urbano mais próximo é de terra ou é asfaltada, ou é de paralelepípedos, mas está em mau estado e é difícil de percorrer em um período de  chuvas fortes ou contínuas.",
+            "label": "A estrada que minha família usa  para se mover para o centro urbano mais próximo é de terra ou é asfaltada, ou é de paralelepípedos, mas está em mau estado e é difícil de percorrer em um período de  chuvas fortes ou contínuas.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/estradasYellow.png"
           },
           {
@@ -1254,20 +1254,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Crianças na escola até o 3º ano do ensino médio",
-            "label": "Nome do mapa de vida: Crianças na escola até o 3º ano do ensino médio",
+            "value": "Green - Todos os membros da minha família em  idade escolar vão para a escola ou terminaram o terceiro ano do ensino médio.",
+            "label": "Todos os membros da minha família em  idade escolar vão para a escola ou terminaram o terceiro ano do ensino médio.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/criancasNaEscolaGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Todos os membros da minha família em  idade escolar vão para a escola ou terminaram o terceiro ano do ensino médio.",
-            "label": "Todos os membros da minha família em  idade escolar vão para a escola ou terminaram o terceiro ano do ensino médio.",
+            "value": "Yellow - Entre os membros da minha  família, há pelo menos uma criança  ou adolescente em idade escolar  que não frequenta a escola ou o  ensino médio.",
+            "label": "Entre os membros da minha  família, há pelo menos uma criança  ou adolescente em idade escolar  que não frequenta a escola ou o  ensino médio.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/criancasNaEscolaYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Entre os membros da minha  família, há pelo menos uma criança  ou adolescente em idade escolar  que não frequenta a escola ou o  ensino médio.",
-            "label": "Entre os membros da minha  família, há pelo menos uma criança  ou adolescente em idade escolar  que não frequenta a escola ou o  ensino médio.",
+            "value": "Red - Nenhum membro da minha família  em idade escolar frequenta a escola  ou o ensino médio.",
+            "label": "Nenhum membro da minha família  em idade escolar frequenta a escola  ou o ensino médio.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/criancasNaEscolaRed.png"
           }
         ]
@@ -1293,20 +1293,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Saber ler, escrever e entender",
-            "label": "Nome do mapa de vida: Saber ler, escrever e entender",
+            "value": "Green - Todos os membros da minha família, com quinze anos ou mais, podem ler e escrever e fazem isso facilmente.",
+            "label": "Todos os membros da minha família, com quinze anos ou mais, podem ler e escrever e fazem isso facilmente.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/alfabetizacaoGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Todos os membros da minha família, com quinze anos ou mais, podem ler e escrever e fazem isso facilmente.",
-            "label": "Todos os membros da minha família, com quinze anos ou mais, podem ler e escrever e fazem isso facilmente.",
+            "value": "Yellow - Todos os membros da minha família, com quinze  anos ou mais, sabem ler e escrever, mas pelo menos um tem dificuldades de ler e/ou escrever.",
+            "label": "Todos os membros da minha família, com quinze  anos ou mais, sabem ler e escrever, mas pelo menos um tem dificuldades de ler e/ou escrever.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/alfabetizacaoYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Todos os membros da minha família, com quinze  anos ou mais, sabem ler e escrever, mas pelo menos um tem dificuldades de ler e/ou escrever.",
-            "label": "Todos os membros da minha família, com quinze  anos ou mais, sabem ler e escrever, mas pelo menos um tem dificuldades de ler e/ou escrever.",
+            "value": "Red - Pelo menos um membro da minha  família, com quinze anos ou mais, não  sabe ler e/ou escrever.",
+            "label": "Pelo menos um membro da minha  família, com quinze anos ou mais, não  sabe ler e/ou escrever.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/alfabetizacaoRed.png"
           }
         ]
@@ -1332,8 +1332,8 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Material escolar e livros",
-            "label": "Nome do mapa de vida: Material escolar e livros",
+            "value": "Green - Os membros da minha família, que estão na escola,  têm uniformes e todo o material escolar recomendados pelo professor.",
+            "label": "Os membros da minha família, que estão na escola,  têm uniformes e todo o material escolar recomendados pelo professor.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/materialEscolarGreen.png"
           },
           {
@@ -1371,20 +1371,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Capacidade de planejar e orçar",
-            "label": "Nome do mapa de vida: Capacidade de planejar e orçar",
+            "value": "Green - Todos os membros da minha família sabem o que ganham e o que gastam, se comprometem com a economia familiar, participam da elaboração de um orçamento escrito ou digitado e o acompanham permanentemente.",
+            "label": "Todos os membros da minha família sabem o que ganham e o que gastam, se comprometem com a economia familiar, participam da elaboração de um orçamento escrito ou digitado e o acompanham permanentemente.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/orcamentoGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Todos os membros da minha família sabem o que ganham e o que gastam, se comprometem com a economia familiar, participam da elaboração de um orçamento escrito ou digitado e o acompanham permanentemente.",
-            "label": "Todos os membros da minha família sabem o que ganham e o que gastam, se comprometem com a economia familiar, participam da elaboração de um orçamento escrito ou digitado e o acompanham permanentemente.",
+            "value": "Yellow - Todos os membros da minha família sabem o que ganham e o que gastam, porém não são comprometidos com a economia familiar, não possuem um orçamento escrito e nem o acompanham.",
+            "label": "Todos os membros da minha família sabem o que ganham e o que gastam, porém não são comprometidos com a economia familiar, não possuem um orçamento escrito e nem o acompanham.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/orcamentoYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Todos os membros da minha família sabem o que ganham e o que gastam, porém não são comprometidos com a economia familiar, não possuem um orçamento escrito e nem o acompanham.",
-            "label": "Todos os membros da minha família sabem o que ganham e o que gastam, porém não são comprometidos com a economia familiar, não possuem um orçamento escrito e nem o acompanham.",
+            "value": "Red - Os membros da minha família não sabem o que ganham e o que gastam ou não se comprometem com a economia familiar. Não possuem um orçamento por escrito.",
+            "label": "Os membros da minha família não sabem o que ganham e o que gastam ou não se comprometem com a economia familiar. Não possuem um orçamento por escrito.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/orcamentoRed.png"
           }
         ]
@@ -1410,14 +1410,14 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Capacidade de gerar renda",
-            "label": "Nome do mapa de vida: Capacidade de gerar renda",
+            "value": "Green Pelo menos um membro da minha  família possui treinamento profissional e habilidades que facilitam o acesso às oportunidades de trabalho e geração de renda, garantindo o atendimento das necessidades básicas da família.",
+            "label": "Pelo menos um membro da minha  família possui treinamento profissional e habilidades que facilitam o acesso às oportunidades de trabalho e geração de renda, garantindo o atendimento das necessidades básicas da família.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/gerarRendaGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Pelo menos um membro da minha  família possui treinamento profissional e habilidades que facilitam o acesso às oportunidades de trabalho e geração de renda, garantindo o atendimento das necessidades básicas da família.",
-            "label": "Pelo menos um membro da minha  família possui treinamento profissional e habilidades que facilitam o acesso às oportunidades de trabalho e geração de renda, garantindo o atendimento das necessidades básicas da família.",
+            "value": "Yellow -Pelo menos um membro da minha  família possui treinamento profissional e habilidades que facilitam o acesso às oportunidades de trabalho e geração de renda, porém isso não garante o atendimento das necessidades básicas da família.",
+            "label": "Pelo menos um membro da minha  família possui treinamento profissional e habilidades que facilitam o acesso às oportunidades de trabalho e geração de renda, porém isso não garante o atendimento das necessidades básicas da família.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/gerarRendaYellow.png"
           },
           {
@@ -1449,8 +1449,8 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Acesso à informação (TV e internet)",
-            "label": "Nome do mapa de vida: Acesso à informação (TV e internet)",
+            "value": "Green - Minha família tem acesso diário a TV, rádio ou Internet.",
+            "label": "Minha família tem acesso diário a TV, rádio ou Internet.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/informacaoGreen.png"
           },
           {
@@ -1488,9 +1488,9 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Acesso ao entretenimento",
-            "label": "Nome do mapa de vida: Acesso ao entretenimento",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/entretenimentoGreen.png"
+            "value": "Green - Todos os membros da minha família tem pelo menos duas atividade semanal de lazer.",
+            "label": "Todos os membros da minha família tem pelo menos duas atividade semanal de lazer.",
+            "path": "https: //raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/entretenimentoGreen.png"
           },
           {
             "color": "yellow",
