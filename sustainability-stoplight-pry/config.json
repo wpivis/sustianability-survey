@@ -1402,119 +1402,119 @@
     },
     "demographics": {
       "type": "questionnaire",
-      "description": "Perguntas demográficas básicas, incluindo gênero, idade e escolaridade",
+      "description": "Preguntas demográficas básicas, incluyendo género, edad y nivel educativo",
       "response": [
         {
           "id": "gender",
-          "prompt": "Qual é o seu **gênero**?",
+          "prompt": "¿Cuál es tu **género**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "Mulher",
-            "Homem",
-            "Não-binário / Gênero queer / Terceiro gênero",
-            "Gênero fluido / Não conforme ao gênero",
-            "Em questionamento",
-            "Prefiro não informar"
+            "Mujer",
+            "Hombre",
+            "No binario / Género queer / Tercer género",
+            "Género fluido / No conforme con el género",
+            "En cuestionamiento",
+            "Prefiero no responder"
           ]
         },
         {
           "id": "age",
-          "prompt": "Qual é a sua **idade**?",
+          "prompt": "¿Cuál es tu **edad**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "options": [
-            "Menos de 18 anos",
-            "18-24 anos",
-            "25-34 anos",
-            "35-44 anos",
-            "45-54 anos",
-            "55-64 anos",
-            "65 anos ou mais",
-            "Prefiro não informar"
+            "Menos de 18 años",
+            "18-24 años",
+            "25-34 años",
+            "35-44 años",
+            "45-54 años",
+            "55-64 años",
+            "65 años o más",
+            "Prefiero no responder"
           ]
         },
         {
           "id": "education",
-          "prompt": "Qual é o **mais alto nível de escolaridade** que você concluiu?",
+          "prompt": "¿Cuál es el **nivel educativo más alto** que has completado?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "Menos que o ensino médio",
-            "Ensino médio completo ou equivalente",
-            "Graduação / Bacharelado ou equivalente",
-            "Mestrado ou equivalente",
-            "Doutorado ou equivalente",
-            "Prefiro não informar"
+            "Menos que la educación secundaria",
+            "Educación secundaria completa o equivalente",
+            "Educación universitaria / Licenciatura o equivalente",
+            "Maestría o equivalente",
+            "Doctorado o equivalente",
+            "Prefiero no responder"
           ]
         },
         {
           "id": "race",
-          "prompt": "Qual é a sua **raça**?",
+          "prompt": "¿Cuál es tu **raza**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "Asiático(a)",
-            "Negro(a)",
-            "Hispânico(a) ou Latino(a)",
-            "Nativo(a) Americano(a) ou Nativo(a) do Alasca",
-            "Nativo(a) do Havaí ou de outras ilhas do Pacífico",
-            "Branco(a)",
-            "Prefiro não informar"
+            "Asiático/a",
+            "Negro/a",
+            "Hispano/a o Latino/a",
+            "Nativo/a Americano/a o Nativo/a de Alaska",
+            "Nativo/a de Hawái u otras islas del Pacífico",
+            "Blanco/a",
+            "Prefiero no responder"
           ]
         },
         {
           "id": "employment",
-          "prompt": "Qual é a sua **situação de emprego**?",
+          "prompt": "¿Cuál es tu **situación laboral**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "Trabalhando em tempo integral",
-            "Trabalhando em meio período",
-            "Desempregado(a)",
-            "Estudante",
-            "Aposentado(a)",
-            "Prefiro não informar"
+            "Trabajo a tiempo completo",
+            "Trabajo a tiempo parcial",
+            "Desempleado/a",
+            "Estudiante",
+            "Jubilado/a",
+            "Prefiero no responder"
           ]
         },
         {
           "id": "housing",
-          "prompt": "Qual é a sua situação de **moradia**?",
+          "prompt": "¿Cuál es tu situación de **vivienda**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "Aluguel",
-            "Imóvel próprio",
-            "Moradia temporária",
-            "Morando com familiares ou amigos",
-            "Prefiro não informar"
+            "Alquiler",
+            "Vivienda propia",
+            "Vivienda temporal",
+            "Vivo con familiares o amigos",
+            "Prefiero no responder"
           ]
         },
         {
           "id": "income",
-          "prompt": "Qual é a sua **renda mensal**?",
+          "prompt": "¿Cuál es tu **ingreso mensual**?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
           "withOther": true,
           "options": [
-            "Menos R$ 1.000",
-            "R$ 1001 - R$ 2000",
-            "R$ 2001 - R$ 3000",
-            "R$ 3001 - R$ 5000",
-            "Mais de R$ 5001",
-            "Prefiro não informar"
+            "Menos de ₲3.000.000",
+            "₲3.000.001 - ₲5.000.000",
+            "₲5.000.001 - ₲10.000.000",
+            "₲10.000.001 - ₲20.000.000",
+            "Más de ₲20.000.000",
+            "Prefiero no responder"
           ]
         }
       ]

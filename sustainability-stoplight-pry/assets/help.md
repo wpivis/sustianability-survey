@@ -1,3 +1,3 @@
-# Help
+# Ayuda
 
-This is a questionnaire. For each question, be sure to provide and answer and then click **Next** when you’re ready to move onto the next question.
+Este es un cuestionario. Para cada pregunta, asegúrate de proporcionar una respuesta y luego haz clic en **Siguiente** cuando estés listo(a) para pasar a la siguiente pregunta.
