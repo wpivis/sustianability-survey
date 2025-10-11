@@ -59,6 +59,9 @@
     "sustainability-stoplight-pt": {
       "path": "sustainability-stoplight-pt/config.json"
     },
+    "sustainability-stoplight-pry": {
+      "path": "sustainability-stoplight-pry/config.json"
+    },
     "productivity-manager": {
       "path": "productivity-manager/config.json"
     },

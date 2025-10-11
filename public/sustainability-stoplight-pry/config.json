@@ -31,13 +31,13 @@
   "components": {
     "introduction": {
       "type": "markdown",
-      "path": "sustainability-stoplight-es/assets/introduction.md",
+      "path": "sustainability-stoplight-pry/assets/introduction.md",
       "recordAudio": false,
       "response": []
     },
     "renda": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "renda",
@@ -47,19 +47,19 @@
             "color": "green",
             "value": "Green - Minha família tem renda que excede a linha de pobreza.",
             "label": "Minha família tem renda que excede a linha de pobreza.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/rendaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/rendaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família tem renda que excede a linha de pobreza.",
             "label": "Minha família tem renda que excede a linha de pobreza.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/rendaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/rendaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família tem renda abaixo da linha de pobreza, mas acima da linha de pobreza extrema.",
             "label": "Minha família tem renda abaixo da linha de pobreza, mas acima da linha de pobreza extrema.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/rendaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/rendaRed.png"
           }
         ]
       },
@@ -76,7 +76,7 @@
     },
     "poupanca": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "poupanca",
@@ -86,19 +86,19 @@
             "color": "green",
             "value": "Green - Um ou mais membros da minha família têm poupança há pelo menos seis meses e têm uma conta poupança bancária em seu nome.",
             "label": "Um ou mais membros da minha família têm poupança há pelo menos seis meses e têm uma conta poupança bancária em seu nome.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/poupancaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/poupancaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Nenhum membro da minha família tem poupança.",
             "label": "Nenhum membro da minha família tem poupança.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/poupancaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/poupancaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Um ou mais membros da minha família têm poupança informalmente (eles mantêm o dinheiro em casa ou na propriedade), ou eles têm uma conta poupança bancária há menos de seis meses.",
             "label": "Um ou mais membros da minha família têm poupança informalmente (eles mantêm o dinheiro em casa ou na propriedade), ou eles têm uma conta poupança bancária há menos de seis meses.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/poupancaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/poupancaRed.png"
           }
         ]
       },
@@ -115,7 +115,7 @@
     },
     "credito": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "credito",
@@ -125,19 +125,19 @@
             "color": "green",
             "value": "Green - Pelo menos um membro da minha família acessou créditos de instituições legais e em condições de mercado justas nos últimos doze meses. Ou os membros da minha família não precisam de créditos porque podem financiar todas as suas necessidades  através de suas próprias fontes; no entanto, eles podem acessar um crédito, se necessário.",
             "label": "Pelo menos um membro da minha família acessou créditos de instituições legais e em condições de mercado justas nos últimos doze meses. Ou os membros da minha família não precisam de créditos porque podem financiar todas as suas necessidades  através de suas próprias fontes; no entanto, eles podem acessar um crédito, se necessário.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/creditoGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/creditoGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Pelo menos um membro da minha família acessou empréstimos nos últimos doze meses de instituições não legais (fornecedores informais, agiotas, família, empregador, etc.), ou instituições legais que operam com taxas abusivas.",
             "label": "Pelo menos um membro da minha família acessou empréstimos nos últimos doze meses de instituições não legais (fornecedores informais, agiotas, família, empregador, etc.), ou instituições legais que operam com taxas abusivas.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/creditoYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/creditoYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Nenhum membro da minha família acessou créditos nos últimos doze meses, mesmo que precisasse, por falta de oportunidades ou por possuir restrições de crédito.",
             "label": "Nenhum membro da minha família acessou créditos nos últimos doze meses, mesmo que precisasse, por falta de oportunidades ou por possuir restrições de crédito.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/creditoRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/creditoRed.png"
           }
         ]
       },
@@ -154,7 +154,7 @@
     },
     "diversificacao": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "diversificacao",
@@ -164,19 +164,19 @@
             "color": "green",
             "value": "Green - Se minha família perdesse sua principal fonte de renda, isso não afetaria seu nível de consumo durante o próximo mês. Seria assim porque temos fontes substitutas de renda (atividades secundárias, renda de outros membros da família, poupanças ou ativos que podem ser vendidos rapidamente, etc.).",
             "label": "Se minha família perdesse sua principal fonte de renda, isso não afetaria seu nível de consumo durante o próximo mês. Seria assim porque temos fontes substitutas de renda (atividades secundárias, renda de outros membros da família, poupanças ou ativos que podem ser vendidos rapidamente, etc.).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/diversificacaoGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/diversificacaoGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Se minha família perdesse sua principal fonte de renda, isso não afetaria seu nível de consumo durante o próximo mês.",
             "label": "Se minha família perdesse sua principal fonte de renda, isso não afetaria seu nível de consumo durante o próximo mês.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/diversificacaoYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/diversificacaoYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Seria assim porque temos fontes substitutas de renda (atividades secundárias, renda de outros membros da família, poupanças ou ativos que podem ser vendidos rapidamente, etc.).",
             "label": "Seria assim porque temos fontes substitutas de renda (atividades secundárias, renda de outros membros da família, poupanças ou ativos que podem ser vendidos rapidamente, etc.).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/diversificacaoRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/diversificacaoRed.png"
           }
         ]
       },
@@ -193,7 +193,7 @@
     },
     "carteiraDeIdentidade": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "carteiraDeIdentidade",
@@ -203,19 +203,19 @@
             "color": "green",
             "value": "Green - Todos os membros da minha família, mesmo se criança, possuem carteira de identidade válida.",
             "label": "Todos os membros da minha família, mesmo se criança, possuem carteira de identidade válida.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/carteiraDeIdentidadeGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/carteiraDeIdentidadeGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Todos os membros da minha família, mesmo se criança, possuem carteira de identidade válida.",
             "label": "Todos os membros da minha família, mesmo se criança, possuem carteira de identidade válida.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/carteiraDeIdentidadeYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/carteiraDeIdentidadeYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Um membro da minha família, mesmo se criança, não possui carteira de identidade válida.",
             "label": "Um membro da minha família, mesmo se criança, não possui carteira de identidade válida.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/carteiraDeIdentidadeRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/carteiraDeIdentidadeRed.png"
           }
         ]
       },
@@ -232,7 +232,7 @@
     },
     "meioAmbiente": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "meioAmbiente",
@@ -242,19 +242,19 @@
             "color": "green",
             "value": "Green - Minha família vive num ambiente livre de poluição, ou, se houver poluição, estamos cientes da importância de viver num ambiente não contaminado, e conseguimos resolvê-lo.",
             "label": "Minha família vive num ambiente livre de poluição, ou, se houver poluição, estamos cientes da importância de viver num ambiente não contaminado, e conseguimos resolvê-lo.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/meioAmbienteGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/meioAmbienteGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - No meu ambiente às vezes há poluição. Estamos cientes de que isso nos afeta de maneira negativa. Mas não conseguimos fazer algo para resolver a situação.",
             "label": "No meu ambiente às vezes há poluição. Estamos cientes de que isso nos afeta de maneira negativa. Mas não conseguimos fazer algo para resolver a situação.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/meioAmbienteYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/meioAmbienteYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família vive num ambiente livre de poluição, ou, se houver poluição, estamos cientes da importância de viver num ambiente não contaminado, e conseguimos resolvê-lo.",
             "label": "Minha família vive num ambiente livre de poluição, ou, se houver poluição, estamos cientes da importância de viver num ambiente não contaminado, e conseguimos resolvê-lo.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/meioAmbienteRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/meioAmbienteRed.png"
           }
         ]
       },
@@ -271,7 +271,7 @@
     },
     "lixo": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "lixo",
@@ -281,19 +281,19 @@
             "color": "green",
             "value": "Green - Os membros da minha família depositam seus resíduos em um depósito de lixo para que sejam coletados, separam o lixo para reciclagem e fazem compostagem.",
             "label": "Os membros da minha família depositam seus resíduos em um depósito de lixo para que sejam coletados, separam o lixo para reciclagem e fazem compostagem.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/lixoGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/lixoGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Os membros da minha família não depositam seus resíduos em um depósito de lixo para que sejam coletados, não separam o lixo adequadamente.",
             "label": "Os membros da minha família não depositam seus resíduos em um depósito de lixo para que sejam coletados, não separam o lixo adequadamente.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/lixoYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/lixoYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Os membros da minha família queimam o lixo sem separá-los ou jogam em qualquer lugar. Não fazem reciclagem.",
             "label": "Os membros da minha família queimam o lixo sem separá-los ou jogam em qualquer lugar. Não fazem reciclagem.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/lixoRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/lixoRed.png"
           }
         ]
       },
@@ -310,7 +310,7 @@
     },
     "agua": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "agua",
@@ -320,19 +320,19 @@
             "color": "green",
             "value": "Green - Minha família tem acesso à água potável em casa, 24 horas por dia.",
             "label": "Minha família tem acesso à água potável em casa, 24 horas por dia.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/aguaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/aguaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família tem acesso à água potável, mas o fornecimento não é permanente.",
             "label": "Minha família tem acesso à água potável, mas o fornecimento não é permanente.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/aguaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/aguaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família não tem acesso ao fornecimento de água potável em casa. Precisa caminhar para buscá-la.",
             "label": "Minha família não tem acesso ao fornecimento de água potável em casa. Precisa caminhar para buscá-la.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/aguaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/aguaRed.png"
           }
         ]
       },
@@ -349,7 +349,7 @@
     },
     "acessoAServicosDeSaude": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "acessoAServicosDeSaude",
@@ -359,19 +359,19 @@
             "color": "green",
             "value": "Green - Nos últimos 3 meses, sempre que um membro da minha família precisou de cuidados médicos, ele o obteve sem dificuldades e com qualidade.",
             "label": "Nos últimos 3 meses, sempre que um membro da minha família precisou de cuidados médicos, ele o obteve sem dificuldades e com qualidade.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/acessoAServicosDeSaudeGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/acessoAServicosDeSaudeGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Nos últimos 3 meses, sempre que um membro da minha família precisou de cuidados médicos, ele o obteve sem dificuldades e com qualidade.",
             "label": "Nos últimos 3 meses, sempre que um membro da minha família precisou de cuidados médicos, ele o obteve sem dificuldades e com qualidade.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/acessoAServicosDeSaudeYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/acessoAServicosDeSaudeYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Nos últimos 3 meses, quando um membro da minha família precisou de cuidados médicos, ele conseguiu. Porém, não havia profissional especializado e o atendimento não foi de boa qualidade.",
             "label": "Nos últimos 3 meses, quando um membro da minha família precisou de cuidados médicos, ele conseguiu. Porém, não havia profissional especializado e o atendimento não foi de boa qualidade.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/acessoAServicosDeSaudeRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/acessoAServicosDeSaudeRed.png"
           }
         ]
       },
@@ -388,7 +388,7 @@
     },
     "alimentosNutritivos": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "alimentosNutritivos",
@@ -398,19 +398,19 @@
             "color": "green",
             "value": "Green - Todos os membros da minha família:\n\n- **a)** Consumiram uma boa variedade de alimentos durante a última semana:\n  - Carnes (vaca, frango, peixe, cordeiro, etc.)\n  - Leite e/ou derivados\n  - Vegetais variados\n  - Ovos\n  - Frutas variadas\n  - Arroz, macarrão, batata, mandioca, milho, etc.\n- **b)** Eles tiveram pelo menos três refeições durante o dia: café da manhã, almoço e jantar. Se eles pularam uma refeição, foi por razões voluntárias não associadas à falta de dinheiro ou comida (por exemplo, por motivos religiosos ou filosóficos).",
             "label": "Todos os membros da minha família: a) Consumiram uma boa variedade de alimentos durante a última semana: * Carnes (vaca, frango, peixe, cordeiro, etc.), * Leite e/ou derivados, * Vegetais variados, * Ovos, * Frutas variadas, * Arroz, macarrão, batata, mandioca, milho, etc. b) Eles tiveram pelo menos três refeições durante o dia: café da manhã, almoço e jantar.  Se eles pularam uma refeição, foi por razões voluntárias não associadas  à falta de dinheiro ou comida (por exemplo, por motivos religiosos ou filosóficos).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/alimentosNutritivosGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/alimentosNutritivosGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow -Os membros da minha família não incluíram na dieta todos os componentes mencionados no nível verde, mas na última semana todos os membros da minha família fizeram três refeições por dia, ou se pularam uma, foi por razões voluntárias não associadas à falta de  dinheiro ou comida.",
             "label": "Os membros da minha família não incluíram na dieta todos os componentes mencionados no nível verde, mas na última semana todos os membros da minha família fizeram três refeições por dia, ou se pularam uma, foi por razões voluntárias não associadas à falta de  dinheiro ou comida.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/alimentosNutritivosYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/alimentosNutritivosYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Na última semana, pelo menos uma vez, um membro da minha  família foi dormir com fome ou pulou uma refeição involuntariamente devido à falta de comida ou dinheiro.",
             "label": "Na última semana, pelo menos uma vez, um membro da minha  família foi dormir com fome ou pulou uma refeição involuntariamente devido à falta de comida ou dinheiro.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/alimentosNutritivosRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/alimentosNutritivosRed.png"
           }
         ]
       },
@@ -427,7 +427,7 @@
     },
     "higiene": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "higiene",
@@ -437,19 +437,19 @@
             "color": "green",
             "value": "Green - Todos os membros da minha família:\n\n- **a)** Lavam as mãos com sabão sempre que utilizam o banheiro;\n- **b)** Lavam as mãos com sabão antes de consumir e preparar sua refeição;\n- **c)** Escovam os dentes diariamente;\n- **d)** Tomam banho diariamente.",
             "label": "Nome do mapa de vida: Higiene pessoal",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/higieneGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/higieneGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Alguns membros da minha família não cumprem um dos hábitos de higiene descritos no nível verde.",
             "label": "Alguns membros da minha família não cumprem um dos hábitos de higiene descritos no nível verde.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/higieneYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/higieneYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Alguns membros da minha família não cumprem mais de um dos hábitos de higiene descritos no nível verde. Ou não sei ao certo quais são os hábitos de higiene da minha família.",
             "label": "Alguns membros da minha família não cumprem mais de um dos hábitos de higiene descritos no nível verde. Ou não sei ao certo quais são os hábitos de higiene da minha família.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/higieneRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/higieneRed.png"
           }
         ]
       },
@@ -466,7 +466,7 @@
     },
     "saudeSexual": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "saudeSexual",
@@ -476,19 +476,19 @@
             "color": "green",
             "value": "Green - Os membros da minha família já viram ou escutaram (através de TV, revista, escola, Unidade Básica de Saúde, amigos e família) que a prevenção de doenças sexualmente transmissíveis e a gravidez indesejada se dá através do uso de métodos contraceptivos (camisinha feminina, camisinha masculina e anticoncepcional). Tanto os adultos quanto os adolescentes da minha família usam algum método de prevenção. A gravidez é planejada.",
             "label": "Os membros da minha família já viram ou escutaram (através de TV, revista, escola, Unidade Básica de Saúde, amigos e família) que a prevenção de doenças sexualmente transmissíveis e a gravidez indesejada se dá através do uso de métodos contraceptivos (camisinha feminina, camisinha masculina e anticoncepcional). Tanto os adultos quanto os adolescentes da minha família usam algum método de prevenção. A gravidez é planejada.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/saudeSexualGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/saudeSexualGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Alguns membros da minha família já viram ou escutaram (TV, revista, escola, unidade básica de saúde, amigos e família) que a prevenção de doenças sexualmente transmissíveis e a gravidez indesejada se dá através do uso de métodos contraceptivos (camisinha feminina, camisinha masculina e anticoncepcional). Nem todos os adultos e adolescentes da minha família usam algum método de prevenção. A gravidez nem sempre é planejada.",
             "label": "Alguns membros da minha família já viram ou escutaram (TV, revista, escola, unidade básica de saúde, amigos e família) que a prevenção de doenças sexualmente transmissíveis e a gravidez indesejada se dá através do uso de métodos contraceptivos (camisinha feminina, camisinha masculina e anticoncepcional). Nem todos os adultos e adolescentes da minha família usam algum método de prevenção. A gravidez nem sempre é planejada.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/saudeSexualYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/saudeSexualYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Nenhum membro da minha família já viu ou escutou (TV, revista, escola, unidade básica de saúde, amigos e família) que a prevenção de doenças sexualmente transmissíveis e a gravidez indesejada se dá através do uso de métodos contraceptivos (camisinha feminina, camisinha masculina e anticoncepcional). Nenhum adulto e adolescente da minha família usam algum método de prevenção. A gravidez não é planejada.",
             "label": "Nenhum membro da minha família já viu ou escutou (TV, revista, escola, unidade básica de saúde, amigos e família) que a prevenção de doenças sexualmente transmissíveis e a gravidez indesejada se dá através do uso de métodos contraceptivos (camisinha feminina, camisinha masculina e anticoncepcional). Nenhum adulto e adolescente da minha família usam algum método de prevenção. A gravidez não é planejada.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/saudeSexualRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/saudeSexualRed.png"
           }
         ]
       },
@@ -505,7 +505,7 @@
     },
     "dentesEOlhos": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "dentesEOlhos",
@@ -515,19 +515,19 @@
             "color": "green",
             "value": "Green - Minha família sabe da importância de manter cuidados com os dentes e olhos, visita preventivamente e periodicamente profissionais qualificados nestas áreas.",
             "label": "Minha família sabe da importância de manter cuidados com os dentes e olhos, visita preventivamente e periodicamente profissionais qualificados nestas áreas.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/dentesEOlhosGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/dentesEOlhosGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família sabe da importância de manter cuidados com os dentes e olhos, porém não de forma preventiva a doenças relacionadas.",
             "label": "Minha família sabe da importância de manter cuidados com os dentes e olhos, porém não de forma preventiva a doenças relacionadas.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/dentesEOlhosYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/dentesEOlhosYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família não dá atenção para as necessidades de cuidados com os dentes e olhos, e só buscam atendimento em situações de dor.",
             "label": "Minha família não dá atenção para as necessidades de cuidados com os dentes e olhos, e só buscam atendimento em situações de dor.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/dentesEOlhosRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/dentesEOlhosRed.png"
           }
         ]
       },
@@ -544,7 +544,7 @@
     },
     "vacinas": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "vacinas",
@@ -554,19 +554,19 @@
             "color": "green",
             "value": "Green - Todos os membros da minha família estão imunizados e atualizados com todas as vacinas obrigatórias, de acordo com o cronograma de vacinação do Ministério da Saúde.",
             "label": "Todos os membros da minha família estão imunizados e atualizados com todas as vacinas obrigatórias, de acordo com o cronograma de vacinação do Ministério da Saúde.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/vacinasGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/vacinasGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Um membro da minha família não está imunizado ou atualizado com todas as vacinas obrigatórias, de acordo com o Ministério da Saúde.",
             "label": "Um membro da minha família não está imunizado ou atualizado com todas as vacinas obrigatórias, de acordo com o Ministério da Saúde.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/vacinasYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/vacinasYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Mais de um membro da minha família não está imunizado ou atualizado com todas as vacinas obrigatórias, de acordo com o  Ministério da Saúde.",
             "label": "Mais de um membro da minha família não está imunizado ou atualizado com todas as vacinas obrigatórias, de acordo com o  Ministério da Saúde.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/vacinasRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/vacinasRed.png"
           }
         ]
       },
@@ -583,7 +583,7 @@
     },
     "seguro": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "seguro",
@@ -593,19 +593,19 @@
             "color": "green",
             "value": "Green - Minha família conhece as opções de seguros que existem e sabem da importância de adquiri-los. Todos os membros adultos tem pelo menos um tipo de seguro contratado.",
             "label": "Minha família conhece as opções de seguros que existem e sabem da importância de adquiri-los. Todos os membros adultos tem pelo menos um tipo de seguro contratado.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/seguroGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/seguroGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família conhece as opções de seguros que existem e sabem da importância de adquiri-los. Todos os membros adultos tem pelo menos um tipo de seguro contratado.",
             "label": "Minha família conhece as opções de seguros que existem e sabem da importância de adquiri-los. Todos os membros adultos tem pelo menos um tipo de seguro contratado.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/seguroYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/seguroYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família não conhece as opções de seguros que existem e não sabem da importância de adquiri-los. Nenhum membro da minha família possui um seguro contratado.",
             "label": "Minha família não conhece as opções de seguros que existem e não sabem da importância de adquiri-los. Nenhum membro da minha família possui um seguro contratado.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/seguroRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/seguroRed.png"
           }
         ]
       },
@@ -622,7 +622,7 @@
     },
     "examesDeSaude": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "examesDeSaude",
@@ -632,19 +632,19 @@
             "color": "green",
             "value": "Green - Todos os membros da minha família realizam os exames preventivos necessários (ginecológico para mulheres, urológico para homens, pediátrico para crianças).",
             "label": "Todos os membros da minha família realizam os exames preventivos necessários (ginecológico para mulheres, urológico para homens, pediátrico para crianças).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/examesDeSaudeGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/examesDeSaudeGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Alguns dos membros da minha família realizam os exames preventivos necessários (ginecológico para mulheres, urológico para homens, pediátrico para crianças)..",
             "label": "Alguns dos membros da minha família realizam os exames preventivos necessários (ginecológico para mulheres, urológico para homens, pediátrico para crianças).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/examesDeSaudeYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/examesDeSaudeYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Nenhum membro da minha família realiza os exames preventivos necessários (ginecológico para mulheres, urológico para homens, pediátrico para crianças).",
             "label": "Nenhum membro da minha família realiza os exames preventivos necessários (ginecológico para mulheres, urológico para homens, pediátrico para crianças).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/examesDeSaudeRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/examesDeSaudeRed.png"
           }
         ]
       },
@@ -661,7 +661,7 @@
     },
     "saudeMental": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "saudeMental",
@@ -671,19 +671,19 @@
             "color": "green",
             "value": "Green - Preocupo-me com o meu bem-estar emocional e pratico alguma atividade (prática religiosa, ler livros, passear no parque, ioga, meditação etc.).",
             "label": "Preocupo-me com o meu bem-estar emocional e pratico alguma atividade (prática religiosa, ler livros, passear no parque, ioga, meditação etc.).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/saudeMentalGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/saudeMentalGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Ouvi falar de várias atividades de bem-estar emocional e elas parecem importantes para mim, mas não tenho tempo nem recursos para praticá-las.",
             "label": "Ouvi falar de várias atividades de bem-estar emocional e elas parecem importantes para mim, mas não tenho tempo nem recursos para praticá-las.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/saudeMentalYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/saudeMentalYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Não conheço nenhuma atividade específica para melhorar o bem-estar emocional, ou conheço algumas atividades, mas elas não parecem importantes para mim.",
             "label": "Não conheço nenhuma atividade específica para melhorar o bem-estar emocional, ou conheço algumas atividades, mas elas não parecem importantes para mim.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/saudeMentalRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/saudeMentalRed.png"
           }
         ]
       },
@@ -700,7 +700,7 @@
     },
     "atividadeFisica": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "atividadeFisica",
@@ -710,19 +710,19 @@
             "color": "green",
             "value": "Green - Pratico atividade física regularmente (pelo menos três vezes por semana, durante uma hora).",
             "label": "Pratico atividade física regularmente (pelo menos três vezes por semana, durante uma hora).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/atividadeFisicaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/atividadeFisicaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Pratico atividade física, mas não regularmente (menos de três vezes por semana, durante uma hora).",
             "label": "Pratico atividade física, mas não regularmente (menos de três vezes por semana, durante uma hora).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/atividadeFisicaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/atividadeFisicaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Não pratico nenhuma atividade física.",
             "label": "Não pratico nenhuma atividade física.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/atividadeFisicaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/atividadeFisicaRed.png"
           }
         ]
       },
@@ -739,7 +739,7 @@
     },
     "habitacaoSegura": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "habitacaoSegura",
@@ -749,19 +749,19 @@
             "color": "green",
             "value": "Green - Minha família tem uma casa com:\n\n- **a)** Telhado de telha, chapa de zinco ou concreto armado;\n- **b)** Paredes sólidas de madeira, cimento ou material assado (tijolo, azulejo, cimento, cerâmica ou similar);\n- **c)** Piso ou material de madeira cozida, portas e janelas externas feitas de madeira maciça ou metal e fechadas com segurança usando cadeados, fechaduras, alfinetes resistentes ou similares. A casa está preparada para diferentes condições climáticas.",
             "label": "Minha família tem uma casa com:\n\n- **a)** Telhado de telha, chapa de zinco ou concreto armado;\n- **b)** Paredes sólidas de madeira, cimento ou material assado (tijolo, azulejo, cimento, cerâmica ou similar);\n- **c)** Piso ou material de madeira cozida, portas e janelas externas feitas de madeira maciça ou metal e fechadas com segurança usando cadeados, fechaduras, alfinetes resistentes ou similares. A casa está preparada para diferentes condições climáticas.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/habitacaoSeguraGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/habitacaoSeguraGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família tem uma casa que não possui dois ou mais componentes do nível verde.",
             "label": "Minha família tem uma casa que não possui dois ou mais componentes do nível verde.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/habitacaoSeguraYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/habitacaoSeguraYellow.png"
           },
           {
             "color": "red",
             "value": "Red -Minha família tem uma casa que não possui dois ou mais componentes do nível verde.",
             "label": "Minha família tem uma casa que não possui dois ou mais componentes do nível verde.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/habitacaoSeguraRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/habitacaoSeguraRed.png"
           }
         ]
       },
@@ -778,7 +778,7 @@
     },
     "conforto": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "conforto",
@@ -788,19 +788,19 @@
             "color": "green",
             "value": "Green - Minha família tem, suficiente para todos os membros:\n\n- **a)** Móveis (cadeiras, mesas e camas)\n- **b)** Utensílios (talheres, panelas, pratos e copos)\n- **c)** Roupas de cama e banho (toalhas, cobertores e lençóis)\n- **d)** Climatizadores (ventilador, estufa, fogão a lenha ou outros)",
             "label": "Minha família tem, suficiente para todos os membros:\n\n- **a)** Móveis (cadeiras, mesas e camas)\n- **b)** Utensílios (talheres, panelas, pratos e copos)\n- **c)** Roupas de cama e banho (toalhas, cobertores e lençóis)\n- **d)** Climatizadores (ventilador, estufa, fogão a lenha ou outros)",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/confortoGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/confortoGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família não possui um dos elementos descritos no nível verde, ou ela os possui mas eles não são suficientes.",
             "label": "Minha família não possui um dos elementos descritos no nível verde, ou ela os possui mas eles não são suficientes.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/confortoYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/confortoYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família não possui dois ou mais dos elementos descritos no nível verde, ou ela os possui mas eles não são suficientes.",
             "label": "Minha família não possui dois ou mais dos elementos descritos no nível verde, ou ela os possui mas eles não são suficientes.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/confortoRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/confortoRed.png"
           }
         ]
       },
@@ -817,7 +817,7 @@
     },
     "quartosSeparados": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "quartosSeparados",
@@ -827,19 +827,19 @@
             "color": "green",
             "value": "Green - Cada quarto é usado em média por dois ou menos membros da minha  família. Se alguns dos grupos (crianças, adolescentes e adultos) o compartilham, é por sua vontade.",
             "label": "Cada quarto é usado em média por dois ou menos membros da minha  família. Se alguns dos grupos (crianças, adolescentes e adultos) o compartilham, é por sua vontade.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/quartosSeparadosGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/quartosSeparadosGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Cada quarto é usado em média por dois ou menos membros da minha família. Alguns dos grupos (crianças, adolescentes e adultos) compartilham o cômodo por falta de espaço.",
             "label": "Cada quarto é usado em média por dois ou menos membros da minha família. Alguns dos grupos (crianças, adolescentes e adultos) compartilham o cômodo por falta de espaço.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/quartosSeparadosYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/quartosSeparadosYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Cada quarto é usado em média por três ou mais membros da minha família, por falta de espaço.",
             "label": "Cada quarto é usado em média por três ou mais membros da minha família, por falta de espaço.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/quartosSeparadosRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/quartosSeparadosRed.png"
           }
         ]
       },
@@ -856,7 +856,7 @@
     },
     "cozinha": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "cozinha",
@@ -866,19 +866,19 @@
             "color": "green",
             "value": "Green - Minha família cozinha em um espaço  coberto, protegido e ventilado. Possui cozinha, fogão a gás ou elétrico.",
             "label": "Minha família cozinha em um espaço  coberto, protegido e ventilado. Possui cozinha, fogão a gás ou elétrico.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/cozinhaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/cozinhaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família cozinha em um espaço  coberto, protegido, mas não ventilado, ou cozinha ao ar livre. Possui fogão a gás ou elétrico.",
             "label": "Minha família cozinha em um espaço  coberto, protegido, mas não ventilado, ou cozinha ao ar livre. Possui fogão a gás ou elétrico.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/cozinhaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/cozinhaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família cozinha principalmente usando, carvão ou lenha.",
             "label": "Minha família cozinha  principalmente usando, carvão ou lenha.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/cozinhaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/cozinhaRed.png"
           }
         ]
       },
@@ -895,7 +895,7 @@
     },
     "banheiro": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "banheiro",
@@ -905,19 +905,19 @@
             "color": "green",
             "value": "Green - Minha família possui um banheiro com as seguintes características:\n\n- **a)** Tem um banheiro completo\n- **b)** Cisterna\n- **c)** Garante privacidade e é um espaço fechado e coberto\n- **d)** Possui um bom sistema de evacuação\n- **e)** Não é compartilhado com outra família\n- **f)** É mantido limpo",
             "label": "Minha família possui um banheiro com as seguintes características:\n\n- **a)** Tem um banheiro completo\n- **b)** Cisterna\n- **c)** Garante privacidade e é um espaço fechado e coberto\n- **d)** Possui um bom sistema de evacuação\n- **e)** Não é compartilhado com outra família\n- **f)** É mantido limpo",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/banheiroGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/banheiroGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Embora o banheiro da minha família não atenda a todos os requisitos descritos para o nível verde, ele possui algum tipo de banheiro com água, uma latrina com laje e boa ventilação ou banheiro orgânico. Não é compartilhado com outra família",
             "label": "Embora o banheiro da minha família não atenda a todos os requisitos descritos para o nível verde, ele possui algum tipo de banheiro com água, uma latrina com laje e boa ventilação ou banheiro orgânico. Não é compartilhado com outra família",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/banheiroYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/banheiroYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família compartilha o banheiro ou a latrina com outra família ou não se qualifica para o nível amarelo.",
             "label": "Minha família compartilha o banheiro ou a latrina com outra família ou não se qualifica para o nível amarelo.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/banheiroRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/banheiroRed.png"
           }
         ]
       },
@@ -934,7 +934,7 @@
     },
     "geladeiraEOutrosBens": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "geladeiraEOutrosBens",
@@ -944,19 +944,19 @@
             "color": "green",
             "value": "Green - Minha família tem uma geladeira e dois ou mais dos seguintes ativos: rádio, TV, telefone, motocicleta, máquina de lavar.",
             "label": "Minha família tem uma geladeira e dois ou mais dos seguintes ativos: rádio, TV, telefone, motocicleta, máquina de lavar.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/geladeiraEOutrosBensGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/geladeiraEOutrosBensGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família tem dois desses ativos: rádio, TV, telefone, motocicleta, máquina de lavar, geladeira. Ou se ela tem mais de dois, não tem geladeira.",
             "label": "Minha família tem dois desses ativos: rádio, TV, telefone, motocicleta, máquina de lavar, geladeira. Ou se ela tem mais de dois, não tem geladeira.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/geladeiraEOutrosBensYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/geladeiraEOutrosBensYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família possui um ou nenhum desses ativos: rádio, TV, telefone, motocicleta, máquina de lavar, geladeira.",
             "label": "Minha família possui um ou nenhum desses ativos: rádio, TV, telefone, motocicleta, máquina de lavar, geladeira.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/geladeiraEOutrosBensRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/geladeiraEOutrosBensRed.png"
           }
         ]
       },
@@ -973,7 +973,7 @@
     },
     "telefone": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "telefone",
@@ -983,19 +983,19 @@
             "color": "green",
             "value": "Green - Minha família tem um serviço de telefone fixo/celular com plano de telefonia.",
             "label": "Minha família tem um serviço de telefone fixo/celular com plano de telefonia.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/telefoneGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/telefoneGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família tem um serviço de telefone fixo/celular, porém nem sempre tem crédito ou a rede disponível.  ",
             "label": "Minha família tem um serviço de telefone fixo/celular, porém nem sempre tem crédito ou a rede disponível.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/telefoneYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/telefoneYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família não tem serviço de telefone (nem telefone celular, nem  telefone fixo).",
             "label": "Minha família não tem serviço de telefone (nem telefone celular, nem  telefone fixo).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/telefoneRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/telefoneRed.png"
           }
         ]
       },
@@ -1012,7 +1012,7 @@
     },
     "roupa": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "roupa",
@@ -1022,19 +1022,19 @@
             "color": "green",
             "value": "Green - Todos os membros da minha família têm  roupas e sapatos adequados para a estação, em quantidade suficiente para trocar  diariamente.",
             "label": "Todos os membros da minha família têm  roupas e sapatos adequados para a estação, em quantidade suficiente para trocar  diariamente.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/roupaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/roupaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Todos os membros da minha família têm  roupas e sapatos adequados para a estação, mas não para trocar diariamente.",
             "label": "Todos os membros da minha família têm  roupas e sapatos adequados para a estação,  em quantidade suficiente para trocar diariamente.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/roupaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/roupaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Pelo menos um membro da minha  família não possui roupas e sapatos adequados para a  estação ou para trocar diariamente.",
             "label": "Pelo menos um membro da minha  família não possui roupas e  sapatos adequados para a  estação ou para trocar diariamente.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/roupaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/roupaRed.png"
           }
         ]
       },
@@ -1051,7 +1051,7 @@
     },
     "segurancaDaPessoa": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "segurancaDaPessoa",
@@ -1061,19 +1061,19 @@
             "color": "green",
             "value": "Green - Nenhum membro da minha  família sofreu atos de violência nos últimos doze meses.",
             "label": "Nenhum membro da minha  família sofreu atos de violência nos últimos doze meses.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/segurancaDaPessoaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/segurancaDaPessoaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Pelo menos um membro da minha  família sofreu um ato de violência  nos últimos doze meses,  mas ele também pôde continuar com  suas atividades ou ir ao trabalho.",
             "label": "Pelo menos um membro da minha  família sofreu um ato de violência  nos últimos doze meses,  mas ele também pôde continuar com  suas atividades ou ir ao trabalho.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/segurancaDaPessoaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/segurancaDaPessoaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Pelo menos um membro da minha  família sofreu um ato de violência, nos últimos doze meses e como resultado, não pôde trabalhar por um dia inteiro ou mais, ou foi  uma causa de morte.",
             "label": "Pelo menos um membro da minha  família sofreu um ato de violência, nos últimos doze meses e como resultado, não pôde trabalhar por um dia inteiro ou mais, ou foi  uma causa de morte.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/segurancaDaPessoaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/segurancaDaPessoaRed.png"
           }
         ]
       },
@@ -1090,7 +1090,7 @@
     },
     "segurancaDaPropriedade": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "segurancaDaPropriedade",
@@ -1100,19 +1100,19 @@
             "color": "green",
             "value": "Green - Minha família não sofreu atos de violência e / ou roubo contra suas propriedades nos últimos doze meses.",
             "label": "Minha família não sofreu atos de violência e / ou roubo contra suas propriedades nos últimos doze meses.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/segurancaDaPropriedadeGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/segurancaDaPropriedadeGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família sofreu um ato de violência  e/ou roubo contra sua propriedade nos últimos doze meses. Isso nos afetou moderadamente (financeiramente ou psicologicamente), porém já esquecemos.",
             "label": "Minha família sofreu um ato de violência  e/ou roubo contra sua propriedade nos últimos doze meses. Isso nos afetou moderadamente (financeiramente ou psicologicamente), porém já esquecemos.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/segurancaDaPropriedadeYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/segurancaDaPropriedadeYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família sofreu mais de um ato de violência e/ou roubo de propriedade nos últimos doze meses. Isso nos afetou fortemente (financeiramente ou psicologicamente) e não esquecemos.",
             "label": "Minha família sofreu mais de um ato de violência e/ou roubo de propriedade nos últimos doze meses. Isso nos afetou fortemente (financeiramente ou psicologicamente) e não esquecemos.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/segurancaDaPropriedadeRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/segurancaDaPropriedadeRed.png"
           }
         ]
       },
@@ -1129,7 +1129,7 @@
     },
     "eletricidade": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "eletricidade",
@@ -1139,19 +1139,19 @@
             "color": "green",
             "value": "Green - Minha família tem acesso permanente  e não clandestino à eletricidade.",
             "label": "Minha família tem acesso permanente  e não clandestino à eletricidade.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/eletricidadeGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/eletricidadeGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família tem acesso à eletricidade, mas o acesso é  clandestino e/ou insuficiente (a  família passa quatro horas ou mais  do dia sem eletricidade).",
             "label": "Minha família tem acesso à  eletricidade, mas o acesso é  clandestino e/ou insuficiente (a  família passa quatro horas ou mais  do dia sem eletricidade).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/eletricidadeYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/eletricidadeYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família tem acesso permanente e não clandestino à eletricidade.",
             "label": "Minha família tem acesso permanente  e não clandestino à eletricidade.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/eletricidadeRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/eletricidadeRed.png"
           }
         ]
       },
@@ -1168,7 +1168,7 @@
     },
     "meioDeTransporte": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "meioDeTransporte",
@@ -1178,19 +1178,19 @@
             "color": "green",
             "value": "Green - Minha família tem acesso a transporte  regular e confiável, próprio ou  público,  a menos de dez minutos da casa e que  passa pelo menos a cada hora.",
             "label": "Minha família tem acesso a transporte  regular e confiável, próprio ou  público,  a menos de dez minutos da casa e que  passa pelo menos a cada hora.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/meioDeTransporteGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/meioDeTransporteGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família tem acesso a transporte  que não é regular e/ou confiável, seja  ele próprio ou público a menos de trinta  minutos da casa e que passa pelo menos a cada duas horas.",
             "label": "Minha família tem acesso a transporte  que não é regular e/ou confiável, seja  ele próprio ou público a menos de trinta  minutos da casa e que passa pelo menos a cada duas horas.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/meioDeTransporteYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/meioDeTransporteYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família não tem meio de transporte próprio e o transporte público, fica a mais de 30 minutos da casa ou passa com mais de duas horas entre um e outro.",
             "label": "Minha família não tem meio de transporte próprio e o transporte público, fica a mais de 30 minutos da casa ou passa com mais de duas horas entre um e outro.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/meioDeTransporteRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/meioDeTransporteRed.png"
           }
         ]
       },
@@ -1207,7 +1207,7 @@
     },
     "estradas": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "estradas",
@@ -1217,19 +1217,19 @@
             "color": "green",
             "value": "Green - A estrada que minha família usa para se mover ao centro urbano mais próximo é pavimentada. É acessível o tempo todo, mesmo durante chuva forte.",
             "label": "A estrada que minha família usa para se mover ao centro urbano mais próximo é pavimentada. É acessível o tempo todo, mesmo durante chuva forte.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/estradasGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/estradasGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - A estrada que minha família usa  para se mover para o centro urbano mais próximo é de terra ou é asfaltada, ou é de paralelepípedos, mas está em mau estado e é difícil de percorrer em um período de  chuvas fortes ou contínuas.",
             "label": "A estrada que minha família usa  para se mover para o centro urbano mais próximo é de terra ou é asfaltada, ou é de paralelepípedos, mas está em mau estado e é difícil de percorrer em um período de  chuvas fortes ou contínuas.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/estradasYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/estradasYellow.png"
           },
           {
             "color": "red",
             "value": "Red - A estrada que minha família usa  para se mover para o centro  urbano mais próximo é de terra  e em dias de mau tempo, fica  difícil de passar.",
             "label": "A estrada que minha família usa  para se mover para o centro  urbano mais próximo é de terra  e em dias de mau tempo, fica  difícil de passar.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/estradasRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/estradasRed.png"
           }
         ]
       },
@@ -1246,7 +1246,7 @@
     },
     "criancasNaEscola": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "criancasNaEscola",
@@ -1256,19 +1256,19 @@
             "color": "green",
             "value": "Green - Todos os membros da minha família em  idade escolar vão para a escola ou terminaram o terceiro ano do ensino médio.",
             "label": "Todos os membros da minha família em  idade escolar vão para a escola ou terminaram o terceiro ano do ensino médio.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/criancasNaEscolaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/criancasNaEscolaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Entre os membros da minha  família, há pelo menos uma criança  ou adolescente em idade escolar  que não frequenta a escola ou o  ensino médio.",
             "label": "Entre os membros da minha  família, há pelo menos uma criança  ou adolescente em idade escolar  que não frequenta a escola ou o  ensino médio.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/criancasNaEscolaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/criancasNaEscolaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Nenhum membro da minha família  em idade escolar frequenta a escola  ou o ensino médio.",
             "label": "Nenhum membro da minha família  em idade escolar frequenta a escola  ou o ensino médio.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/criancasNaEscolaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/criancasNaEscolaRed.png"
           }
         ]
       },
@@ -1285,7 +1285,7 @@
     },
     "alfabetizacao": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "alfabetizacao",
@@ -1295,19 +1295,19 @@
             "color": "green",
             "value": "Green - Todos os membros da minha família, com quinze anos ou mais, podem ler e escrever e fazem isso facilmente.",
             "label": "Todos os membros da minha família, com quinze anos ou mais, podem ler e escrever e fazem isso facilmente.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/alfabetizacaoGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/alfabetizacaoGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Todos os membros da minha família, com quinze  anos ou mais, sabem ler e escrever, mas pelo menos um tem dificuldades de ler e/ou escrever.",
             "label": "Todos os membros da minha família, com quinze  anos ou mais, sabem ler e escrever, mas pelo menos um tem dificuldades de ler e/ou escrever.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/alfabetizacaoYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/alfabetizacaoYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Pelo menos um membro da minha  família, com quinze anos ou mais, não  sabe ler e/ou escrever.",
             "label": "Pelo menos um membro da minha  família, com quinze anos ou mais, não  sabe ler e/ou escrever.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/alfabetizacaoRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/alfabetizacaoRed.png"
           }
         ]
       },
@@ -1324,7 +1324,7 @@
     },
     "materialEscolar": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "materialEscolar",
@@ -1334,19 +1334,19 @@
             "color": "green",
             "value": "Green - Os membros da minha família, que estão na escola,  têm uniformes e todo o material escolar recomendados pelo professor.",
             "label": "Os membros da minha família, que estão na escola,  têm uniformes e todo o material escolar recomendados pelo professor.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/materialEscolarGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/materialEscolarGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Os membros da minha família, que estão na escola,  têm uniformes e todo o material escolar recomendados pelo professor.",
             "label": "Os membros da minha família, que estão na escola,  têm uniformes e todo o material escolar recomendados pelo professor.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/materialEscolarYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/materialEscolarYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Os membros da minha família, que estão na escola, não têm alguns materiais escolares e/ou uniforme recomendados pelo professor.",
             "label": "Os membros da minha família, que estão na escola, não têm alguns materiais escolares e/ou uniforme recomendados pelo professor.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/materialEscolarRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/materialEscolarRed.png"
           }
         ]
       },
@@ -1363,7 +1363,7 @@
     },
     "orcamento": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "orcamento",
@@ -1373,19 +1373,19 @@
             "color": "green",
             "value": "Green - Todos os membros da minha família sabem o que ganham e o que gastam, se comprometem com a economia familiar, participam da elaboração de um orçamento escrito ou digitado e o acompanham permanentemente.",
             "label": "Todos os membros da minha família sabem o que ganham e o que gastam, se comprometem com a economia familiar, participam da elaboração de um orçamento escrito ou digitado e o acompanham permanentemente.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/orcamentoGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/orcamentoGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Todos os membros da minha família sabem o que ganham e o que gastam, porém não são comprometidos com a economia familiar, não possuem um orçamento escrito e nem o acompanham.",
             "label": "Todos os membros da minha família sabem o que ganham e o que gastam, porém não são comprometidos com a economia familiar, não possuem um orçamento escrito e nem o acompanham.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/orcamentoYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/orcamentoYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Os membros da minha família não sabem o que ganham e o que gastam ou não se comprometem com a economia familiar. Não possuem um orçamento por escrito.",
             "label": "Os membros da minha família não sabem o que ganham e o que gastam ou não se comprometem com a economia familiar. Não possuem um orçamento por escrito.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/orcamentoRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/orcamentoRed.png"
           }
         ]
       },
@@ -1402,7 +1402,7 @@
     },
     "gerarRenda": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "gerarRenda",
@@ -1412,19 +1412,19 @@
             "color": "green",
             "value": "Green Pelo menos um membro da minha  família possui treinamento profissional e habilidades que facilitam o acesso às oportunidades de trabalho e geração de renda, garantindo o atendimento das necessidades básicas da família.",
             "label": "Pelo menos um membro da minha  família possui treinamento profissional e habilidades que facilitam o acesso às oportunidades de trabalho e geração de renda, garantindo o atendimento das necessidades básicas da família.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/gerarRendaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/gerarRendaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow -Pelo menos um membro da minha  família possui treinamento profissional e habilidades que facilitam o acesso às oportunidades de trabalho e geração de renda, porém isso não garante o atendimento das necessidades básicas da família.",
             "label": "Pelo menos um membro da minha  família possui treinamento profissional e habilidades que facilitam o acesso às oportunidades de trabalho e geração de renda, porém isso não garante o atendimento das necessidades básicas da família.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/gerarRendaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/gerarRendaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Nenhum membro da minha família possui treinamento profissional e habilidades que facilitam o acesso às oportunidades de trabalho e geração de renda, o que dificulta o atendimento das necessidades básicas da família.",
             "label": "Nenhum membro da minha família possui treinamento profissional e habilidades que facilitam o acesso às oportunidades de trabalho e geração de renda, o que dificulta o atendimento das necessidades básicas da família.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/gerarRendaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/gerarRendaRed.png"
           }
         ]
       },
@@ -1441,7 +1441,7 @@
     },
     "informacao": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "informacao",
@@ -1451,19 +1451,19 @@
             "color": "green",
             "value": "Green - Minha família tem acesso diário a TV, rádio ou Internet.",
             "label": "Minha família tem acesso diário a TV, rádio ou Internet.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/informacaoGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/informacaoGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família tem acesso a pelo menos dois dos itens a seguir: TV, rádio ou Internet.",
             "label": "Minha família tem acesso a pelo menos dois dos itens a seguir: TV, rádio ou Internet.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/informacaoYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/informacaoYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família não tem acesso a nenhum dos itens abaixo: TV, rádio ou Internet.",
             "label": "Minha família não tem acesso a nenhum dos itens abaixo: TV, rádio ou Internet.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/informacaoRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/informacaoRed.png"
           }
         ]
       },
@@ -1480,7 +1480,7 @@
     },
     "entretenimento": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "entretenimento",
@@ -1490,19 +1490,19 @@
             "color": "green",
             "value": "Green - Todos os membros da minha família tem pelo menos duas atividade semanal de lazer.",
             "label": "Todos os membros da minha família tem pelo menos duas atividade semanal de lazer.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/entretenimentoGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/entretenimentoGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Os membros da minha família têm menos de duas atividades semanais de lazer.",
             "label": "Os membros da minha família têm menos de duas atividades semanais de lazer.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/entretenimentoYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/entretenimentoYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Os membros da  minha família não tem atividades semanais de lazer.",
             "label": "Os membros da  minha família não tem atividades semanais de lazer.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/entretenimentoRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/entretenimentoRed.png"
           }
         ]
       },
@@ -1519,7 +1519,7 @@
     },
     "diversidade": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "diversidade",
@@ -1529,19 +1529,19 @@
             "color": "green",
             "value": "Green - Minha família se relaciona com as pessoas independentemente de gênero, ideologia política, religião, etnia, ou orientação sexual.",
             "label": "Minha família se relaciona com as pessoas independentemente de gênero, ideologia política, religião, etnia, ou orientação sexual.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/diversidadeGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/diversidadeGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Alguns membros da minha família se relacionam com as pessoas independentemente de gênero, ideologia política, religião, etnia ou orientação sexual.",
             "label": "Alguns membros da minha família se relacionam com as pessoas independentemente de gênero, ideologia política, religião, etnia ou orientação sexual.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/diversidadeYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/diversidadeYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família se relaciona somente com pessoas que possuem a mesma ideologia política, religiosa, étnica e não aceita pessoas com outra orientação sexual.",
             "label": "Minha família se relaciona somente com pessoas que possuem a mesma ideologia política, religiosa, étnica e não aceita pessoas com outra orientação sexual.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/diversidadeRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/diversidadeRed.png"
           }
         ]
       },
@@ -1558,7 +1558,7 @@
     },
     "direitosHumanos": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "direitosHumanos",
@@ -1568,19 +1568,19 @@
             "color": "green",
             "value": "Green - A família sabe da existência dos Direitos Humanos, se comporta dentro destes princípios e consegue verbalizar sobre alguns conceitos.",
             "label": "A família sabe da existência dos Direitos Humanos, se comporta dentro destes princípios e consegue verbalizar sobre alguns conceitos.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/direitosHumanosGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/direitosHumanosGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - A família sabe da existência dos Direitos Humanos, se comporta parcialmente dentro destes princípios, porém não consegue verbalizar conceitos.",
             "label": "A família sabe da existência dos Direitos Humanos, se comporta parcialmente dentro destes princípios, porém não consegue verbalizar conceitos.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/direitosHumanosYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/direitosHumanosYellow.png"
           },
           {
             "color": "red",
             "value": "Red - A família não sabe da existência da Declaração Universal dos Direitos Humanos, e se comporta fora da maioria destes princípios.",
             "label": "A família não sabe da existência da Declaração Universal dos Direitos Humanos, e se comporta fora da maioria destes princípios.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/direitosHumanosRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/direitosHumanosRed.png"
           }
         ]
       },
@@ -1597,7 +1597,7 @@
     },
     "trabalhoInfantil": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "trabalhoInfantil",
@@ -1607,19 +1607,19 @@
             "color": "green",
             "value": "Green - Entre os membros da minha família,  nenhuma criança abaixo de quatorze anos está trabalhando.",
             "label": "Entre os membros da minha família,  nenhuma criança abaixo de quatorze anos está trabalhando.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/trabalhoInfantilGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/trabalhoInfantilGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Entre os membros da minha  família, há pelo menos uma criança abaixo de quatorze anos que trabalha, mas  frequenta a escola regularmente.",
             "label": "Entre os membros da minha  família, há pelo menos uma criança abaixo de quatorze anos que trabalha, mas  frequenta a escola regularmente.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/trabalhoInfantilYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/trabalhoInfantilYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Entre os membros da minha família,  há pelo menos uma criança abaixo de quatorze anos que trabalha e não frequenta a escola  regularmente.",
             "label": "Entre os membros da minha família,  há pelo menos uma criança abaixo de quatorze anos que trabalha e não frequenta a escola  regularmente.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/trabalhoInfantilRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/trabalhoInfantilRed.png"
           }
         ]
       },
@@ -1636,7 +1636,7 @@
     },
     "grupos": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "grupos",
@@ -1646,19 +1646,19 @@
             "color": "green",
             "value": "Green - Pelo menos um membro da minha  família participa ativa e  permanentemente de um ou mais  grupos.",
             "label": "Pelo menos um membro da minha  família participa ativa e  permanentemente de um ou mais  grupos.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/gruposGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/gruposGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Pelo menos um membro da minha  família participa de vez em quando de um grupo.",
             "label": "Pelo menos um membro da minha  família participa de vez em quando de um grupo.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/gruposYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/gruposYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Nenhum membro da minha  família participa de um grupo  de maneira ativa e permanente.",
             "label": "Nenhum membro da minha  família participa de um grupo  de maneira ativa e permanente.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/gruposRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/gruposRed.png"
           }
         ]
       },
@@ -1675,7 +1675,7 @@
     },
     "impactoNoSetorPublico": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "impactoNoSetorPublico",
@@ -1685,19 +1685,19 @@
             "color": "green",
             "value": "Green - Minha família não tem problemas que  exijam intervenção do governo. No caso de tê-los, nos organizamos em grupo com outras famílias e fazemos uma reclamação. Acompanhamos e normalmente chegamos a alguma solução.",
             "label": "Minha família não tem problemas que  exijam intervenção do governo. No caso de tê-los, nos organizamos em grupo com outras famílias e fazemos uma reclamação. Acompanhamos e normalmente chegamos a alguma solução.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/impactoNoSetorPublicoGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/impactoNoSetorPublicoGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Minha família tem problemas que requerem intervenção do estado. Reclamamos individualmente, porém, não conseguimos nos organizar em grupo com outras famílias para somarmos força. Temos dificuldades para chegar a alguma solução.",
             "label": "Minha família tem problemas que requerem intervenção do estado. Reclamamos individualmente, porém, não conseguimos nos organizar em grupo com outras famílias para somarmos força. Temos dificuldades para chegar a alguma solução.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/impactoNoSetorPublicoYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/impactoNoSetorPublicoYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família tem problemas que requerem intervenção do estado, mas não reclamamos, apenas permanecemos no aguardo da solução.",
             "label": "Minha família tem problemas que requerem intervenção do estado, mas não reclamamos, apenas permanecemos no aguardo da solução.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/impactoNoSetorPublicoRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/impactoNoSetorPublicoRed.png"
           }
         ]
       },
@@ -1714,7 +1714,7 @@
     },
     "problemasEConflitos": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "problemasEConflitos",
@@ -1724,19 +1724,19 @@
             "color": "green",
             "value": "Green - No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto e resolveu de forma pacífica.",
             "label": "No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto e resolveu de forma pacífica.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/problemasEConflitosGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/problemasEConflitosGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto, houve alteração de voz e as relações ficaram abaladas por alguns dias.",
             "label": "No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto, houve alteração de voz e as relações ficaram abaladas por alguns dias.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/problemasEConflitosYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/problemasEConflitosYellow.png"
           },
           {
             "color": "red",
             "value": "Red - No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto, houve alteração de voz, insultos e brigas. As relações ainda estão abaladas.",
             "label": "No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto, houve alteração de voz, insultos e brigas. As relações ainda estão abaladas.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/problemasEConflitosRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/problemasEConflitosRed.png"
           }
         ]
       },
@@ -1753,7 +1753,7 @@
     },
     "votacao": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "votacao",
@@ -1763,19 +1763,19 @@
             "color": "green",
             "value": "Green - Os membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam com consciência nas eleições.",
             "label": "Os membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam com consciência nas eleições.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/votacaoGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/votacaoGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Alguns membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam nas eleições.",
             "label": "Alguns membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam nas eleições.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/votacaoYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/votacaoYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Os membros da minha família em idade eleitoral não acompanham os candidatos e seus planos de governo e/ou não votam nas eleições.",
             "label": "Os membros da minha família em idade eleitoral não acompanham os candidatos e seus planos de governo e/ou não votam nas eleições.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/votacaoRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/votacaoRed.png"
           }
         ]
       },
@@ -1792,7 +1792,7 @@
     },
     "mapaDeVida": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "mapaDeVida",
@@ -1802,19 +1802,19 @@
             "color": "green",
             "value": "Green - Minha família sabe o que pode melhorar sua situação atual. Para isso, possui metas atingíveis no médio (seis meses) e no longo prazo (um ano ou mais). A família realiza ações continuamente para alcançá-las.",
             "label": "Minha família sabe o que pode melhorar sua situação atual. Para isso, possui metas atingíveis no médio (seis meses) e no longo prazo (um ano ou mais). A família realiza ações continuamente para alcançá-las.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/mapaDeVidaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/mapaDeVidaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow -Minha família sabe o que pode melhorar sua situação atual, mas eles não têm metas de médio (seis meses) e de longo prazo (um ano  ou mais). Não conseguem se organizar para alcança-las.",
             "label": "Minha família sabe o que pode melhorar sua situação atual, mas eles não têm metas de médio (seis meses) e de longo prazo (um ano  ou mais). Não conseguem se organizar para alcança-las.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/mapaDeVidaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/mapaDeVidaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família pensa que não pode melhorar sua situação atual, não quer fazer ou não percebe possibilidade de melhoria nesse sentido.Consequentemente, não possui metas de curto ou longo prazo.",
             "label": "Minha família pensa que não pode melhorar sua situação atual, não quer fazer ou não percebe possibilidade de melhoria nesse sentido. Consequentemente, não possui metas de curto ou longo prazo.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/mapaDeVidaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/mapaDeVidaRed.png"
           }
         ]
       },
@@ -1831,7 +1831,7 @@
     },
     "autoconfianca": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "autoconfianca",
@@ -1841,19 +1841,19 @@
             "color": "green",
             "value": "Green - Sinto-me preparado e capaz de realizar o que preciso, as pessoas reconhecem a minha competência e me sinto bem sobre isso.",
             "label": "Sinto-me preparado e capaz de realizar o que preciso, as pessoas reconhecem a minha competência e me sinto bem sobre isso.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/autoconfiancaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/autoconfiancaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Sinto-me preparado e capaz de realizar o que preciso, porém não percebo o reconhecimento das pessoas.",
             "label": "Sinto-me preparado e capaz de realizar o que preciso, porém não percebo o reconhecimento das pessoas.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/autoconfiancaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/autoconfiancaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Não me sinto preparado e quase nunca  alcanço o que quero. As pessoas não me admiram pelo que sou e faço.",
             "label": "Não me sinto preparado e quase nunca  alcanço o que quero. As pessoas não me admiram pelo que sou e faço.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/autoconfiancaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/autoconfiancaRed.png"
           }
         ]
       },
@@ -1870,7 +1870,7 @@
     },
     "conscienciaMoral": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "conscienciaMoral",
@@ -1880,19 +1880,19 @@
             "color": "green",
             "value": "Green - Minha família se preocupa e toma decisões levando em consideração a forma que suas ações podem afetar o outro.",
             "label": "Minha família se preocupa e toma decisões levando em consideração a forma que suas ações podem afetar o outro.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/conscienciaMoralGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/conscienciaMoralGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Nem sempre minha família se preocupa e toma decisões levando em consideração a forma que suas ações podem afetar o outro.",
             "label": "Nem sempre minha família se preocupa e toma decisões levando em consideração a forma que suas ações podem afetar o outro.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/conscienciaMoralYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/conscienciaMoralYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Minha família dificilmente se preocupa com a forma que suas ações podem afetar o outro.",
             "label": "Minha família dificilmente se preocupa com a forma que suas ações podem afetar o outro.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/conscienciaMoralRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/conscienciaMoralRed.png"
           }
         ]
       },
@@ -1909,7 +1909,7 @@
     },
     "controleEmocional": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "controleEmocional",
@@ -1919,19 +1919,19 @@
             "color": "green",
             "value": "Green - Entendo que emoções como raiva, tristeza, medo ou ciúme podem ter uma influência negativa na minha vida e que existem maneiras de controlá-las.Em geral, eu consigo controlá-las e tento não tomar ações ou decisões no calor do momento.",
             "label": "Nome do mapa de vida: Capacidade emocional – afetiva",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/controleEmocionalGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/controleEmocionalGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Entendo que emoções como  raiva, tristeza, medo ou ciúmes podem ter uma influência  negativa na minha vida, e  existem maneiras de controlá-las. No entanto, muitas vezes minhas  emoções me levam a cometer  falhas das quais mais tarde me  arrependo.",
             "label": "Entendo que emoções como  raiva, tristeza, medo ou ciúmes podem ter uma influência  negativa na minha vida, e  existem maneiras de controlá-las. No entanto, muitas vezes minhas  emoções me levam a cometer  falhas das quais mais tarde me  arrependo.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/controleEmocionalYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/controleEmocionalYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Emoções como raiva, tristeza,  medo, ciúmes, são constantes em  minha vida e determinam minhas  ações. Não há nada que se possa  fazer para influenciar isso (não há  como controlá-las).",
             "label": "Emoções como raiva, tristeza,  medo, ciúmes, são constantes em  minha vida e determinam minhas  ações. Não há nada que se possa  fazer para influenciar isso (não há  como controlá-las).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/controleEmocionalRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/controleEmocionalRed.png"
           }
         ]
       },
@@ -1948,7 +1948,7 @@
     },
     "violencia": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "violencia",
@@ -1958,19 +1958,19 @@
             "color": "green",
             "value": "Green - Nenhum membro da minha  família está sujeito a violência familiar.",
             "label": "Nenhum membro da minha  família está sujeito a violência familiar.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/violenciaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/violenciaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Há violência na minha família. A vítima a vê como um ataque e toma medidas para evitá-la.",
             "label": "Há violência na minha família. A vítima a vê como um ataque e toma medidas para evitá-la.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/violenciaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/violenciaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Existe violência em minha família  e nenhuma ação é tomada para evitá-la.",
             "label": "Existe violência em minha família  e nenhuma ação é tomada para evitá-la.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/violenciaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/violenciaRed.png"
           }
         ]
       },
@@ -1987,7 +1987,7 @@
     },
     "espiritoEmpreendedor": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "espiritoEmpreendedor",
@@ -1997,19 +1997,19 @@
             "color": "green",
             "value": "Green - Pelo menos dois membros da minha família têm espírito empreendedor, não se adaptam à situação atual e fazem algo para mudá-la.",
             "label": "Pelo menos dois membros da minha família têm espírito empreendedor, não se adaptam à situação atual e fazem algo para mudá-la.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/espiritoEmpreendedorGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/espiritoEmpreendedorGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Um membro da minha família tem  espírito empreendedor, não está de  acordo com a situação atual e quer mudá-la.",
             "label": "Um membro da minha família tem  espírito empreendedor, não está de  acordo com a situação atual e quer mudá-la.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/espiritoEmpreendedorYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/espiritoEmpreendedorYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Os membros da minha família não assumem nada de novo. Eles acham que nada pode mudar ou não querem mudar, eles se conformam.",
             "label": "Os membros da minha família não assumem nada de novo. Eles acham que nada pode mudar ou não querem mudar, eles se conformam.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/espiritoEmpreendedorRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/espiritoEmpreendedorRed.png"
           }
         ]
       },
@@ -2026,7 +2026,7 @@
     },
     "autonomia": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "autonomia",
@@ -2036,19 +2036,19 @@
             "color": "green",
             "value": "Green - Tomo decisões sobre os principais aspectos da minha vida e participo ativamente das decisões da família. Essas decisões refletem o que eu valorizo, minha opinião é ouvida e respeitada.",
             "label": "Tomo decisões sobre os principais aspectos da minha vida e participo ativamente das decisões da família. Essas decisões refletem o que eu valorizo, minha opinião é ouvida e respeitada.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/autonomiaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/autonomiaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Às vezes tomo decisões sobre os principais aspectos da minha vida e participo das decisões da minha família. Essas decisões refletem o que eu valorizo, porém, minha opinião nem sempre é ouvida e respeitada. Acabo concordando para agradar outras pessoas e evitar consequências.",
             "label": "Às vezes tomo decisões sobre os principais aspectos da minha vida e participo das decisões da minha família. Essas decisões refletem o que eu valorizo, porém, minha opinião nem sempre é ouvida e respeitada. Acabo concordando para agradar outras pessoas e evitar consequências.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/autonomiaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/autonomiaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Não tomo decisões sobre os principais aspectos da minha vida. Faço o que me dizem para evitar consequências negativas.",
             "label": "Não tomo decisões sobre os principais aspectos da minha vida. Faço o que me dizem para evitar consequências negativas.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/autonomiaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/autonomiaRed.png"
           }
         ]
       },
@@ -2065,7 +2065,7 @@
     },
     "tempoEnFamilia": {
       "type": "react-component",
-      "path": "sustainability-stoplight-es/assets/StoplightQuestion.tsx",
+      "path": "sustainability-stoplight-pry/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
         "questionId": "tempoEnFamilia",
@@ -2075,19 +2075,19 @@
             "color": "green",
             "value": "Green - Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com os jovens (brincar, ajudar nos trabalhos de casa, conversar, contar histórias) 3 ou mais vezes, por mais de 3 horas.",
             "label": "Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com os jovens (brincar, ajudar nos trabalhos de casa, conversar, contar histórias) 3 ou mais vezes, por mais de 3 horas.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/tempoEnFamiliaGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/tempoEnFamiliaGreen.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com eles (brincando, ajudando a fazer as tarefas de casa, conversando, contando histórias) 1 ou 2 vezes por semana, por menos de 3 horas.",
             "label": "Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com eles (brincando, ajudando a fazer as tarefas de casa, conversando, contando histórias) 1 ou 2 vezes por semana, por menos de 3 horas.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/tempoEnFamiliaYellow.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/tempoEnFamiliaYellow.png"
           },
           {
             "color": "red",
             "value": "Red - Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) não interagiram com os jovens (brincar, ajudar nos trabalhos de casa, conversar, contar histórias).",
             "label": "Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) não interagiram com os jovens (brincar, ajudar nos trabalhos de casa, conversar, contar histórias).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-es/assets/images/tempoEnFamiliaRed.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/tempoEnFamiliaRed.png"
           }
         ]
       },
