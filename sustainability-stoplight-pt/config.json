@@ -1845,14 +1845,14 @@
           },
           {
             "color": "yellow",
-            "value": "Yellow - Sinto-me preparado e capaz de realizar o que preciso, as pessoas reconhecem a minha competência e me sinto bem sobre isso.",
-            "label": "Sinto-me preparado e capaz de realizar o que preciso, as pessoas reconhecem a minha competência e me sinto bem sobre isso.",
+            "value": "Yellow - Sinto-me preparado e capaz de realizar o que preciso, porém não percebo o reconhecimento das pessoas.",
+            "label": "Sinto-me preparado e capaz de realizar o que preciso, porém não percebo o reconhecimento das pessoas.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/autoconfiancaYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Não me sinto preparado e quase nunca  alcanço o que quero.",
-            "label": "Não me sinto preparado e quase nunca  alcanço o que quero.",
+            "value": "Red - Não me sinto preparado e quase nunca  alcanço o que quero. As pessoas não me admiram pelo que sou e faço.",
+            "label": "Não me sinto preparado e quase nunca  alcanço o que quero. As pessoas não me admiram pelo que sou e faço.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/autoconfiancaRed.png"
           }
         ]
