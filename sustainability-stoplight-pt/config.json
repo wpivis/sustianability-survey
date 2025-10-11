@@ -1098,8 +1098,8 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Segurança da propriedade",
-            "label": "Nome do mapa de vida: Segurança da propriedade",
+            "value": "Green - Minha família não sofreu atos de violência e / ou roubo contra suas propriedades nos últimos doze meses.",
+            "label": "Minha família não sofreu atos de violência e / ou roubo contra suas propriedades nos últimos doze meses.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/segurancaDaPropriedadeGreen.png"
           },
           {
@@ -1110,8 +1110,8 @@
           },
           {
             "color": "red",
-            "value": "Red - Minha família não sofreu atos de violência e / ou roubo contra suas propriedades nos últimos doze meses.",
-            "label": "Minha família não sofreu atos de violência e / ou roubo contra suas propriedades nos últimos doze meses.",
+            "value": "Red - Minha família sofreu mais de um ato de violência e/ou roubo de propriedade nos últimos doze meses. Isso nos afetou fortemente (financeiramente ou psicologicamente) e não esquecemos.",
+            "label": "Minha família sofreu mais de um ato de violência e/ou roubo de propriedade nos últimos doze meses. Isso nos afetou fortemente (financeiramente ou psicologicamente) e não esquecemos.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/segurancaDaPropriedadeRed.png"
           }
         ]
@@ -1137,8 +1137,8 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Eletricidade",
-            "label": "Nome do mapa de vida: Eletricidade",
+            "value": "Green - Minha família tem acesso permanente  e não clandestino à eletricidade.",
+            "label": "Minha família tem acesso permanente  e não clandestino à eletricidade.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/eletricidadeGreen.png"
           },
           {
