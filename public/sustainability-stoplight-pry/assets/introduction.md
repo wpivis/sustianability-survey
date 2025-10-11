@@ -1,29 +1,33 @@
-# Bem-vindo à Pesquisa sobre Semáforos de Pobreza!
+# ¡Bienvenido a la Encuesta sobre Semáforos de Pobreza! 🚦
 
-Agradecemos sua participação em nosso estudo que explora hábitos e comportamentos cotidianos de sustentabilidade.
+Agradecemos tu participación en nuestro estudio que explora hábitos y comportamientos cotidianos relacionados con la sostenibilidad.
 
-## Sobre esta Pesquisa
-Para cada pergunta, você verá **cartões no estilo de semáforo**, que representam diferentes níveis de sustentabilidade:
-- 🟢 **Verde** - Práticas mais sustentáveis
-- 🟡 **Amarelo** - Sustentabilidade moderada
-- 🔴 **Vermelho** - Práticas menos sustentáveis
+## Sobre esta encuesta
 
-## 🎤 Protocolo "Think-Aloud" ou "Pensar em Voz Alta"
+Para cada pregunta, verás **tarjetas al estilo de semáforo**, que representan diferentes niveles de sostenibilidad:
 
-**Recomendamos fortemente que você pense em voz alta enquanto responde!**
+- 🟢 **Verde** – Prácticas más sostenibles  
+- 🟡 **Amarillo** – Sostenibilidad moderada  
+- 🔴 **Rojo** – Prácticas menos sostenibles
 
-Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar cada pergunta. Isso nos ajuda a entender:
-- Como você interpreta as perguntas
-- Quais fatores influenciam suas escolhas
-- Como é a sua experiência geral com o questionário
+## 🎤 Protocolo “Think-Aloud” o “Pensar en voz alta”
 
-O seu navegador solicitará permissão para acessar o microfone — por favor, permita o uso para que possamos gravar o áudio.
-Não se preocupe em pausar ou ser perfeito(a) — queremos ouvir seus pensamentos e reações naturais!
+**Te recomendamos encarecidamente que pienses en voz alta mientras respondes.**
 
-## Tempo de participação
+Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones al considerar cada pregunta.  
+Esto nos ayuda a entender:
 
-Esta pesquisa leva aproximadamente **5 a 10 minutos** para ser concluída.
+- Cómo interpretas las preguntas  
+- Qué factores influyen en tus elecciones  
+- Cómo es tu experiencia general con el cuestionario
+
+Tu navegador te pedirá permiso para acceder al micrófono — por favor, permite el uso para que podamos grabar el audio.  
+No te preocupes por hacer pausas o por ser perfecto(a): queremos escuchar tus pensamientos y reacciones naturales.
+
+## ⏳ Tiempo de participación
+
+Completar esta encuesta toma aproximadamente **de 5 a 10 minutos**.
 
 ---
 
-Quando estiver pronto para começar, clique no botão **Próximo** abaixo.
+Cuando estés listo(a) para comenzar, haz clic en el botón **Siguiente** a continuación.
