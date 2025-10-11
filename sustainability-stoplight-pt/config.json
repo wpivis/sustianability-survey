@@ -1490,7 +1490,7 @@
             "color": "green",
             "value": "Green - Todos os membros da minha família tem pelo menos duas atividade semanal de lazer.",
             "label": "Todos os membros da minha família tem pelo menos duas atividade semanal de lazer.",
-            "path": "https: //raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/entretenimentoGreen.png"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/entretenimentoGreen.png"
           },
           {
             "color": "yellow",
@@ -1527,20 +1527,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Respeito pela diversidade",
-            "label": "Nome do mapa de vida: Respeito pela diversidade",
+            "value": "Green - Minha família se relaciona com as pessoas independentemente de gênero, ideologia política, religião, etnia, ou orientação sexual.",
+            "label": "Minha família se relaciona com as pessoas independentemente de gênero, ideologia política, religião, etnia, ou orientação sexual.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/diversidadeGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Minha família se relaciona com as pessoas independentemente de gênero, ideologia política, religião, etnia, ou orientação sexual.",
-            "label": "Minha família se relaciona com as pessoas independentemente de gênero, ideologia política, religião, etnia, ou orientação sexual.",
+            "value": "Yellow - Alguns membros da minha família se relacionam com as pessoas independentemente de gênero, ideologia política, religião, etnia ou orientação sexual.",
+            "label": "Alguns membros da minha família se relacionam com as pessoas independentemente de gênero, ideologia política, religião, etnia ou orientação sexual.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/diversidadeYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Alguns membros da minha família se relacionam com as pessoas independentemente de gênero, ideologia política, religião, etnia ou orientação sexual.",
-            "label": "Alguns membros da minha família se relacionam com as pessoas independentemente de gênero, ideologia política, religião, etnia ou orientação sexual.",
+            "value": "Red - Minha família se relaciona somente com pessoas que possuem a mesma ideologia política, religiosa, étnica e não aceita pessoas com outra orientação sexual.",
+            "label": "Minha família se relaciona somente com pessoas que possuem a mesma ideologia política, religiosa, étnica e não aceita pessoas com outra orientação sexual.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/diversidadeRed.png"
           }
         ]
@@ -1566,8 +1566,8 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Consciência dos direitos humanos",
-            "label": "Nome do mapa de vida: Consciência dos direitos humanos",
+            "value": "Green - A família sabe da existência dos Direitos Humanos, se comporta dentro destes princípios e consegue verbalizar sobre alguns conceitos.",
+            "label": "A família sabe da existência dos Direitos Humanos, se comporta dentro destes princípios e consegue verbalizar sobre alguns conceitos.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/direitosHumanosGreen.png"
           },
           {
@@ -1605,20 +1605,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Trabalho infantil",
-            "label": "Nome do mapa de vida: Trabalho infantil",
+            "value": "Green - Entre os membros da minha família,  nenhuma criança abaixo de quatorze anos está trabalhando.",
+            "label": "Entre os membros da minha família,  nenhuma criança abaixo de quatorze anos está trabalhando.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/trabalhoInfantilGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Entre os membros da minha família,  nenhuma criança abaixo de quatorze anos está trabalhando.",
-            "label": "Entre os membros da minha família,  nenhuma criança abaixo de quatorze anos está trabalhando.",
+            "value": "Yellow - Entre os membros da minha  família, há pelo menos uma criança abaixo de quatorze anos que trabalha, mas  frequenta a escola regularmente.",
+            "label": "Entre os membros da minha  família, há pelo menos uma criança abaixo de quatorze anos que trabalha, mas  frequenta a escola regularmente.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/trabalhoInfantilYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Entre os membros da minha  família, há pelo menos uma criança abaixo de quatorze anos que trabalha, mas  frequenta a escola regularmente.",
-            "label": "Entre os membros da minha  família, há pelo menos uma criança abaixo de quatorze anos que trabalha, mas  frequenta a escola regularmente.",
+            "value": "Red - Entre os membros da minha família,  há pelo menos uma criança abaixo de quatorze anos que trabalha e não frequenta a escola  regularmente.",
+            "label": "Entre os membros da minha família,  há pelo menos uma criança abaixo de quatorze anos que trabalha e não frequenta a escola  regularmente.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/trabalhoInfantilRed.png"
           }
         ]
@@ -1644,14 +1644,14 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: É parte de um grupo",
-            "label": "Nome do mapa de vida: É parte de um grupo",
+            "value": "Green - Pelo menos um membro da minha  família participa ativa e  permanentemente de um ou mais  grupos.",
+            "label": "Pelo menos um membro da minha  família participa ativa e  permanentemente de um ou mais  grupos.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/gruposGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Pelo menos um membro da minha  família participa ativa e  permanentemente de um ou mais  grupos.",
-            "label": "Pelo menos um membro da minha  família participa ativa e  permanentemente de um ou mais  grupos.",
+            "value": "Yellow - Pelo menos um membro da minha  família participa de vez em quando de um grupo.",
+            "label": "Pelo menos um membro da minha  família participa de vez em quando de um grupo.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/gruposYellow.png"
           },
           {
@@ -1683,20 +1683,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Impacto no setor público",
+            "value": "Green - Minha família não tem problemas que  exijam intervenção do governo. No caso de tê-los, nos organizamos em grupo com outras famílias e fazemos uma reclamação. Acompanhamos e normalmente chegamos a alguma solução.",
             "label": "Minha família não tem problemas que  exijam intervenção do governo. No caso de tê-los, nos organizamos em grupo com outras famílias e fazemos uma reclamação. Acompanhamos e normalmente chegamos a alguma solução.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/impactoNoSetorPublicoGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Minha família não tem problemas que  exijam intervenção do governo. No caso de tê-los, nos organizamos em grupo com outras famílias e fazemos uma reclamação. Acompanhamos e normalmente chegamos a alguma solução.",
-            "label": "Minha família não tem problemas que  exijam intervenção do governo. No caso de tê-los, nos organizamos em grupo com outras famílias e fazemos uma reclamação. Acompanhamos e normalmente chegamos a alguma solução.",
+            "value": "Yellow - Minha família tem problemas que requerem intervenção do estado. Reclamamos individualmente, porém, não conseguimos nos organizar em grupo com outras famílias para somarmos força. Temos dificuldades para chegar a alguma solução.",
+            "label": "Minha família tem problemas que requerem intervenção do estado. Reclamamos individualmente, porém, não conseguimos nos organizar em grupo com outras famílias para somarmos força. Temos dificuldades para chegar a alguma solução.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/impactoNoSetorPublicoYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Minha família tem problemas que requerem intervenção do estado. Reclamamos individualmente, porém, não conseguimos nos organizar em grupo com outras famílias para somarmos força. Temos dificuldades para chegar a alguma solução.",
-            "label": "Minha família tem problemas que requerem intervenção do estado. Reclamamos individualmente, porém, não conseguimos nos organizar em grupo com outras famílias para somarmos força. Temos dificuldades para chegar a alguma solução.",
+            "value": "Red - Minha família tem problemas que requerem intervenção do estado, mas não reclamamos, apenas permanecemos no aguardo da solução.",
+            "label": "Minha família tem problemas que requerem intervenção do estado, mas não reclamamos, apenas permanecemos no aguardo da solução.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/impactoNoSetorPublicoRed.png"
           }
         ]
@@ -1722,20 +1722,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Capacidade de resolver problemas e conflitos",
-            "label": "Nome do mapa de vida: Capacidade de resolver problemas e conflitos",
+            "value": "Green - No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto e resolveu de forma pacífica.",
+            "label": "No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto e resolveu de forma pacífica.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/problemasEConflitosGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto e resolveu de forma pacífica.",
-            "label": "No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto e resolveu de forma pacífica.",
+            "value": "Yellow - No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto, houve alteração de voz e as relações ficaram abaladas por alguns dias.",
+            "label": "No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto, houve alteração de voz e as relações ficaram abaladas por alguns dias.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/problemasEConflitosYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto, houve alteração de voz e as relações ficaram abaladas por alguns dias.",
-            "label": "No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto, houve alteração de voz e as relações ficaram abaladas por alguns dias.",
+            "value": "Red - No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto, houve alteração de voz, insultos e brigas. As relações ainda estão abaladas.",
+            "label": "No último mês, quando surgiu um problema ou conflito, minha família conversou sobre o assunto, houve alteração de voz, insultos e brigas. As relações ainda estão abaladas.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/problemasEConflitosRed.png"
           }
         ]
@@ -1761,20 +1761,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Voto nas eleições",
-            "label": "Nome do mapa de vida: Voto nas eleições",
+            "value": "Green - Os membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam com consciência nas eleições.",
+            "label": "Os membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam com consciência nas eleições.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/votacaoGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Os membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam com consciência nas eleições.",
-            "label": "Os membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam com consciência nas eleições.",
+            "value": "Yellow - Alguns membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam nas eleições.",
+            "label": "Alguns membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam nas eleições.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/votacaoYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Alguns membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam nas eleições.",
-            "label": "Alguns membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam nas eleições.",
+            "value": "Red - Os membros da minha família em idade eleitoral não acompanham os candidatos e seus planos de governo e/ou não votam nas eleições.",
+            "label": "Os membros da minha família em idade eleitoral não acompanham os candidatos e seus planos de governo e/ou não votam nas eleições.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/votacaoRed.png"
           }
         ]
@@ -1800,20 +1800,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Consciência de suas necessidades",
-            "label": "Nome do mapa de vida: Consciência de suas necessidades",
+            "value": "Green - Minha família sabe o que pode melhorar sua situação atual. Para isso, possui metas atingíveis no médio (seis meses) e no longo prazo (um ano ou mais). A família realiza ações continuamente para alcançá-las.",
+            "label": "Minha família sabe o que pode melhorar sua situação atual. Para isso, possui metas atingíveis no médio (seis meses) e no longo prazo (um ano ou mais). A família realiza ações continuamente para alcançá-las.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/mapaDeVidaGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Minha família pensa que não pode melhorar sua situação atual, não quer fazer ou não percebe possibilidade de melhoria nesse sentido.",
-            "label": "Minha família pensa que não pode melhorar sua situação atual, não quer fazer ou não percebe possibilidade de melhoria nesse sentido.",
+            "value": "Yellow -Minha família sabe o que pode melhorar sua situação atual, mas eles não têm metas de médio (seis meses) e de longo prazo (um ano  ou mais). Não conseguem se organizar para alcança-las.",
+            "label": "Minha família sabe o que pode melhorar sua situação atual, mas eles não têm metas de médio (seis meses) e de longo prazo (um ano  ou mais). Não conseguem se organizar para alcança-las.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/mapaDeVidaYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Consequentemente, não possui metas de curto ou longo prazo.",
-            "label": "Consequentemente, não possui metas de curto ou longo prazo.",
+            "value": "Red - Minha família pensa que não pode melhorar sua situação atual, não quer fazer ou não percebe possibilidade de melhoria nesse sentido.Consequentemente, não possui metas de curto ou longo prazo.",
+            "label": "Minha família pensa que não pode melhorar sua situação atual, não quer fazer ou não percebe possibilidade de melhoria nesse sentido. Consequentemente, não possui metas de curto ou longo prazo.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/mapaDeVidaRed.png"
           }
         ]
@@ -1839,8 +1839,8 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Confiança em si mesmo",
-            "label": "Nome do mapa de vida: Confiança em si mesmo",
+            "value": "Green - Sinto-me preparado e capaz de realizar o que preciso, as pessoas reconhecem a minha competência e me sinto bem sobre isso.",
+            "label": "Sinto-me preparado e capaz de realizar o que preciso, as pessoas reconhecem a minha competência e me sinto bem sobre isso.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/autoconfiancaGreen.png"
           },
           {
@@ -1878,20 +1878,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Consciência moral",
-            "label": "Nome do mapa de vida: Consciência moral",
+            "value": "Green - Minha família se preocupa e toma decisões levando em consideração a forma que suas ações podem afetar o outro.",
+            "label": "Minha família se preocupa e toma decisões levando em consideração a forma que suas ações podem afetar o outro.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/conscienciaMoralGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Minha família se preocupa e toma decisões levando em consideração a forma que suas ações podem afetar o outro.",
-            "label": "Minha família se preocupa e toma decisões levando em consideração a forma que suas ações podem afetar o outro.",
+            "value": "Yellow - Nem sempre minha família se preocupa e toma decisões levando em consideração a forma que suas ações podem afetar o outro.",
+            "label": "Nem sempre minha família se preocupa e toma decisões levando em consideração a forma que suas ações podem afetar o outro.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/conscienciaMoralYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Nem sempre minha família se preocupa e toma decisões levando em consideração a forma que suas ações podem afetar o outro.",
-            "label": "Nem sempre minha família se preocupa e toma decisões levando em consideração a forma que suas ações podem afetar o outro.",
+            "value": "Red - Minha família dificilmente se preocupa com a forma que suas ações podem afetar o outro.",
+            "label": "Minha família dificilmente se preocupa com a forma que suas ações podem afetar o outro.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/conscienciaMoralRed.png"
           }
         ]
@@ -1917,20 +1917,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Capacidade emocional – afetiva",
+            "value": "Green - Entendo que emoções como raiva, tristeza, medo ou ciúme podem ter uma influência negativa na minha vida e que existem maneiras de controlá-las.Em geral, eu consigo controlá-las e tento não tomar ações ou decisões no calor do momento.",
             "label": "Nome do mapa de vida: Capacidade emocional – afetiva",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/controleEmocionalGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Entendo que emoções como raiva, tristeza, medo ou ciúme podem ter uma influência negativa na minha vida e que existem maneiras de controlá-las.",
-            "label": "Entendo que emoções como raiva, tristeza, medo ou ciúme podem ter uma influência negativa na minha vida e que existem maneiras de controlá-las.",
+            "value": "Yellow - Entendo que emoções como  raiva, tristeza, medo ou ciúmes podem ter uma influência  negativa na minha vida, e  existem maneiras de controlá-las. No entanto, muitas vezes minhas  emoções me levam a cometer  falhas das quais mais tarde me  arrependo.",
+            "label": "Entendo que emoções como  raiva, tristeza, medo ou ciúmes podem ter uma influência  negativa na minha vida, e  existem maneiras de controlá-las. No entanto, muitas vezes minhas  emoções me levam a cometer  falhas das quais mais tarde me  arrependo.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/controleEmocionalYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Em geral, eu consigo controlá-las e tento não tomar ações ou decisões no calor do momento.",
-            "label": "Em geral, eu consigo controlá-las e tento não tomar ações ou decisões no calor do momento.",
+            "value": "Red - Emoções como raiva, tristeza,  medo, ciúmes, são constantes em  minha vida e determinam minhas  ações. Não há nada que se possa  fazer para influenciar isso (não há  como controlá-las).",
+            "label": "Emoções como raiva, tristeza,  medo, ciúmes, são constantes em  minha vida e determinam minhas  ações. Não há nada que se possa  fazer para influenciar isso (não há  como controlá-las).",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/controleEmocionalRed.png"
           }
         ]
@@ -1962,8 +1962,8 @@
           },
           {
             "color": "yellow",
-            "value": "Yellow - Nenhum membro da minha  família está sujeito a violência familiar.",
-            "label": "Nenhum membro da minha  família está sujeito a violência familiar.",
+            "value": "Yellow - Há violência na minha família. A vítima a vê como um ataque e toma medidas para evitá-la.",
+            "label": "Há violência na minha família. A vítima a vê como um ataque e toma medidas para evitá-la.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/violenciaYellow.png"
           },
           {
@@ -1995,14 +1995,14 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Espírito empreendedor",
-            "label": "Nome do mapa de vida: Espírito empreendedor",
+            "value": "Green - Pelo menos dois membros da minha família têm espírito empreendedor, não se adaptam à situação atual e fazem algo para mudá-la.",
+            "label": "Pelo menos dois membros da minha família têm espírito empreendedor, não se adaptam à situação atual e fazem algo para mudá-la.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/espiritoEmpreendedorGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Pelo menos dois membros da minha família têm espírito empreendedor, não se adaptam à situação atual e fazem algo para mudá-la.",
-            "label": "Pelo menos dois membros da minha família têm espírito empreendedor, não se adaptam à situação atual e fazem algo para mudá-la.",
+            "value": "Yellow - Um membro da minha família tem  espírito empreendedor, não está de  acordo com a situação atual e quer mudá-la.",
+            "label": "Um membro da minha família tem  espírito empreendedor, não está de  acordo com a situação atual e quer mudá-la.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/espiritoEmpreendedorYellow.png"
           },
           {
@@ -2034,20 +2034,20 @@
         "options": [
           {
             "color": "green",
-            "value": "Green - Nome do mapa de vida: Autonomia e capacidade de tomar decisões",
-            "label": "Nome do mapa de vida: Autonomia e capacidade de tomar decisões",
+            "value": "Green - Tomo decisões sobre os principais aspectos da minha vida e participo ativamente das decisões da família. Essas decisões refletem o que eu valorizo, minha opinião é ouvida e respeitada.",
+            "label": "Tomo decisões sobre os principais aspectos da minha vida e participo ativamente das decisões da família. Essas decisões refletem o que eu valorizo, minha opinião é ouvida e respeitada.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/autonomiaGreen.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Tomo decisões sobre os principais aspectos da minha vida e participo ativamente das decisões da família. Essas decisões refletem o que eu valorizo, minha opinião é ouvida e respeitada.",
-            "label": "Tomo decisões sobre os principais aspectos da minha vida e participo ativamente das decisões da família. Essas decisões refletem o que eu valorizo, minha opinião é ouvida e respeitada.",
+            "value": "Yellow - Às vezes tomo decisões sobre os principais aspectos da minha vida e participo das decisões da minha família. Essas decisões refletem o que eu valorizo, porém, minha opinião nem sempre é ouvida e respeitada. Acabo concordando para agradar outras pessoas e evitar consequências.",
+            "label": "Às vezes tomo decisões sobre os principais aspectos da minha vida e participo das decisões da minha família. Essas decisões refletem o que eu valorizo, porém, minha opinião nem sempre é ouvida e respeitada. Acabo concordando para agradar outras pessoas e evitar consequências.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/autonomiaYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Às vezes tomo decisões sobre os principais aspectos da minha vida e participo das decisões da minha família.",
-            "label": "Às vezes tomo decisões sobre os principais aspectos da minha vida e participo das decisões da minha família.",
+            "value": "Red - Não tomo decisões sobre os principais aspectos da minha vida. Faço o que me dizem para evitar consequências negativas.",
+            "label": "Não tomo decisões sobre os principais aspectos da minha vida. Faço o que me dizem para evitar consequências negativas.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/autonomiaRed.png"
           }
         ]
@@ -2079,14 +2079,14 @@
           },
           {
             "color": "yellow",
-            "value": "Yellow - Nos últimos 7 dias, os pais ou responsáveis pelos jovens da minha família (18 anos ou menos) interagiram com os jovens (brincar, ajudar nos trabalhos de casa, conversar, contar histórias) 3 ou mais vezes, por mais de 3 horas.",
-            "label": "Nos últimos 7 dias, os pais ou responsáveis pelos jovens da minha família (18 anos ou menos) interagiram com os jovens (brincar, ajudar nos trabalhos de casa, conversar, contar histórias) 3 ou mais vezes, por mais de 3 horas.",
+            "value": "Yellow - Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com eles (brincando, ajudando a fazer as tarefas de casa, conversando, contando histórias) 1 ou 2 vezes por semana, por menos de 3 horas.",
+            "label": "Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com eles (brincando, ajudando a fazer as tarefas de casa, conversando, contando histórias) 1 ou 2 vezes por semana, por menos de 3 horas.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/tempoEnFamiliaYellow.png"
           },
           {
             "color": "red",
-            "value": "Red - Nos últimos 7 dias, os pais ou responsáveis pelos jovens da minha família (18 anos ou menos) interagiram com eles (brincando, ajudando a fazer as tarefas de casa, conversando, contando histórias) 1 ou 2 vezes por semana, por menos de 3 horas.",
-            "label": "Nos últimos 7 dias, os pais ou responsáveis pelos jovens da minha família (18 anos ou menos) interagiram com eles (brincando, ajudando a fazer as tarefas de casa, conversando, contando histórias) 1 ou 2 vezes por semana, por menos de 3 horas.",
+            "value": "Red - Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) não interagiram com os jovens (brincar, ajudar nos trabalhos de casa, conversar, contar histórias).",
+            "label": "Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) não interagiram com os jovens (brincar, ajudar nos trabalhos de casa, conversar, contar histórias).",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pt/assets/images/tempoEnFamiliaRed.png"
           }
         ]
