@@ -47,13 +47,13 @@
             "color": "red",
             "value": "Red - Mi familia tiene ingresos inferiores a la línea de pobreza extrema.",
             "label": "Mi familia tiene ingresos inferiores a la línea de pobreza extrema.",
-            "path": "https: //raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/ingresosRed.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/ingresosRed.jpg"
           },
           {
             "color": "yellow",
             "value": "Yellow - Mi familia tiene ingresos inferiores a la línea de pobreza total y superiores a la línea de pobreza extrema.",
             "label": "Mi familia tiene ingresos inferiores a la línea de pobreza total y superiores a la línea de pobreza extrema.",
-            "path": "https: //raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/ingresosYellow.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/ingresosYellow.jpg"
           },
           {
             "color": "green",
@@ -86,13 +86,13 @@
             "color": "red",
             "value": "Red - Ningún miembro de mi familia tiene ahorros.",
             "label": "Ningún miembro de mi familia tiene ahorros.",
-            "path": "https: //raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/ahorrosRed.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/ahorrosRed.jpg"
           },
           {
             "color": "yellow",
             "value": "Yellow - Uno o más miembros de mi familia tienen ahorros de manera informal (mantienen el dinero en casa o en la propiedad, grupos informales de ahorro, etc.). O tienen una cuenta de ahorro hace menos de seis meses.",
             "label": "Uno o más miembros de mi familia tienen ahorros de manera informal (mantienen el dinero en casa o en la propiedad, grupos informales de ahorro, etc.). O tienen una cuenta de ahorro hace menos de seis meses.",
-            "path": "https: //raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/ahorrosYellow.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/ahorrosYellow.jpg"
           },
           {
             "color": "green",
@@ -131,7 +131,7 @@
             "color": "yellow",
             "value": "Yellow - Mi familia ha accedido a créditos en los últimos doce meses, pero solamente de instituciones no legales (macatero, familiares, patrón, etc.).",
             "label": "Mi familia ha accedido a créditos en los últimos doce meses, pero solamente de instituciones no legales (macatero, familiares, patrón, etc.).",
-            "path": "https: //raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/creditoYellow.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/creditoYellow.jpg"
           },
           {
             "color": "green",
@@ -242,19 +242,19 @@
             "color": "red",
             "value": "Red - Mi familia vive en un ambiente donde siempre hay malos olores y humo inapropiados provenientes de industrias, producción pecuaria u otras fuentes, además de, residuos de productos químicos, mala eliminación o ausencia de tratamiento de basuras. Existe peligro para su salud, pero no ha gestionado su solución por que piensa que nasa se puede hacer para solucionar la contaminación.",
             "label": "Mi familia vive en un ambiente donde siempre hay malos olores y humo inapropiados provenientes de industrias, producción pecuaria u otras fuentes, además de, residuos de productos químicos, mala eliminación o ausencia de tratamiento de basuras. Existe peligro para su salud, pero no ha gestionado su solución por que piensa que nasa se puede hacer para solucionar la contaminación.",
-            "path": "https: //raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/medioambienteRed.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/medioambienteRed.jpg"
           },
           {
             "color": "yellow",
             "value": "Yellow - Mi familia vive en un ambiente donde ocasionalmente hay contaminación. Hay malos olores y humo inapropiados provenientes de industrias, producción pecuaria u otras fuentes, residuos de productos químicos y mala eliminación o ausencia de tratamiento de basuras. Probablemente existe peligro para nuestra salud, pero no ha gestionado para solucionar la contaminación.",
             "label": "Mi familia vive en un ambiente donde ocasionalmente hay contaminación. Hay malos olores y humo inapropiados provenientes de industrias, producción pecuaria u otras fuentes, residuos de productos químicos y mala eliminación o ausencia de tratamiento de basuras. Probablemente existe peligro para nuestra salud, pero no ha gestionado para solucionar la contaminación.",
-            "path": "https: //raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/medioambienteYellow.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/medioambienteYellow.jpg"
           },
           {
             "color": "green",
             "value": "Green - Mi familia vive en un ambiente no contaminado. No hay malos olores, ni humos inapropiados provenientes de industrias, producción pecuaria u otras fuentes; tampoco residuos de productos químicos mala eliminación o ausencia de tratamiento de basuras. Si hubo o hay contaminación se gestiona para resolverla.",
             "label": "Mi familia vive en un ambiente no contaminado. No hay malos olores, ni humos inapropiados provenientes de industrias, producción pecuaria u otras fuentes; tampoco residuos de productos químicos mala eliminación o ausencia de tratamiento de basuras. Si hubo o hay contaminación se gestiona para resolverla.",
-            "path": "https: //raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/medioambienteGreen.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/medioambienteGreen.jpg"
           }
         ]
       },
@@ -710,19 +710,19 @@
             "color": "red",
             "value": "Red - Mi familia tiene uno o ninguno de estos activos: radio, TV, teléfono, motocicleta, lavarropas, heladera.",
             "label": "Mi familia tiene uno o ninguno de estos activos: radio, TV, teléfono, motocicleta, lavarropas, heladera.",
-            "path": "https: //raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/activosRed.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/activosRed.jpg"
           },
           {
             "color": "yellow",
             "value": "Yellow - Mi familia tiene dos de estos activos: radio, TV, teléfono, motocicleta, lavarropas, heladera. O si tiene más de dos, no tiene heladera.",
             "label": "Mi familia tiene dos de estos activos: radio, TV, teléfono, motocicleta, lavarropas, heladera. O si tiene más de dos, no tiene heladera.",
-            "path": "https: //raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/activosYellow.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/activosYellow.jpg"
           },
           {
             "color": "green",
             "value": "Green - Mi familia tiene heladera y dos o más de los siguientes activos: radio, TV, teléfono, motocicleta, lavarropas.",
             "label": "Mi familia tiene heladera y dos o más de los siguientes activos: radio, TV, teléfono, motocicleta, lavarropas.",
-            "path": "https: //raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/activosGreen.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-pry/assets/images/activosGreen.jpg"
           }
         ]
       },
@@ -1414,9 +1414,6 @@
           "options": [
             "Mujer",
             "Hombre",
-            "No binario / Género queer / Tercer género",
-            "Género fluido / No conforme con el género",
-            "En cuestionamiento",
             "Prefiero no responder"
           ]
         },
@@ -1448,8 +1445,6 @@
             "Menos que la educación secundaria",
             "Educación secundaria completa o equivalente",
             "Educación universitaria / Licenciatura o equivalente",
-            "Maestría o equivalente",
-            "Doctorado o equivalente",
             "Prefiero no responder"
           ]
         },
