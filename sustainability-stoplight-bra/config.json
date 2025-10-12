@@ -2116,9 +2116,6 @@
           "options": [
             "Mulher",
             "Homem",
-            "Não-binário / Gênero queer / Terceiro gênero",
-            "Gênero fluido / Não conforme ao gênero",
-            "Em questionamento",
             "Prefiro não informar"
           ]
         },
@@ -2150,8 +2147,6 @@
             "Menos que o ensino médio",
             "Ensino médio completo ou equivalente",
             "Graduação / Bacharelado ou equivalente",
-            "Mestrado ou equivalente",
-            "Doutorado ou equivalente",
             "Prefiro não informar"
           ]
         },
