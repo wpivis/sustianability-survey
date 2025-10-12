@@ -18,7 +18,7 @@ type Props = {
 };
 
 export function NextButton({
-  label = 'Next',
+  label = 'Próximo',
   disabled = false,
   configInUse,
   location,

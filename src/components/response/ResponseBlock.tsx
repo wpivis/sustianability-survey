@@ -279,7 +279,7 @@ export function ResponseBlock({
     return () => {};
   }, [checkAnswerProvideFeedback, nextOnEnter]);
 
-  const nextButtonText = useMemo(() => configInUse?.nextButtonText ?? studyConfig.uiConfig.nextButtonText ?? 'Next', [configInUse, studyConfig]);
+  const nextButtonText = useMemo(() => configInUse?.nextButtonText ?? studyConfig.uiConfig.nextButtonText ?? 'Próximo', [configInUse, studyConfig]);
 
   let index = 0;
   return (

@@ -15,6 +15,12 @@ interface StoplightParams {
   options: StoplightOption[];
 }
 
+const translator = {
+  red: 'Vermelha',
+  yellow: 'Amarela',
+  green: 'Verde',
+};
+
 // This component creates a stoplight-style question display
 // mimicking the sustainability stoplight cards shown in the images
 function StoplightQuestion({ parameters, setAnswer }: StimulusParams<StoplightParams>) {
@@ -226,7 +232,7 @@ function StoplightQuestion({ parameters, setAnswer }: StimulusParams<StoplightPa
                   textTransform: 'capitalize',
                 }}
                 >
-                  {isNeutralQuestion ? option.label : option.color}
+                  {isNeutralQuestion ? option.label : translator[option.color as keyof typeof translator]}
                 </span>
               </div>
             </div>

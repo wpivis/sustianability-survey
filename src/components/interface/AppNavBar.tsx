@@ -37,7 +37,7 @@ export function AppNavBar() {
           p="md"
         >
           <Text span c="orange.8" fw={700} inherit>
-            Task:
+            Tarea:
           </Text>
           <ReactMarkdownWrapper text={instruction} />
         </AppShell.Section>
