@@ -6,10 +6,12 @@ Agradecemos tu participación en nuestro estudio que explora hábitos y comporta
 
 Para cada pregunta, verás **tarjetas al estilo de semáforo**, que representan diferentes niveles de sostenibilidad:
 
-- 🟢 **Verde** – Prácticas más sostenibles  
-- 🟡 **Amarillo** – Sostenibilidad moderada  
-- 🔴 **Rojo** – Prácticas menos sostenibles
+🔴 **Rojo** – Prácticas menos sostenibles
 
+🟡 **Amarillo** – Sostenibilidad moderada 
+
+🟢 **Verde** – Prácticas más sostenibles  
+ 
 ## 🎤 Protocolo “Think-Aloud” o “Pensar en voz alta”
 
 **Te recomendamos encarecidamente que pienses en voz alta mientras respondes.**

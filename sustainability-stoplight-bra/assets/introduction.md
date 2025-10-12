@@ -4,9 +4,11 @@ Agradecemos sua participação em nosso estudo que explora hábitos e comportame
 
 ## Sobre esta Pesquisa
 Para cada pergunta, você verá **cartões no estilo de semáforo**, que representam diferentes níveis de sustentabilidade:
-- 🟢 **Verde** - Práticas mais sustentáveis
-- 🟡 **Amarelo** - Sustentabilidade moderada
-- 🔴 **Vermelho** - Práticas menos sustentáveis
+🟢 **Verde** - Práticas mais sustentáveis
+
+🟡 **Amarelo** - Sustentabilidade moderada
+
+🔴 **Vermelho** - Práticas menos sustentáveis
 
 ## 🎤 Protocolo "Think-Aloud" ou "Pensar em Voz Alta"
 
