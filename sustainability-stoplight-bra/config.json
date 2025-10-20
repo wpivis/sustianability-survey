@@ -1020,20 +1020,20 @@
         "options": [
           {
             "color": "red",
-            "value": "Red - Minha família tem problemas que requerem intervenção do estado, mas não reclamamos, apenas permanecemos no aguardo da solução.",
-            "label": "Minha família tem problemas que requerem intervenção do estado, mas não reclamamos, apenas permanecemos no aguardo da solução.",
+            "value": "Red - Minha família enfrenta problemas que requerem intervenção do Estado, mas não fazemos reclamações e apenas aguardamos por uma solução.",
+            "label": "Minha família enfrenta problemas que requerem intervenção do Estado, mas não fazemos reclamações e apenas aguardamos por uma solução.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/setorPublicoRed.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Minha família tem problemas que requerem intervenção do estado. Reclamamos individualmente, porém, não conseguimos nos organizar em grupo com outras famílias para somarmos força. Temos dificuldades para chegar a alguma solução.",
-            "label": "Minha família tem problemas que requerem intervenção do estado. Reclamamos individualmente, porém, não conseguimos nos organizar em grupo com outras famílias para somarmos força. Temos dificuldades para chegar a alguma solução.",
+            "value": "Yellow - Minha família enfrenta problemas que requerem intervenção do Estado, mas fazemos reclamações individuais e não conseguimos nos organizar em grupo com outras famílias, o que dificulta a busca por soluções.",
+            "label": "Minha família enfrenta problemas que requerem intervenção do Estado, mas fazemos reclamações individuais e não conseguimos nos organizar em grupo com outras famílias, o que dificulta a busca por soluções.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/setorPublicoYellow.png"
           },
           {
             "color": "green",
-            "value": "Green - Minha família não tem problemas que  exijam intervenção do governo. No caso de tê-los, nos organizamos em grupo com outras famílias e fazemos uma reclamação. Acompanhamos e normalmente chegamos a alguma solução.",
-            "label": "Minha família não tem problemas que  exijam intervenção do governo. No caso de tê-los, nos organizamos em grupo com outras famílias e fazemos uma reclamação. Acompanhamos e normalmente chegamos a alguma solução.",
+            "value": "Green - Quando minha família enfrenta problemas que exigem intervenção do estado, organizam-se com outras famílias para buscar soluções coletivas. Acompanhamos enormalment e chegamos em alguma solução.",
+            "label": "Quando minha família enfrenta problemas que exigem intervenção do estado, organizam-se com outras famílias para buscar soluções coletivas. Acompanhamos enormalment e chegamos em alguma solução.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/setorPublicoGreen.png"
           }
         ]
@@ -1042,45 +1042,6 @@
       "response": [
         {
           "id": "impactoNoSetorPublico",
-          "prompt": "Sua Resposta",
-          "required": true,
-          "location": "sidebar",
-          "type": "reactive"
-        }
-      ]
-    },
-    "votacao": {
-      "type": "react-component",
-      "path": "sustainability-stoplight-bra/assets/StoplightQuestion.tsx",
-      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
-      "parameters": {
-        "questionId": "votacao",
-        "questionText": "Voto nas eleições",
-        "options": [
-          {
-            "color": "red",
-            "value": "Red - Os membros da minha família em idade eleitoral não acompanham os candidatos e seus planos de governo e/ou não votam nas eleições.",
-            "label": "Os membros da minha família em idade eleitoral não acompanham os candidatos e seus planos de governo e/ou não votam nas eleições.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/votacaoRed.png"
-          },
-          {
-            "color": "yellow",
-            "value": "Yellow - Alguns membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam nas eleições.",
-            "label": "Alguns membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam nas eleições.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/votacaoYellow.png"
-          },
-          {
-            "color": "green",
-            "value": "Green - Os membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam com consciência nas eleições.",
-            "label": "Os membros da minha família em idade eleitoral acompanham os candidatos e seus planos de governo e votam com consciência nas eleições.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/votacaoGreen.png"
-          }
-        ]
-      },
-      "nextButtonLocation": "sidebar",
-      "response": [
-        {
-          "id": "votacao",
           "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
@@ -1098,14 +1059,14 @@
         "options": [
           {
             "color": "red",
-            "value": "Red - Minha família pensa que não pode melhorar sua situação atual, não quer fazer ou não percebe possibilidade de melhoria nesse sentido.Consequentemente, não possui metas de curto ou longo prazo.",
+            "value": "Red - Minha família pensa que não pode melhorar sua situação atual, não quer fazer ou não percebe possibilidade de melhoria nesse sentido. Consequentemente, não possui metas de curto ou longo prazo.",
             "label": "Minha família pensa que não pode melhorar sua situação atual, não quer fazer ou não percebe possibilidade de melhoria nesse sentido. Consequentemente, não possui metas de curto ou longo prazo.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/mapaDeVidaRed.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow -Minha família sabe o que pode melhorar sua situação atual, mas eles não têm metas de médio (seis meses) e de longo prazo (um ano  ou mais). Não conseguem se organizar para alcança-las.",
-            "label": "Minha família sabe o que pode melhorar sua situação atual, mas eles não têm metas de médio (seis meses) e de longo prazo (um ano  ou mais). Não conseguem se organizar para alcança-las.",
+            "value": "Yellow - Minha família pensa que isso pode melhorar sua situação atual, mas eles não têm metas de médio (seis meses) e de longo prazo (um ano ou mais). Não conseguem se organizar para alcança-las.",
+            "label": "Minha família pensa que isso pode melhorar sua situação atual, mas eles não têm metas de médio (seis meses) e de longo prazo (um ano ou mais). Não conseguem se organizar para alcança-las.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/mapaDeVidaYellow.png"
           },
           {
@@ -1137,8 +1098,8 @@
         "options": [
           {
             "color": "red",
-            "value": "Red - Não me sinto preparado e quase nunca  alcanço o que quero. As pessoas não me admiram pelo que sou e faço.",
-            "label": "Não me sinto preparado e quase nunca  alcanço o que quero. As pessoas não me admiram pelo que sou e faço.",
+            "value": "Red - Não me sinto preparado e quase nunca alcanço o que quero. As pessoas não me admiram pelo que sou e faço.",
+            "label": "Não me sinto preparado e quase nunca alcanço o que quero. As pessoas não me admiram pelo que sou e faço.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/autoconfiancaRed.png"
           },
           {
@@ -1215,20 +1176,20 @@
         "options": [
           {
             "color": "red",
-            "value": "Red - Emoções como raiva, tristeza,  medo, ciúmes, são constantes em  minha vida e determinam minhas  ações. Não há nada que se possa  fazer para influenciar isso (não há  como controlá-las).",
-            "label": "Emoções como raiva, tristeza,  medo, ciúmes, são constantes em  minha vida e determinam minhas  ações. Não há nada que se possa  fazer para influenciar isso (não há  como controlá-las).",
+            "value": "Red - Emoções como raiva, tristeza, medo, ciúmes, são constantes em  minha vida e determinam minhas  ações. Não consigo controla-las.",
+            "label": "Emoções como raiva, tristeza, medo, ciúmes, são constantes em  minha vida e determinam minhas  ações. Não consigo controla-las.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/controleEmocionalRed.png"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Entendo que emoções como  raiva, tristeza, medo ou ciúmes podem ter uma influência  negativa na minha vida, e  existem maneiras de controlá-las. No entanto, muitas vezes minhas  emoções me levam a cometer  falhas das quais mais tarde me  arrependo.",
-            "label": "Entendo que emoções como  raiva, tristeza, medo ou ciúmes podem ter uma influência  negativa na minha vida, e  existem maneiras de controlá-las. No entanto, muitas vezes minhas  emoções me levam a cometer  falhas das quais mais tarde me  arrependo.",
+            "value": "Yellow - Entendo que emoções como  raiva, tristeza, medo ou ciúmes podem ter uma influência  negativa na minha vida, e  existem maneiras de controlá-las. No entanto, muitas vezes minhas emoções me levam a cometer  falhas das quais mais tarde me arrependo.",
+            "label": "Entendo que emoções como  raiva, tristeza, medo ou ciúmes podem ter uma influência negativa na minha vida, e  existem maneiras de controlá-las. No entanto, muitas vezes minhas emoções me levam a cometer  falhas das quais mais tarde me arrependo.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/controleEmocionalYellow.png"
           },
           {
             "color": "green",
-            "value": "Green - Entendo que emoções como raiva, tristeza, medo ou ciúme podem ter uma influência negativa na minha vida e que existem maneiras de controlá-las.Em geral, eu consigo controlá-las e tento não tomar ações ou decisões no calor do momento.",
-            "label": "Nome do mapa de vida: Capacidade emocional – afetiva",
+            "value": "Green - Entendo que emoções como raiva, tristeza, medo ou ciúme podem ter uma influência negativa na minha vida e que existem maneiras de controlá-las. Em geral, eu consigo controlá-las e tento não tomar ações ou decisões no calor do momento.",
+            "label": "Entendo que emoções como raiva, tristeza, medo ou ciúme podem ter uma influência negativa na minha vida e que existem maneiras de controlá-las. Em geral, eu consigo controlá-las e tento não tomar ações ou decisões no calor do momento.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/controleEmocionalGreen.png"
           }
         ]
@@ -1254,8 +1215,8 @@
         "options": [
           {
             "color": "red",
-            "value": "Red - Existe violência em minha família  e nenhuma ação é tomada para evitá-la.",
-            "label": "Existe violência em minha família  e nenhuma ação é tomada para evitá-la.",
+            "value": "Red - Existe violência em minha família e nenhuma ação é tomada para evitá-la.",
+            "label": "Existe violência em minha família e nenhuma ação é tomada para evitá-la.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/violenciaRed.png"
           },
           {
@@ -1266,8 +1227,8 @@
           },
           {
             "color": "green",
-            "value": "Green - Nenhum membro da minha  família está sujeito a violência familiar.",
-            "label": "Nenhum membro da minha  família está sujeito a violência familiar.",
+            "value": "Green - Nenhum membro da minha família está sujeito a violência familiar.",
+            "label": "Nenhum membro da minha família está sujeito a violência familiar.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/violenciaGreen.png"
           }
         ]
@@ -1299,8 +1260,8 @@
           },
           {
             "color": "yellow",
-            "value": "Yellow - Um membro da minha família tem  espírito empreendedor, não está de  acordo com a situação atual e quer mudá-la.",
-            "label": "Um membro da minha família tem  espírito empreendedor, não está de  acordo com a situação atual e quer mudá-la.",
+            "value": "Yellow - Um membro da minha família tem espírito empreendedor, não está de acordo com a situação atual e quer mudá-la.",
+            "label": "Um membro da minha família tem espírito empreendedor, não está de acordo com a situação atual e quer mudá-la.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/espiritoEmpreendedorYellow.png"
           },
           {
@@ -1315,45 +1276,6 @@
       "response": [
         {
           "id": "espiritoEmpreendedor",
-          "prompt": "Sua Resposta",
-          "required": true,
-          "location": "sidebar",
-          "type": "reactive"
-        }
-      ]
-    },
-    "autonomia": {
-      "type": "react-component",
-      "path": "sustainability-stoplight-bra/assets/StoplightQuestion.tsx",
-      "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
-      "parameters": {
-        "questionId": "autonomia",
-        "questionText": "Autonomia e capacidade de tomar decisões",
-        "options": [
-          {
-            "color": "red",
-            "value": "Red - Não tomo decisões sobre os principais aspectos da minha vida. Faço o que me dizem para evitar consequências negativas.",
-            "label": "Não tomo decisões sobre os principais aspectos da minha vida. Faço o que me dizem para evitar consequências negativas.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/autonomiaRed.png"
-          },
-          {
-            "color": "yellow",
-            "value": "Yellow - Às vezes tomo decisões sobre os principais aspectos da minha vida e participo das decisões da minha família. Essas decisões refletem o que eu valorizo, porém, minha opinião nem sempre é ouvida e respeitada. Acabo concordando para agradar outras pessoas e evitar consequências.",
-            "label": "Às vezes tomo decisões sobre os principais aspectos da minha vida e participo das decisões da minha família. Essas decisões refletem o que eu valorizo, porém, minha opinião nem sempre é ouvida e respeitada. Acabo concordando para agradar outras pessoas e evitar consequências.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/autonomiaYellow.png"
-          },
-          {
-            "color": "green",
-            "value": "Green - Tomo decisões sobre os principais aspectos da minha vida e participo ativamente das decisões da família. Essas decisões refletem o que eu valorizo, minha opinião é ouvida e respeitada.",
-            "label": "Tomo decisões sobre os principais aspectos da minha vida e participo ativamente das decisões da família. Essas decisões refletem o que eu valorizo, minha opinião é ouvida e respeitada.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/autonomiaGreen.png"
-          }
-        ]
-      },
-      "nextButtonLocation": "sidebar",
-      "response": [
-        {
-          "id": "autonomia",
           "prompt": "Sua Resposta",
           "required": true,
           "location": "sidebar",
@@ -1377,14 +1299,14 @@
           },
           {
             "color": "yellow",
-            "value": "Yellow - Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com eles (brincando, ajudando a fazer as tarefas de casa, conversando, contando histórias) 1 ou 2 vezes por semana, por menos de 3 horas.",
-            "label": "Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com eles (brincando, ajudando a fazer as tarefas de casa, conversando, contando histórias) 1 ou 2 vezes por semana, por menos de 3 horas.",
+            "value": "Yellow - Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com eles (brincando, ajudando a fazer as tarefas de casa, conversando, contando histórias) 1 vez por semana.",
+            "label": "Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com eles (brincando, ajudando a fazer as tarefas de casa, conversando, contando histórias) 1 vez por semana.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/tempoEnFamiliaYellow.png"
           },
           {
             "color": "green",
-            "value": "Green - Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com os jovens (brincar, ajudar nos trabalhos de casa, conversar, contar histórias) 3 ou mais vezes, por mais de 3 horas.",
-            "label": "Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com os jovens (brincar, ajudar nos trabalhos de casa, conversar, contar histórias) 3 ou mais vezes, por mais de 3 horas.",
+            "value": "Green - Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com os jovens (brincar, ajudar nos trabalhos de casa, conversar, contar histórias) 2 ou mais vezes.",
+            "label": "Nos últimos 7 dias, os pais ou responsáveis ​​pelos jovens da minha família (18 anos ou menos) interagiram com os jovens (brincar, ajudar nos trabalhos de casa, conversar, contar histórias) 2 ou mais vezes.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-bra/assets/images/tempoEnFamiliaGreen.png"
           }
         ]
