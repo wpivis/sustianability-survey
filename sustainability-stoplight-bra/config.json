@@ -1010,7 +1010,7 @@
         }
       ]
     },
-    "impactoNoSetorPublico": {
+    "setorPublico": {
       "type": "react-component",
       "path": "sustainability-stoplight-bra/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
@@ -1465,7 +1465,7 @@
       "entretenimento",
       "trabalhoInfantil",
       "grupos",
-      "impactoNoSetorPublico",
+      "setorPublico",
       "problemasEConflitos",
       "mapaDeVida",
       "autoconfianca",
