@@ -770,7 +770,7 @@
         {
           "id": "criancasNaEscola",
           "prompt": "Sua Resposta",
-          "required": true,
+          "required": false,
           "location": "sidebar",
           "type": "reactive"
         }
@@ -926,7 +926,7 @@
         {
           "id": "trabalhoInfantil",
           "prompt": "Sua Resposta",
-          "required": true,
+          "required": false,
           "location": "sidebar",
           "type": "reactive"
         }
