@@ -1015,7 +1015,7 @@
       "path": "sustainability-stoplight-bra/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbalize seus pensamentos, reações e processo de tomada de decisão ao considerar a questão.",
       "parameters": {
-        "questionId": "sectorPublico",
+        "questionId": "setorPublico",
         "questionText": "Impacto no setor público",
         "options": [
           {
