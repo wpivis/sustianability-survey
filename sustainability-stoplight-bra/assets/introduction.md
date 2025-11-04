@@ -1,6 +1,6 @@
 # Bem-vindo à Pesquisa sobre Semáforos de Pobreza!
 
-Agradecemos sua participação em nosso estudo que explora hábitos e comportamentos cotidianos de sustentabilidade.
+Agradecemos sua  participação em nosso estudo que explora hábitos e comportamentos cotidianos de sustentabilidade.
 
 ## Sobre esta Pesquisa
 Para cada pergunta, você verá **cartões no estilo de semáforo**, que representam diferentes níveis de sustentabilidade:
