@@ -3,6 +3,7 @@
   "configsList": [
     "sustainability-stoplight-bra",
     "sustainability-stoplight-pry",
+    "sustainability-stoplight-mex-chp",
     "tutorial",
     "demo-html",
     "demo-html-video",
@@ -59,6 +60,9 @@
     },
     "sustainability-stoplight-pry": {
       "path": "sustainability-stoplight-pry/config.json"
+    },
+    "sustainability-stoplight-mex-chp": {
+      "path": "sustainability-stoplight-mex-chp/config.json"
     },
     "productivity-manager": {
       "path": "productivity-manager/config.json"
