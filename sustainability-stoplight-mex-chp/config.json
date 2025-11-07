@@ -275,7 +275,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "agua",
-        "questionText": "Tenemos canilla",
+        "questionText": "Tenemos acceso constante a agua potable",
         "options": [
           {
             "color": "red",
@@ -548,7 +548,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "prevencion",
-        "questionText": "",
+        "questionText": "Tomamos acciones para prevenir enfermedades",
         "options": [
           {
             "color": "red",
@@ -626,7 +626,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "cuartos",
-        "questionText": "",
+        "questionText": "Dormimos en cuartos separados",
         "options": [
           {
             "color": "red",
@@ -665,7 +665,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "cocina",
-        "questionText": "Tenemos cocina ventilada y elevada",
+        "questionText": "Contamos con una cocina adecuada",
         "options": [
           {
             "color": "red",
@@ -704,7 +704,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "bano",
-        "questionText": "Tenemos baño moderno",
+        "questionText": "Tenemos baño adecuado",
         "options": [
           {
             "color": "red",
@@ -743,7 +743,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "electrodomesticos",
-        "questionText": "",
+        "questionText": "Tenemos electrodomésticos adecuados",
         "options": [
           {
             "color": "red",
@@ -782,7 +782,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "telefono",
-        "questionText": "",
+        "questionText": "Tenemos teléfono o celular",
         "options": [
           {
             "color": "red",
@@ -860,7 +860,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "seguridadDeLosBienes",
-        "questionText": "Mi familia no fue robada",
+        "questionText": "Mi familia no ha sufrido actos de violencia",
         "options": [
           {
             "color": "red",
@@ -938,7 +938,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "transporte",
-        "questionText": "",
+        "questionText": "Tenemos transporte regular",
         "options": [
           {
             "color": "red",
@@ -977,7 +977,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "escolarizacion",
-        "questionText": "Los niños y jóvenes van a la escuela/colegio",
+        "questionText": "Los niños van a la escuela",
         "options": [
           {
             "color": "red",
@@ -1093,7 +1093,7 @@
       "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
-        "questionId": "generarIngresos",
+        "questionId": "Sabemos ganar dinero",
         "questionText": "",
         "options": [
           {
@@ -1133,7 +1133,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "informacion",
-        "questionText": "Tenemos acceso a informacion",
+        "questionText": "Tenemos internet y TV",
         "options": [
           {
             "color": "red",
@@ -1211,7 +1211,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "diversidad",
-        "questionText": "",
+        "questionText": "Respeto las diferencias",
         "options": [
           {
             "color": "red",
@@ -1249,33 +1249,33 @@
       "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
-        "questionId": "",
-        "questionText": "",
+        "questionId": "trabajoInfantil",
+        "questionText": "En mi casa los niños no trabajan",
         "options": [
           {
             "color": "red",
             "value": "Red - ",
             "label": "",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Red.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/trabajoInfantilRed.jpg"
           },
           {
             "color": "yellow",
             "value": "Yellow - ",
             "label": "",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Yellow.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/trabajoInfantilYellow.jpg"
           },
           {
             "color": "green",
             "value": "Green - ",
             "label": ".",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Green.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/trabajoInfantilGreen.jpg"
           }
         ]
       },
       "nextButtonLocation": "sidebar",
       "response": [
         {
-          "id": "",
+          "id": "trabajoInfantil",
           "prompt": "Tu respuesta",
           "required": true,
           "location": "sidebar",
@@ -1367,7 +1367,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "problemasYConflictos",
-        "questionText": "",
+        "questionText": "Resolvemos nuestros problemas",
         "options": [
           {
             "color": "red",
@@ -1406,7 +1406,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "conciencaDeNecesidades",
-        "questionText": "",
+        "questionText": "Tenemos nuestro mapa de vida",
         "options": [
           {
             "color": "red",
@@ -1445,7 +1445,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "autoestima",
-        "questionText": "Confí­o en nuestros logros y capacidades",
+        "questionText": "Confí en mis logros y capacidades",
         "options": [
           {
             "color": "red",
@@ -1484,7 +1484,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "violencia",
-        "questionText": "",
+        "questionText": "No hay violencia en nuestra familia",
         "options": [
           {
             "color": "red",
@@ -1523,7 +1523,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "liderazgoComunitario",
-        "questionText": "",
+        "questionText": "Tomamos iniciativas por la comunidad",
         "options": [
           {
             "color": "red",
