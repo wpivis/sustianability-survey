@@ -41,7 +41,7 @@
       "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
       "parameters": {
         "questionId": "ingresos",
-        "questionText": "Tenemos ingresos superiores a la línea de la pobreza",
+        "questionText": "Tenemos ingresos suficientes",
         "options": [
           {
             "color": "red",
@@ -51,14 +51,14 @@
           },
           {
             "color": "yellow",
-            "value": "Yellow - Mi familia tiene ingresos inferiores a la línea de pobreza total y superiores a la línea de pobreza extrema.",
-            "label": "Mi familia tiene ingresos inferiores a la línea de pobreza total y superiores a la línea de pobreza extrema.",
+            "value": "Yellow - Considero que mi familia tiene un nivel de ingresos suficiente paracubrir nuestras necesidades básicas (alimentación, pago de servicios,educación, etc.).",
+            "label": "Considero que mi familia tiene un nivel de ingresos suficiente paracubrir nuestras necesidades básicas (alimentación, pago de servicios,educación, etc.).",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/ingresosYellow.jpg"
           },
           {
             "color": "green",
-            "value": "Green - Mi familia tiene ingresos que superan la línea de pobreza total.",
-            "label": "Mi familia tiene ingresos que superan la línea de pobreza total.",
+            "value": "Green - Considero que mi familia tiene un nivel de ingresos suficiente paracubrir nuestras necesidades básicas (alimentación, pago de servicios,educación, etc.) y gastos deactividades de entretenimiento.",
+            "label": "Considero que mi familia tiene un nivel de ingresos suficiente paracubrir nuestras necesidades básicas (alimentación, pago de servicios,educación, etc.) y gastos deactividades de entretenimiento.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/ingresosGreen.jpg"
           }
         ]
@@ -84,20 +84,20 @@
         "options": [
           {
             "color": "red",
-            "value": "Red - Ningún miembro de mi familia tiene ahorros.",
-            "label": "Ningún miembro de mi familia tiene ahorros.",
+            "value": "Red - Ningún integrante de mi familia tiene ahorro.",
+            "label": "Ningún integrante de mi familia tiene ahorro.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/ahorrosRed.jpg"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Uno o más miembros de mi familia tienen ahorros de manera informal (mantienen el dinero en casa o en la propiedad, grupos informales de ahorro, etc.). O tienen una cuenta de ahorro hace menos de seis meses.",
-            "label": "Uno o más miembros de mi familia tienen ahorros de manera informal (mantienen el dinero en casa o en la propiedad, grupos informales de ahorro, etc.). O tienen una cuenta de ahorro hace menos de seis meses.",
+            "value": "Yellow - Uno o más integrantes de mi familiatienen ahorros de manera informal,por ejemplo: en tandas, en casa, encajas de ahorro informales, en gruposde ahorros informales, entre otros. O tienen una cuenta de ahorro hace menos de 6 meses.",
+            "label": "Uno o más integrantes de mi familiatienen ahorros de manera informal,por ejemplo: en tandas, en casa, encajas de ahorro informales, en gruposde ahorros informales, entre otros. O tienen una cuenta de ahorro hace menos de 6 meses.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/ahorrosYellow.jpg"
           },
           {
             "color": "green",
-            "value": "Green - Uno o más miembros de mi familia tienen ahorros de manera informal (mantienen el dinero en casa o en la propiedad, grupos informales de ahorro, etc.). O tienen una cuenta de ahorro hace menos de seis meses.",
-            "label": "Uno o más miembros de mi familia tienen ahorros de manera informal (mantienen el dinero en casa o en la propiedad, grupos informales de ahorro, etc.). O tienen una cuenta de ahorro hace menos de seis meses.",
+            "value": "Green - Uno o más integrantes de mi familiatienen ahorros en un banco o caja deahorro formal hace al menos 6 meses.",
+            "label": "Uno o más integrantes de mi familiatienen ahorros en un banco o caja deahorro formal hace al menos 6 meses.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/ahorrosGreen.jpg"
           }
         ]
@@ -123,20 +123,20 @@
         "options": [
           {
             "color": "red",
-            "value": "Red - Ninguno de los miembros de mi familia ha accedido a crédito en los últimos doce meses, a pesar de que necesiten hacerlo.",
-            "label": "Ninguno de los miembros de mi familia ha accedido a crédito en los últimos doce meses, a pesar de que necesiten hacerlo.",
+            "value": "Red - En los últimos 12 meses, por lo menos un miembro de mi familia obtuvo un préstamo o micro crédito menores a $5000 de una institución formal.",
+            "label": "En los últimos 12 meses, por lo menos un miembro de mi familia obtuvo un préstamo o micro crédito menores a $5000 de una institución formal.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/creditoRed.jpg"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Mi familia ha accedido a créditos en los últimos doce meses, pero solamente de instituciones no legales (macatero, familiares, patrón, etc.).",
-            "label": "Mi familia ha accedido a créditos en los últimos doce meses, pero solamente de instituciones no legales (macatero, familiares, patrón, etc.).",
+            "value": "Yellow - En los últimos 12 meses, los miembros de mi familia pudieron obtener un micro crédito menores a $10 000 pero mayores de $5000 de una institución formal.",
+            "label": "En los últimos 12 meses, los miembros de mi familia pudieron obtener un micro crédito menores a $10 000 pero mayores de $5000 de una institución formal.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/creditoYellow.jpg"
           },
           {
             "color": "green",
-            "value": "Green - Al menos un miembro de mi familia ha accedido a créditos de instituciones legales, y en condiciones justas de mercado, en los últimos doce meses. O los miembros de mi familia no requieren créditos porque pueden financiar todas sus necesidades a través de fuentes propias, sin embargo, pueden acceder a un crédito si lo necesitan.",
-            "label": "Al menos un miembro de mi familia ha accedido a créditos de instituciones legales, y en condiciones justas de mercado, en los últimos doce meses. O los miembros de mi familia no requieren créditos porque pueden financiar todas sus necesidades a través de fuentes propias, sin embargo, pueden acceder a un crédito si lo necesitan.",
+            "value": "Green - En mi familia utilizamos una cuenta de banco y aplicaciones de la bancamóvil (aplicaciones del banco)",
+            "label": "En mi familia utilizamos una cuenta de banco y aplicaciones de la bancamóvil (aplicaciones del banco)",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/creditoGreen.jpg"
           }
         ]
@@ -145,6 +145,474 @@
       "response": [
         {
           "id": "credito",
+          "prompt": "Tu respuesta",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "cuentaDeBanco": {
+      "type": "react-component",
+      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
+      "parameters": {
+        "questionId": "cuentaDeBanco",
+        "questionText": "Mi familia tiene y utiliza una cuenta bancaria",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - En mi familia no tenemos una cuenta de banco ni utilizamos aplicaciones de la banca móvil (aplicaciones del banco).",
+            "label": "En mi familia no tenemos una cuenta de banco ni utilizamos aplicaciones de la banca móvil (aplicaciones del banco).",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/cuentaDeBancoRed.jpg"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - En mi familia tenemos pero no sabemos cómo utilizar una cuenta de banco y/o aplicaciones de la banca móvil (aplicaciones del banco).",
+            "label": "En mi familia tenemos pero no sabemos cómo utilizar una cuenta de banco y/o aplicaciones de la banca móvil (aplicaciones del banco).",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/cuentaDeBancoYellow.jpg"
+          },
+          {
+            "color": "green",
+            "value": "Green - En mi familia utilizamos una cuenta de banco y aplicaciones de la banca móvil (aplicaciones del banco)",
+            "label": "En mi familia utilizamos una cuenta de banco y aplicaciones de la banca móvil (aplicaciones del banco)",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/cuentaDeBancoGreen.jpg"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "cuentaDeBanco",
+          "prompt": "Tu respuesta",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "identificacion": {
+      "type": "react-component",
+      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
+      "parameters": {
+        "questionId": "identificacion",
+        "questionText": "Tenemos documentos de identificación",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - Al menos un integrante de mi familia no cuentan con ningún tipo de identificación oficial vigente, como acta de nacimiento, CURP, cartilla militar o credencial de elector.",
+            "label": "Al menos un integrante de mi familia no cuentan con ningún tipo de identificación oficial vigente, como acta de nacimiento, CURP, cartilla militar o credencial de elector.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/identificacionRed.jpg"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - Todos los integrantes de mi familia cuentan con identificación oficial vigente, como acta de nacimiento, CURP, cartilla militar o credencial de elector, pero, algunas están vencidas y se encuentra sin renovar.",
+            "label": "Todos los integrantes de mi familia cuentan con identificación oficial vigente, como acta de nacimiento, CURP, cartilla militar o credencial de elector, pero, algunas están vencidas y se encuentra sin renovar.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/identificacionYellow.jpg"
+          },
+          {
+            "color": "green",
+            "value": "Green - Todos los integrantes de mi familia cuentan con alguna identificación oficial vigente como acta de nacimiento, CURP, cartilla militar o credencial de elector.",
+            "label": "Todos los integrantes de mi familia cuentan con alguna identificación oficial vigente como acta de nacimiento, CURP, cartilla militar o credencial de elector.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/identificacionGreen.jpg"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "identificacion",
+          "prompt": "Tu respuesta",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "basura": {
+      "type": "react-component",
+      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
+      "parameters": {
+        "questionId": "basura",
+        "questionText": "Manejamos bien nuestra basura",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - Los miembros de mi familia queman sus basuras o las tiran a cielo abierto en su terreno o cerca de la vivienda, fuentes de agua o campos de cultivo.",
+            "label": "Los miembros de mi familia queman sus basuras o las tiran a cielo abierto en su terreno o cerca de la vivienda, fuentes de agua o campos de cultivo.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/basuraRed.jpg"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - Los miembros de mi familia entierran sus residuos en un hoyo tapado dentro de su terreno, pero está distanciado a menos de veinte metros de la vivienda, fuentes de agua y campo de cultivo.",
+            "label": "Los miembros de mi familia entierran sus residuos en un hoyo tapado dentro de su terreno, pero está distanciado a menos de veinte metros de la vivienda, fuentes de agua y campo de cultivo.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/basuraYellow.jpg"
+          },
+          {
+            "color": "green",
+            "value": "Green - Los miembros de mi familia depositan sus residuos en un basurero hasta su recolección o entierran los desechos orgánicos en un hoyo distanciado al menos unos veinte metros de la vivienda, fuentes de agua y campo de cultivo y recicla los desechos inorgánicos.",
+            "label": "Los miembros de mi familia depositan sus residuos en un basurero hasta su recolección o entierran los desechos orgánicos en un hoyo distanciado al menos unos veinte metros de la vivienda, fuentes de agua y campo de cultivo y recicla los desechos inorgánicos.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/basuraGreen.jpg"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "basura",
+          "prompt": "Tu respuesta",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "agua": {
+      "type": "react-component",
+      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
+      "parameters": {
+        "questionId": "agua",
+        "questionText": "Tenemos canilla",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - Mi familia bebe agua no potable o tiene que acarrearla desde un punto a más de 30 minutos de caminata ida y vuelta de la vivienda.",
+            "label": "Mi familia bebe agua no potable o tiene que acarrearla desde un punto a más de 30 minutos de caminata ida y vuelta de la vivienda.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/aguaRed.jpg"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - Mi familia tiene acceso al agua potable fuera del terreno de la vivienda, a través de una canilla, un pozo o aljibe protegido, agua de manantial o pluvial protegido. La distancia para acceder a ella es menos de treinta minutos de caminata ida y vuelta de la vivienda.",
+            "label": "Mi familia tiene acceso al agua potable fuera del terreno de la vivienda, a través de una canilla, un pozo o aljibe protegido, agua de manantial o pluvial protegido. La distancia para acceder a ella es menos de treinta minutos de caminata ida y vuelta de la vivienda.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/aguaYellow.jpg"
+          },
+          {
+            "color": "green",
+            "value": "Green - Mi familia cuenta con agua potable y accede a través de una canilla dentro del terreno de la vivienda.",
+            "label": "Mi familia cuenta con agua potable y accede a través de una canilla dentro del terreno de la vivienda.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/aguaGreen.jpg"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "agua",
+          "prompt": "Tu respuesta",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "vacunas": {
+      "type": "react-component",
+      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
+      "parameters": {
+        "questionId": "vacunas",
+        "questionText": "Estamos vacunados",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - Más de un miembro de mi familia no está inmunizado o al día con todas las vacunas obligatorias según el Ministerio de Salud Pública y Bienestar Social.",
+            "label": "Más de un miembro de mi familia no está inmunizado o al día con todas las vacunas obligatorias según el Ministerio de Salud Pública y Bienestar Social.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/vacunasRed.jpg"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - Un miembro de mi familia no está inmunizado o al día con todas las vacunas oblitarios, según el Ministerio de Salud Pública y Bienestar Social.",
+            "label": "Un miembro de mi familia no está inmunizado o al día con todas las vacunas oblitarios, según el Ministerio de Salud Pública y Bienestar Social.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/vacunasYellow.jpg"
+          },
+          {
+            "color": "green",
+            "value": "Green - Todos los miembros de mi familia están inmunizados y están al día con todas las vacunas obligatorias, según el calendario de vacunación del Ministerio de Salud Pública y Bienestar Social.",
+            "label": "Todos los miembros de mi familia están inmunizados y están al día con todas las vacunas obligatorias, según el calendario de vacunación del Ministerio de Salud Pública y Bienestar Social.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/vacunasGreen.jpg"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "vacunas",
+          "prompt": "Tu respuesta",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "dientesSanos": {
+      "type": "react-component",
+      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
+      "parameters": {
+        "questionId": "",
+        "questionText": "",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - ",
+            "label": "",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Red.jpg"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - ",
+            "label": "",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Yellow.jpg"
+          },
+          {
+            "color": "green",
+            "value": "Green - ",
+            "label": ".",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Green.jpg"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "",
+          "prompt": "Tu respuesta",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "saludSexual": {
+      "type": "react-component",
+      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
+      "parameters": {
+        "questionId": "",
+        "questionText": "",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - ",
+            "label": "",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Red.jpg"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - ",
+            "label": "",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Yellow.jpg"
+          },
+          {
+            "color": "green",
+            "value": "Green - ",
+            "label": ".",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Green.jpg"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "",
+          "prompt": "Tu respuesta",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "accesoALaSalud": {
+      "type": "react-component",
+      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
+      "parameters": {
+        "questionId": "accesoALaSalud",
+        "questionText": "Tenemos acceso a servicios de salud",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - En los últimos 3 meses, cuando mi familia necesitó atención médica por alguna enfermedad o accidente, no pudo obtenerla, debido a que no contaba con atención, la atención fue mala, y/o las consultas o medicinas fueron demasiado caras.",
+            "label": "En los últimos 3 meses, cuando mi familia necesitó atención médica por alguna enfermedad o accidente, no pudo obtenerla, debido a que no contaba con atención, la atención fue mala, y/o las consultas o medicinas fueron demasiado caras.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/accesoALaSaludRed.jpg"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - En los últimos 3 meses, cuando algún miembro de mi familia necesitó atención médica de emergencia básica, pudo obtenerla. Pero no pudo obtener atención especializada y las consultas o medicinas le eran muy caras.",
+            "label": "En los últimos 3 meses, cuando algún miembro de mi familia necesitó atención médica de emergencia básica, pudo obtenerla. Pero no pudo obtener atención especializada y las consultas o medicinas le eran muy caras.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/accesoALaSaludYellow.jpg"
+          },
+          {
+            "color": "green",
+            "value": "Green - En los últimos 3 meses, todas las veces cuando algún miembro de mi familia necesitó atención médica pudo obtenerla.",
+            "label": "En los últimos 3 meses, todas las veces cuando algún miembro de mi familia necesitó atención médica pudo obtenerla.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/accesoALaSaludGreen.jpg"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "accesoALaSalud",
+          "prompt": "Tu respuesta",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "alcohol": {
+      "type": "react-component",
+      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
+      "parameters": {
+        "questionId": "alcohol",
+        "questionText": "",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - ",
+            "label": "",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Red.jpg"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - ",
+            "label": "",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Yellow.jpg"
+          },
+          {
+            "color": "green",
+            "value": "Green - ",
+            "label": ".",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Green.jpg"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "alcohol",
+          "prompt": "Tu respuesta",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "alimentacion": {
+      "type": "react-component",
+      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
+      "parameters": {
+        "questionId": "alimentacion",
+        "questionText": "Tenemos alimentación nutritiva",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - En la última semana, por lo menos una vez, un miembro de mi familia se acostó con hambre o saltó una comida involuntariamente por falta de alimento o dinero.",
+            "label": "En la última semana, por lo menos una vez, un miembro de mi familia se acostó con hambre o saltó una comida involuntariamente por falta de alimento o dinero.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/alimentacionRed.jpg"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - Los miembros de mi familia no incluyeron en su dieta todos los componentes citados en el nivel verde, pero en la última semana todos los miembros de mi familia tuvieron tres comidas en el día - o si se saltaron una, fue por motivos voluntarios no asociados a la falta de dinero o alimentos.",
+            "label": "Los miembros de mi familia no incluyeron en su dieta todos los componentes citados en el nivel verde, pero en la última semana todos los miembros de mi familia tuvieron tres comidas en el día - o si se saltaron una, fue por motivos voluntarios no asociados a la falta de dinero o alimentos.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/alimentacionYellow.jpg"
+          },
+          {
+            "color": "green",
+            "value": "Green - Todos los miembros de mi familia: a). consumieron una buena variedad de alimentos durante la última semana: 1. carnes (vaca, pollo, pescado, cordero, etc.), 2. leche y/o derivados, 3. verduras variadas, 4. huevos, 5. frutas variadas, 6. arroz, fideo, papa, mandioca, maíz, etc., y b). tuvieron, al menos, tres comidas en el día: desayuno, almuerzo y cena. Si se saltaron una comida o algún tipo de alimento fue por motivos voluntarios no asociados a la falta de dinero o alimentos (ej. religiosas o filosóficas).",
+            "label": "Todos los miembros de mi familia: a). consumieron una buena variedad de alimentos durante la última semana: 1. carnes (vaca, pollo, pescado, cordero, etc.), 2. leche y/o derivados, 3. verduras variadas, 4. huevos, 5. frutas variadas, 6. arroz, fideo, papa, mandioca, maíz, etc., y b). tuvieron, al menos, tres comidas en el día: desayuno, almuerzo y cena. Si se saltaron una comida o algún tipo de alimento fue por motivos voluntarios no asociados a la falta de dinero o alimentos (ej. religiosas o filosóficas).",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/alimentacionGreen.jpg"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "alimentacion",
+          "prompt": "Tu respuesta",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "prevencion": {
+      "type": "react-component",
+      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
+      "parameters": {
+        "questionId": "prevencion",
+        "questionText": "",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - ",
+            "label": "",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Red.jpg"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - ",
+            "label": "",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Yellow.jpg"
+          },
+          {
+            "color": "green",
+            "value": "Green - ",
+            "label": ".",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Green.jpg"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "prevencion",
+          "prompt": "Tu respuesta",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
+    },
+    "viviendaSegura": {
+      "type": "react-component",
+      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
+      "parameters": {
+        "questionId": "viviendaSegura",
+        "questionText": "Nuestra casa es segura",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - Mi familia tiene una vivienda que no cuenta con uno de los componentes del nivel verde.",
+            "label": "Mi familia tiene una vivienda que no cuenta con uno de los componentes del nivel verde.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/viviendaSeguraRed.jpg"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - Mi familia tiene una vivienda que no cuenta con dos o más de los componentes del nivel verde.",
+            "label": "Mi familia tiene una vivienda que no cuenta con dos o más de los componentes del nivel verde.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/viviendaSeguraYellow.jpg"
+          },
+          {
+            "color": "green",
+            "value": "Green - Mi familia tiene una vivienda con: a) techo de tejas, chapa de zinc u hormigón armado, b) parédes sólidas de madera, cemento o material cocido (ladrillo, baldosa, cemento, cerámica o similar), c) piso de madera o material cocido, d) puertas y ventanas externas que son de madera maciza o metal y todas se cierran de manera segura utilizando candados, cerraduras, trancas, pasadores resistentes u otros similares, e) la vivienda está preparada para distintas condiciones climáticas.",
+            "label": "Mi familia tiene una vivienda con: a) techo de tejas, chapa de zinc u hormigón armado, b) parédes sólidas de madera, cemento o material cocido (ladrillo, baldosa, cemento, cerámica o similar), c) piso de madera o material cocido, d) puertas y ventanas externas que son de madera maciza o metal y todas se cierran de manera segura utilizando candados, cerraduras, trancas, pasadores resistentes u otros similares, e) la vivienda está preparada para distintas condiciones climáticas.",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/viviendaSeguraGreen.jpg"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "viviendaSegura",
           "prompt": "Tu respuesta",
           "required": true,
           "location": "sidebar",
@@ -262,201 +730,6 @@
       "response": [
         {
           "id": "medioambiente",
-          "prompt": "Tu respuesta",
-          "required": true,
-          "location": "sidebar",
-          "type": "reactive"
-        }
-      ]
-    },
-    "basura": {
-      "type": "react-component",
-      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
-      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
-      "parameters": {
-        "questionId": "basura",
-        "questionText": "Manejamos bien nuestra basura",
-        "options": [
-          {
-            "color": "red",
-            "value": "Red - Los miembros de mi familia queman sus basuras o las tiran a cielo abierto en su terreno o cerca de la vivienda, fuentes de agua o campos de cultivo.",
-            "label": "Los miembros de mi familia queman sus basuras o las tiran a cielo abierto en su terreno o cerca de la vivienda, fuentes de agua o campos de cultivo.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/basuraRed.jpg"
-          },
-          {
-            "color": "yellow",
-            "value": "Yellow - Los miembros de mi familia entierran sus residuos en un hoyo tapado dentro de su terreno, pero está distanciado a menos de veinte metros de la vivienda, fuentes de agua y campo de cultivo.",
-            "label": "Los miembros de mi familia entierran sus residuos en un hoyo tapado dentro de su terreno, pero está distanciado a menos de veinte metros de la vivienda, fuentes de agua y campo de cultivo.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/basuraYellow.jpg"
-          },
-          {
-            "color": "green",
-            "value": "Green - Los miembros de mi familia depositan sus residuos en un basurero hasta su recolección o entierran los desechos orgánicos en un hoyo distanciado al menos unos veinte metros de la vivienda, fuentes de agua y campo de cultivo y recicla los desechos inorgánicos.",
-            "label": "Los miembros de mi familia depositan sus residuos en un basurero hasta su recolección o entierran los desechos orgánicos en un hoyo distanciado al menos unos veinte metros de la vivienda, fuentes de agua y campo de cultivo y recicla los desechos inorgánicos.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/basuraGreen.jpg"
-          }
-        ]
-      },
-      "nextButtonLocation": "sidebar",
-      "response": [
-        {
-          "id": "basura",
-          "prompt": "Tu respuesta",
-          "required": true,
-          "location": "sidebar",
-          "type": "reactive"
-        }
-      ]
-    },
-    "agua": {
-      "type": "react-component",
-      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
-      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
-      "parameters": {
-        "questionId": "agua",
-        "questionText": "Tenemos canilla",
-        "options": [
-          {
-            "color": "red",
-            "value": "Red - Mi familia bebe agua no potable o tiene que acarrearla desde un punto a más de 30 minutos de caminata ida y vuelta de la vivienda.",
-            "label": "Mi familia bebe agua no potable o tiene que acarrearla desde un punto a más de 30 minutos de caminata ida y vuelta de la vivienda.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/aguaRed.jpg"
-          },
-          {
-            "color": "yellow",
-            "value": "Yellow - Mi familia tiene acceso al agua potable fuera del terreno de la vivienda, a través de una canilla, un pozo o aljibe protegido, agua de manantial o pluvial protegido. La distancia para acceder a ella es menos de treinta minutos de caminata ida y vuelta de la vivienda.",
-            "label": "Mi familia tiene acceso al agua potable fuera del terreno de la vivienda, a través de una canilla, un pozo o aljibe protegido, agua de manantial o pluvial protegido. La distancia para acceder a ella es menos de treinta minutos de caminata ida y vuelta de la vivienda.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/aguaYellow.jpg"
-          },
-          {
-            "color": "green",
-            "value": "Green - Mi familia cuenta con agua potable y accede a través de una canilla dentro del terreno de la vivienda.",
-            "label": "Mi familia cuenta con agua potable y accede a través de una canilla dentro del terreno de la vivienda.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/aguaGreen.jpg"
-          }
-        ]
-      },
-      "nextButtonLocation": "sidebar",
-      "response": [
-        {
-          "id": "agua",
-          "prompt": "Tu respuesta",
-          "required": true,
-          "location": "sidebar",
-          "type": "reactive"
-        }
-      ]
-    },
-    "accesoALaSalud": {
-      "type": "react-component",
-      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
-      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
-      "parameters": {
-        "questionId": "accesoALaSalud",
-        "questionText": "Tenemos acceso a servicios de salud",
-        "options": [
-          {
-            "color": "red",
-            "value": "Red - En los últimos 3 meses, cuando mi familia necesitó atención médica por alguna enfermedad o accidente, no pudo obtenerla, debido a que no contaba con atención, la atención fue mala, y/o las consultas o medicinas fueron demasiado caras.",
-            "label": "En los últimos 3 meses, cuando mi familia necesitó atención médica por alguna enfermedad o accidente, no pudo obtenerla, debido a que no contaba con atención, la atención fue mala, y/o las consultas o medicinas fueron demasiado caras.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/accesoALaSaludRed.jpg"
-          },
-          {
-            "color": "yellow",
-            "value": "Yellow - En los últimos 3 meses, cuando algún miembro de mi familia necesitó atención médica de emergencia básica, pudo obtenerla. Pero no pudo obtener atención especializada y las consultas o medicinas le eran muy caras.",
-            "label": "En los últimos 3 meses, cuando algún miembro de mi familia necesitó atención médica de emergencia básica, pudo obtenerla. Pero no pudo obtener atención especializada y las consultas o medicinas le eran muy caras.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/accesoALaSaludYellow.jpg"
-          },
-          {
-            "color": "green",
-            "value": "Green - En los últimos 3 meses, todas las veces cuando algún miembro de mi familia necesitó atención médica pudo obtenerla.",
-            "label": "En los últimos 3 meses, todas las veces cuando algún miembro de mi familia necesitó atención médica pudo obtenerla.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/accesoALaSaludGreen.jpg"
-          }
-        ]
-      },
-      "nextButtonLocation": "sidebar",
-      "response": [
-        {
-          "id": "accesoALaSalud",
-          "prompt": "Tu respuesta",
-          "required": true,
-          "location": "sidebar",
-          "type": "reactive"
-        }
-      ]
-    },
-    "alimentacion": {
-      "type": "react-component",
-      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
-      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
-      "parameters": {
-        "questionId": "alimentacion",
-        "questionText": "Tenemos alimentación nutritiva",
-        "options": [
-          {
-            "color": "red",
-            "value": "Red - En la última semana, por lo menos una vez, un miembro de mi familia se acostó con hambre o saltó una comida involuntariamente por falta de alimento o dinero.",
-            "label": "En la última semana, por lo menos una vez, un miembro de mi familia se acostó con hambre o saltó una comida involuntariamente por falta de alimento o dinero.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/alimentacionRed.jpg"
-          },
-          {
-            "color": "yellow",
-            "value": "Yellow - Los miembros de mi familia no incluyeron en su dieta todos los componentes citados en el nivel verde, pero en la última semana todos los miembros de mi familia tuvieron tres comidas en el día - o si se saltaron una, fue por motivos voluntarios no asociados a la falta de dinero o alimentos.",
-            "label": "Los miembros de mi familia no incluyeron en su dieta todos los componentes citados en el nivel verde, pero en la última semana todos los miembros de mi familia tuvieron tres comidas en el día - o si se saltaron una, fue por motivos voluntarios no asociados a la falta de dinero o alimentos.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/alimentacionYellow.jpg"
-          },
-          {
-            "color": "green",
-            "value": "Green - Todos los miembros de mi familia: a). consumieron una buena variedad de alimentos durante la última semana: 1. carnes (vaca, pollo, pescado, cordero, etc.), 2. leche y/o derivados, 3. verduras variadas, 4. huevos, 5. frutas variadas, 6. arroz, fideo, papa, mandioca, maíz, etc., y b). tuvieron, al menos, tres comidas en el día: desayuno, almuerzo y cena. Si se saltaron una comida o algún tipo de alimento fue por motivos voluntarios no asociados a la falta de dinero o alimentos (ej. religiosas o filosóficas).",
-            "label": "Todos los miembros de mi familia: a). consumieron una buena variedad de alimentos durante la última semana: 1. carnes (vaca, pollo, pescado, cordero, etc.), 2. leche y/o derivados, 3. verduras variadas, 4. huevos, 5. frutas variadas, 6. arroz, fideo, papa, mandioca, maíz, etc., y b). tuvieron, al menos, tres comidas en el día: desayuno, almuerzo y cena. Si se saltaron una comida o algún tipo de alimento fue por motivos voluntarios no asociados a la falta de dinero o alimentos (ej. religiosas o filosóficas).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/alimentacionGreen.jpg"
-          }
-        ]
-      },
-      "nextButtonLocation": "sidebar",
-      "response": [
-        {
-          "id": "alimentacion",
-          "prompt": "Tu respuesta",
-          "required": true,
-          "location": "sidebar",
-          "type": "reactive"
-        }
-      ]
-    },
-    "vacunas": {
-      "type": "react-component",
-      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
-      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
-      "parameters": {
-        "questionId": "vacunas",
-        "questionText": "Estamos vacunados",
-        "options": [
-          {
-            "color": "red",
-            "value": "Red - Más de un miembro de mi familia no está inmunizado o al día con todas las vacunas obligatorias según el Ministerio de Salud Pública y Bienestar Social.",
-            "label": "Más de un miembro de mi familia no está inmunizado o al día con todas las vacunas obligatorias según el Ministerio de Salud Pública y Bienestar Social.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/vacunasRed.jpg"
-          },
-          {
-            "color": "yellow",
-            "value": "Yellow - Un miembro de mi familia no está inmunizado o al día con todas las vacunas oblitarios, según el Ministerio de Salud Pública y Bienestar Social.",
-            "label": "Un miembro de mi familia no está inmunizado o al día con todas las vacunas oblitarios, según el Ministerio de Salud Pública y Bienestar Social.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/vacunasYellow.jpg"
-          },
-          {
-            "color": "green",
-            "value": "Green - Todos los miembros de mi familia están inmunizados y están al día con todas las vacunas obligatorias, según el calendario de vacunación del Ministerio de Salud Pública y Bienestar Social.",
-            "label": "Todos los miembros de mi familia están inmunizados y están al día con todas las vacunas obligatorias, según el calendario de vacunación del Ministerio de Salud Pública y Bienestar Social.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/vacunasGreen.jpg"
-          }
-        ]
-      },
-      "nextButtonLocation": "sidebar",
-      "response": [
-        {
-          "id": "vacunas",
           "prompt": "Tu respuesta",
           "required": true,
           "location": "sidebar",
@@ -1513,6 +1786,45 @@
           ]
         }
       ]
+    },
+    "template": {
+      "type": "react-component",
+      "path": "sustainability-stoplight-mex-chp/assets/StoplightQuestion.tsx",
+      "instruction": "Por favor, verbaliza tus pensamientos, reacciones y proceso de toma de decisiones mientras consideras la pregunta.",
+      "parameters": {
+        "questionId": "",
+        "questionText": "",
+        "options": [
+          {
+            "color": "red",
+            "value": "Red - ",
+            "label": "",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Red.jpg"
+          },
+          {
+            "color": "yellow",
+            "value": "Yellow - ",
+            "label": "",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Yellow.jpg"
+          },
+          {
+            "color": "green",
+            "value": "Green - ",
+            "label": ".",
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/Green.jpg"
+          }
+        ]
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "",
+          "prompt": "Tu respuesta",
+          "required": true,
+          "location": "sidebar",
+          "type": "reactive"
+        }
+      ]
     }
   },
   "sequence": {
@@ -1522,16 +1834,22 @@
       "ingresos",
       "ahorros",
       "credito",
+      "cuentaDeBanco",
+      "identificacion",
+      "basura",
+      "agua",
+      "vacunas",
+      "dientesSanos",
+      "saludSexual",
+      "accesoALaSalud",
+      "alcohol",
+      "alimentacion",
+      "prevencion",
+      "viviendaSegura",
       "diversificacion",
       "documentacion",
       "medioambiente",
-      "basura",
-      "agua",
-      "accesoALaSalud",
-      "alimentacion",
-      "vacunas",
       "seguros",
-      "viviendaSegura",
       "confort",
       "dormitorios",
       "cocina",
