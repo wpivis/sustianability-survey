@@ -45,8 +45,8 @@
         "options": [
           {
             "color": "red",
-            "value": "Red - Mi familia tiene ingresos inferiores a la línea de pobreza extrema.",
-            "label": "Mi familia tiene ingresos inferiores a la línea de pobreza extrema.",
+            "value": "Red - Considero que mi familia tiene un nivel de ingresos muy bajo, a veces insuficiente para cubrir nuestras necesidades básicas.",
+            "label": "Considero que mi familia tiene un nivel de ingresos muy bajo, a veces insuficiente para cubrir nuestras necesidades básicas.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/ingresosRed.jpg"
           },
           {
