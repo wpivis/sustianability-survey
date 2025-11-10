@@ -318,20 +318,20 @@
         "options": [
           {
             "color": "red",
-            "value": "Red - Más de un miembro de mi familia no está inmunizado o al día con todas las vacunas obligatorias según el Ministerio de Salud Pública y Bienestar Social.",
-            "label": "Más de un miembro de mi familia no está inmunizado o al día con todas las vacunas obligatorias según el Ministerio de Salud Pública y Bienestar Social.",
+            "value": "Red - Más de un miembro de mi familia no está inmunizado o al día con todas las vacunas obligatorias según el esquema de vacunación de la Secretaría de Salud.",
+            "label": "Más de un miembro de mi familia no está inmunizado o al día con todas las vacunas obligatorias según el esquema de vacunación de la Secretaría de Salud.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/vacunasRed.jpg"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Un miembro de mi familia no está inmunizado o al día con todas las vacunas oblitarios, según el Ministerio de Salud Pública y Bienestar Social.",
-            "label": "Un miembro de mi familia no está inmunizado o al día con todas las vacunas oblitarios, según el Ministerio de Salud Pública y Bienestar Social.",
+            "value": "Yellow - Un miembro de mi familia no está inmunizado o al día con todas las vacunas obligatorios, según el esquema de vacunación de la Secretaría de Salud.",
+            "label": "Un miembro de mi familia no está inmunizado o al día con todas las vacunas obligatorios, según el esquema de vacunación de la Secretaría de Salud.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/vacunasYellow.jpg"
           },
           {
             "color": "green",
-            "value": "Green - Todos los miembros de mi familia están inmunizados y están al día con todas las vacunas obligatorias, según el calendario de vacunación del Ministerio de Salud Pública y Bienestar Social.",
-            "label": "Todos los miembros de mi familia están inmunizados y están al día con todas las vacunas obligatorias, según el calendario de vacunación del Ministerio de Salud Pública y Bienestar Social.",
+            "value": "Green - Todos los miembros de mi familia están inmunizados y están al día con todas las vacunas obligatorias, según el calendario de vacunación de la Secretaría de Salud.",
+            "label": "Todos los miembros de mi familia están inmunizados y están al día con todas las vacunas obligatorias, según el calendario de vacunación de la Secretaría de Salud.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/vacunasGreen.jpg"
           }
         ]
@@ -359,19 +359,19 @@
             "color": "red",
             "value": "Red - Más de un miembro de mi familia tiene problemas de dientes y no están siendo atendidos.",
             "label": "Más de un miembro de mi familia tiene problemas de dientes y no están siendo atendidos.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/dientesSanosRed.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/dientesSanosRed.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Un integrante de mi familia tiene problemas de dientes y no está siendo atendido",
             "label": "Un integrante de mi familia tiene problemas de dientes y no está siendo atendido",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/dientesSanosYellow.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/dientesSanosYellow.png"
           },
           {
             "color": "green",
             "value": "Green - Los miembros de mi familia no tienen problemas de dientes, o si los tienen están siendo atendidos apropiadamente.",
             "label": "Los miembros de mi familia no tienen problemas de dientes, o si los tienen están siendo atendidos apropiadamente",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/dientesSanosGreen.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/dientesSanosGreen.png"
           }
         ]
       },
