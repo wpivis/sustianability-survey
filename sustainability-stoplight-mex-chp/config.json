@@ -86,19 +86,19 @@
             "color": "red",
             "value": "Red - Ningún integrante de mi familia tiene ahorro.",
             "label": "Ningún integrante de mi familia tiene ahorro.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/ahorrosRed.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/ahorrosRed.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Uno o más integrantes de mi familiatienen ahorros de manera informal,por ejemplo: en tandas, en casa, encajas de ahorro informales, en gruposde ahorros informales, entre otros. O tienen una cuenta de ahorro hace menos de 6 meses.",
             "label": "Uno o más integrantes de mi familiatienen ahorros de manera informal,por ejemplo: en tandas, en casa, encajas de ahorro informales, en gruposde ahorros informales, entre otros. O tienen una cuenta de ahorro hace menos de 6 meses.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/ahorrosYellow.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/ahorrosYellow.png"
           },
           {
             "color": "green",
             "value": "Green - Uno o más integrantes de mi familiatienen ahorros en un banco o caja deahorro formal hace al menos 6 meses.",
             "label": "Uno o más integrantes de mi familiatienen ahorros en un banco o caja deahorro formal hace al menos 6 meses.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/ahorrosGreen.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/ahorrosGreen.png"
           }
         ]
       },
@@ -164,19 +164,19 @@
             "color": "red",
             "value": "Red - En mi familia no tenemos una cuenta de banco ni utilizamos aplicaciones de la banca móvil (aplicaciones del banco).",
             "label": "En mi familia no tenemos una cuenta de banco ni utilizamos aplicaciones de la banca móvil (aplicaciones del banco).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/cuentaDeBancoRed.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/cuentaDeBancoRed.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - En mi familia tenemos pero no sabemos cómo utilizar una cuenta de banco y/o aplicaciones de la banca móvil (aplicaciones del banco).",
             "label": "En mi familia tenemos pero no sabemos cómo utilizar una cuenta de banco y/o aplicaciones de la banca móvil (aplicaciones del banco).",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/cuentaDeBancoYellow.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/cuentaDeBancoYellow.png"
           },
           {
             "color": "green",
             "value": "Green - En mi familia utilizamos una cuenta de banco y aplicaciones de la banca móvil (aplicaciones del banco)",
             "label": "En mi familia utilizamos una cuenta de banco y aplicaciones de la banca móvil (aplicaciones del banco)",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/cuentaDeBancoGreen.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/cuentaDeBancoGreen.png"
           }
         ]
       },
@@ -203,19 +203,19 @@
             "color": "red",
             "value": "Red - Al menos un integrante de mi familia no cuentan con ningún tipo de identificación oficial vigente, como acta de nacimiento, CURP, cartilla militar o credencial de elector.",
             "label": "Al menos un integrante de mi familia no cuentan con ningún tipo de identificación oficial vigente, como acta de nacimiento, CURP, cartilla militar o credencial de elector.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/identificacionRed.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/identificacionRed.png"
           },
           {
             "color": "yellow",
             "value": "Yellow - Todos los integrantes de mi familia cuentan con identificación oficial vigente, como acta de nacimiento, CURP, cartilla militar o credencial de elector, pero, algunas están vencidas y se encuentra sin renovar.",
             "label": "Todos los integrantes de mi familia cuentan con identificación oficial vigente, como acta de nacimiento, CURP, cartilla militar o credencial de elector, pero, algunas están vencidas y se encuentra sin renovar.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/identificacionYellow.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/identificacionYellow.png"
           },
           {
             "color": "green",
             "value": "Green - Todos los integrantes de mi familia cuentan con alguna identificación oficial vigente como acta de nacimiento, CURP, cartilla militar o credencial de elector.",
             "label": "Todos los integrantes de mi familia cuentan con alguna identificación oficial vigente como acta de nacimiento, CURP, cartilla militar o credencial de elector.",
-            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/identificacionGreen.jpg"
+            "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/identificacionGreen.png"
           }
         ]
       },
@@ -240,20 +240,20 @@
         "options": [
           {
             "color": "red",
-            "value": "Red - Los miembros de mi familia queman sus basuras o las tiran a cielo abierto en su terreno o cerca de la vivienda, fuentes de agua o campos de cultivo.",
+            "value": "Red - Mi familia quema su basura o los tira al aire libre en su terreno, cerca de lavivienda, fuentes de agua o campos de cultivo.",
             "label": "Los miembros de mi familia queman sus basuras o las tiran a cielo abierto en su terreno o cerca de la vivienda, fuentes de agua o campos de cultivo.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/basuraRed.jpg"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Los miembros de mi familia entierran sus residuos en un hoyo tapado dentro de su terreno, pero está distanciado a menos de veinte metros de la vivienda, fuentes de agua y campo de cultivo.",
-            "label": "Los miembros de mi familia entierran sus residuos en un hoyo tapado dentro de su terreno, pero está distanciado a menos de veinte metros de la vivienda, fuentes de agua y campo de cultivo.",
+            "value": "Yellow - Mi familia entierra su basura en un hueco tapado dentro de su terreno, pero está distanciado a menos de veinte metros de la vivienda, fuentes de agua o campos de cultivo. O entierran sus desechos inorgánicos.",
+            "label": "Mi familia entierra su basura en un hueco tapado dentro de su terreno, pero está distanciado a menos de veinte metros de la vivienda, fuentes de agua o campos de cultivo. O entierran sus desechos inorgánicos.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/basuraYellow.jpg"
           },
           {
             "color": "green",
-            "value": "Green - Los miembros de mi familia depositan sus residuos en un basurero hasta su recolección o entierran los desechos orgánicos en un hoyo distanciado al menos unos veinte metros de la vivienda, fuentes de agua y campo de cultivo y recicla los desechos inorgánicos.",
-            "label": "Los miembros de mi familia depositan sus residuos en un basurero hasta su recolección o entierran los desechos orgánicos en un hoyo distanciado al menos unos veinte metros de la vivienda, fuentes de agua y campo de cultivo y recicla los desechos inorgánicos.",
+            "value": "Green - Mi familia acumula su basura en un contenedor hasta su recolección. O bien clasifican los desechos inorgánicos y reciclan los desechos orgánicos o depositan en un hueco tapado distanciado al menos a unos veinte metros de la vivienda, fuentes de agua y campos de cultivo.",
+            "label": "Mi familia acumula su basura en un contenedor hasta su recolección. O bien clasifican los desechos inorgánicos y reciclan los desechos orgánicos o depositan en un hueco tapado distanciado al menos a unos veinte metros de la vivienda, fuentes de agua y campos de cultivo.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/basuraGreen.jpg"
           }
         ]
@@ -279,20 +279,20 @@
         "options": [
           {
             "color": "red",
-            "value": "Red - Mi familia bebe agua no potable o tiene que acarrearla desde un punto a más de 30 minutos de caminata ida y vuelta de la vivienda.",
-            "label": "Mi familia bebe agua no potable o tiene que acarrearla desde un punto a más de 30 minutos de caminata ida y vuelta de la vivienda.",
+            "value": "Red - Mi familia no cuenta con acceso a agua potable dentro del terreno de nuestra vivienda y tenemos que acarrearla o comprar pipas.",
+            "label": "Mi familia no cuenta con acceso a agua potable dentro del terreno de nuestra vivienda y tenemos que acarrearla o comprar pipas.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/aguaRed.jpg"
           },
           {
             "color": "yellow",
-            "value": "Yellow - Mi familia tiene acceso al agua potable fuera del terreno de la vivienda, a través de una canilla, un pozo o aljibe protegido, agua de manantial o pluvial protegido. La distancia para acceder a ella es menos de treinta minutos de caminata ida y vuelta de la vivienda.",
-            "label": "Mi familia tiene acceso al agua potable fuera del terreno de la vivienda, a través de una canilla, un pozo o aljibe protegido, agua de manantial o pluvial protegido. La distancia para acceder a ella es menos de treinta minutos de caminata ida y vuelta de la vivienda.",
+            "value": "Yellow - Mi familia cuenta con pozo propio de agua dentro del terreno, pero no es potable.",
+            "label": "Mi familia cuenta con pozo propio de agua dentro del terreno, pero no es potable.",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/aguaYellow.jpg"
           },
           {
             "color": "green",
-            "value": "Green - Mi familia cuenta con agua potable y accede a través de una canilla dentro del terreno de la vivienda.",
-            "label": "Mi familia cuenta con agua potable y accede a través de una canilla dentro del terreno de la vivienda.",
+            "value": "Green - Mi familia tiene acceso a agua potable para el uso de los que haceres del hogar, accedemos a ella a través de una llave dentro del terreno de nuestra vivienda y agua purificada (hervida o con garrafones compradas) para el consumo",
+            "label": "Mi familia tiene acceso a agua potable para el uso de los que haceres del hogar, accedemos a ella a través de una llave dentro del terreno de nuestra vivienda y agua purificada (hervida o con garrafones compradas) para el consumo",
             "path": "https://raw.githubusercontent.com/wpivis/sustianability-survey/refs/heads/main/public/sustainability-stoplight-mex-chp/assets/images/aguaGreen.jpg"
           }
         ]
