@@ -1,6 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.2.0/src/parser/GlobalConfigSchema.json",
   "configsList": [
+    "sustainability-stoplight",
     "sustainability-stoplight-bra",
     "sustainability-stoplight-pry",
     "sustainability-stoplight-mex-chp",
