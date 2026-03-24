@@ -1,6 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.4.1/src/parser/GlobalConfigSchema.json",
   "configsList": [
+    "sustainability-stoplight",
+    "sustainability-stoplight-bra",
+    "sustainability-stoplight-mex-chp",
+    "sustainability-stoplight-pry",
     "tutorial",
     "tutorial-replication",
     "demo-html",
@@ -55,6 +59,18 @@
     "test-step-logic"
   ],
   "configs": {
+    "sustainability-stoplight": {
+      "path": "sustainability-stoplight/config.json"
+    },
+    "sustainability-stoplight-bra": {
+      "path": "sustainability-stoplight-bra/config.json"
+    },
+    "sustainability-stoplight-mex-chp": {
+      "path": "sustainability-stoplight-mex-chp/config.json"
+    },
+    "sustainability-stoplight-pry": {
+      "path": "sustainability-stoplight-pry/config.json"
+    },
     "tutorial": {
       "path": "tutorial/config.json"
     },
