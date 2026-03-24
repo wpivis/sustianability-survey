@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.2.0/src/parser/LibraryConfigSchema.json",
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.4.1/src/parser/LibraryConfigSchema.json",
   "description": "The NASA-TLX is a widely used subjective workload assessment tool. It consists of six subscales: Mental Demand, Physical Demand, Temporal Demand, Performance, Effort, and Frustration. The NASA-TLX is designed to assess the perceived workload of a task and is commonly used in human factors and ergonomics research. We provide a component of the NASA-TLX itself, and a sequence that includes a source of load evaluation. The source of load evaluation is based on the pairwise weighting procedure described in the NASA-TLX manual.",
   "reference": "Hart, Sandra G., and Lowell E. Staveland. \"Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research.\" Advances in psychology. Vol. 52. North-Holland, 1988. 139-183.",
   "doi": "10.1016/S0166-4115(08)62386-9",
@@ -16,141 +16,58 @@
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
+          "optionOrder": "random",
           "options": [
-            "Mental demand",
-            "Physical demand"
+            {
+              "label": "Mental demand",
+              "value": "Mental demand",
+              "infoText": "How much mental and perceptual activity was required (e.g., thinking, deciding, calculating, remembering, looking, searching)?"
+            },
+            {
+              "label": "Physical demand",
+              "value": "Physical demand",
+              "infoText": "How much physical activity was required (e.g., pushing, pulling, turning, controlling, activating)?"
+            }
           ]
         },
         {
-          "id": "effort-temporal-demand",
-          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
-          "required": true,
-          "location": "aboveStimulus", 
-          "type": "radio",
-          "options": [
-            "Effort",
-            "Temporal demand"
-          ]
-        },
-        {
-          "id": "performance-frustration",
-          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
-          "required": true,
-          "location": "aboveStimulus",
-          "type": "radio", 
-          "options": [
-            "Performance",
-            "Frustration"
-          ]
-        },
-        {
-          "id": "temporal-demand-physical-demand",
+          "id": "mental-demand-temporal-demand",
           "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
+          "optionOrder": "random",
           "options": [
-            "Temporal demand",
-            "Physical demand"
+            {
+              "label": "Mental demand",
+              "value": "Mental demand",
+              "infoText": "How much mental and perceptual activity was required (e.g., thinking, deciding, calculating, remembering, looking, searching)?"
+            },
+            {
+              "label": "Temporal demand",
+              "value": "Temporal demand",
+              "infoText": "How much time pressure did you feel due to the rate or pace at which the tasks or task elements occurred?"
+            }
           ]
         },
         {
-          "id": "effort-frustration",
+          "id": "mental-demand-performance",
           "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
+          "optionOrder": "random",
           "options": [
-            "Effort",
-            "Frustration"
-          ]
-        },
-        {
-          "id": "performance-physical-demand",
-          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
-          "required": true,
-          "location": "aboveStimulus",
-          "type": "radio",
-          "options": [
-            "Performance",
-            "Physical demand"
-          ]
-        },
-        {
-          "id": "frustration-temporal-demand",
-          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
-          "required": true,
-          "location": "aboveStimulus",
-          "type": "radio",
-          "options": [
-            "Frustration",
-            "Temporal demand"
-          ]
-        },
-        {
-          "id": "physical-demand-temporal-demand",
-          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
-          "required": true,
-          "location": "aboveStimulus",
-          "type": "radio",
-          "options": [
-            "Physical demand",
-            "Temporal demand"
-          ]
-        },
-        {
-          "id": "performance-mental-demand",
-          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
-          "required": true,
-          "location": "aboveStimulus",
-          "type": "radio",
-          "options": [
-            "Performance",
-            "Mental demand"
-          ]
-        },
-        {
-          "id": "frustration-performance",
-          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
-          "required": true,
-          "location": "aboveStimulus",
-          "type": "radio",
-          "options": [
-            "Frustration",
-            "Performance"
-          ]
-        },
-        {
-          "id": "effort-mental-demand",
-          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
-          "required": true,
-          "location": "aboveStimulus",
-          "type": "radio",
-          "options": [
-            "Effort",
-            "Mental demand"
-          ]
-        },
-        {
-          "id": "performance-mental-demand-2",
-          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
-          "required": true,
-          "location": "aboveStimulus",
-          "type": "radio",
-          "options": [
-            "Performance",
-            "Mental demand"
-          ]
-        },
-        {
-          "id": "temporal-demand-effort",
-          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
-          "required": true,
-          "location": "aboveStimulus",
-          "type": "radio",
-          "options": [
-            "Temporal demand",
-            "Effort"
+            {
+              "label": "Mental demand",
+              "value": "Mental demand",
+              "infoText": "How much mental and perceptual activity was required (e.g., thinking, deciding, calculating, remembering, looking, searching)?"
+            },
+            {
+              "label": "Performance",
+              "value": "Performance",
+              "infoText": "How successful do you think you were in accomplishing the goals of the task set by the experimenter (or yourself)?"
+            }
           ]
         },
         {
@@ -159,20 +76,18 @@
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
+          "optionOrder": "random",
           "options": [
-            "Mental demand",
-            "Effort"
-          ]
-        },
-        {
-          "id": "physical-demand-frustration",
-          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
-          "required": true,
-          "location": "aboveStimulus",
-          "type": "radio",
-          "options": [
-            "Physical demand",
-            "Frustration"
+            {
+              "label": "Mental demand",
+              "value": "Mental demand",
+              "infoText": "How much mental and perceptual activity was required (e.g., thinking, deciding, calculating, remembering, looking, searching)?"
+            },
+            {
+              "label": "Effort",
+              "value": "Effort",
+              "infoText": "How hard did you have to work (mentally and physically) to accomplish your level of performance?"
+            }
           ]
         },
         {
@@ -181,9 +96,218 @@
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
+          "optionOrder": "random",
           "options": [
-            "Mental demand",
-            "Frustration"
+            {
+              "label": "Mental demand",
+              "value": "Mental demand",
+              "infoText": "How much mental and perceptual activity was required (e.g., thinking, deciding, calculating, remembering, looking, searching)?"
+            },
+            {
+              "label": "Frustration",
+              "value": "Frustration",
+              "infoText": "How insecure, discouraged, irritated, stressed, and annoyed versus secure, gratified, content, relaxed, and complacent did you feel during the task?"
+            }
+          ]
+        },
+        {
+          "id": "physical-demand-temporal-demand",
+          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "optionOrder": "random",
+          "options": [
+            {
+              "label": "Physical demand",
+              "value": "Physical demand",
+              "infoText": "How much physical activity was required (e.g., pushing, pulling, turning, controlling, activating)?"
+            },
+            {
+              "label": "Temporal demand",
+              "value": "Temporal demand",
+              "infoText": "How much time pressure did you feel due to the rate or pace at which the tasks or task elements occurred?"
+            }
+          ]
+        },
+        {
+          "id": "physical-demand-performance",
+          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "optionOrder": "random",
+          "options": [
+            {
+              "label": "Physical demand",
+              "value": "Physical demand",
+              "infoText": "How much physical activity was required (e.g., pushing, pulling, turning, controlling, activating)?"
+            },
+            {
+              "label": "Performance",
+              "value": "Performance",
+              "infoText": "How successful do you think you were in accomplishing the goals of the task set by the experimenter (or yourself)?"
+            }
+          ]
+        },
+        {
+          "id": "physical-demand-effort",
+          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "optionOrder": "random",
+          "options": [
+            {
+              "label": "Physical demand",
+              "value": "Physical demand",
+              "infoText": "How much physical activity was required (e.g., pushing, pulling, turning, controlling, activating)?"
+            },
+            {
+              "label": "Effort",
+              "value": "Effort",
+              "infoText": "How hard did you have to work (mentally and physically) to accomplish your level of performance?"
+            }
+          ]
+        },
+        {
+          "id": "physical-demand-frustration",
+          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "optionOrder": "random",
+          "options": [
+            {
+              "label": "Physical demand",
+              "value": "Physical demand",
+              "infoText": "How much physical activity was required (e.g., pushing, pulling, turning, controlling, activating)?"
+            },
+            {
+              "label": "Frustration",
+              "value": "Frustration",
+              "infoText": "How insecure, discouraged, irritated, stressed, and annoyed versus secure, gratified, content, relaxed, and complacent did you feel during the task?"
+            }
+          ]
+        },
+        {
+          "id": "temporal-demand-performance",
+          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "optionOrder": "random",
+          "options": [
+            {
+              "label": "Temporal demand",
+              "value": "Temporal demand",
+              "infoText": "How much time pressure did you feel due to the rate or pace at which the tasks or task elements occurred?"
+            },
+            {
+              "label": "Performance",
+              "value": "Performance",
+              "infoText": "How successful do you think you were in accomplishing the goals of the task set by the experimenter (or yourself)?"
+            }
+          ]
+        },
+        {
+          "id": "temporal-demand-effort",
+          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
+          "required": true,
+          "location": "aboveStimulus", 
+          "type": "radio",
+          "optionOrder": "random",
+          "options": [
+            {
+              "label": "Temporal demand",
+              "value": "Temporal demand",
+              "infoText": "How much time pressure did you feel due to the rate or pace at which the tasks or task elements occurred?"
+            },
+            {
+              "label": "Effort",
+              "value": "Effort",
+              "infoText": "How hard did you have to work (mentally and physically) to accomplish your level of performance?"
+            }
+          ]
+        },
+        {
+          "id": "temporal-demand-frustration",
+          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "optionOrder": "random",
+          "options": [
+            {
+              "label": "Temporal demand",
+              "value": "Temporal demand",
+              "infoText": "How much time pressure did you feel due to the rate or pace at which the tasks or task elements occurred?"
+            },
+            {
+              "label": "Frustration",
+              "value": "Frustration",
+              "infoText": "How insecure, discouraged, irritated, stressed, and annoyed versus secure, gratified, content, relaxed, and complacent did you feel during the task?"
+            }
+          ]
+        },
+        {
+          "id": "performance-effort",
+          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "optionOrder": "random",
+          "options": [
+            {
+              "label": "Performance",
+              "value": "Performance",
+              "infoText": "How successful do you think you were in accomplishing the goals of the task set by the experimenter (or yourself)?"
+            },
+            {
+              "label": "Effort",
+              "value": "Effort",
+              "infoText": "How hard did you have to work (mentally and physically) to accomplish your level of performance?"
+            }
+          ]
+        },
+        {
+          "id": "performance-frustration",
+          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio", 
+          "optionOrder": "random",
+          "options": [
+            {
+              "label": "Performance",
+              "value": "Performance",
+              "infoText": "How successful do you think you were in accomplishing the goals of the task set by the experimenter (or yourself)?"
+            },
+            {
+              "label": "Frustration",
+              "value": "Frustration",
+              "infoText": "How insecure, discouraged, irritated, stressed, and annoyed versus secure, gratified, content, relaxed, and complacent did you feel during the task?"
+            }
+          ]
+        },
+        {
+          "id": "effort-frustration",
+          "prompt": "Which of the following contributed more to your feeling of workload in the task you just performed?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
+          "optionOrder": "random",
+          "options": [
+            {
+              "label": "Effort",
+              "value": "Effort",
+              "infoText": "How hard did you have to work (mentally and physically) to accomplish your level of performance?"
+            },
+            {
+              "label": "Frustration",
+              "value": "Frustration",
+              "infoText": "How insecure, discouraged, irritated, stressed, and annoyed versus secure, gratified, content, relaxed, and complacent did you feel during the task?"
+            }
           ]
         }
       ]

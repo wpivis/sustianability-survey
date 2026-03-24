@@ -1,50 +1,56 @@
 {
-  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.2.0/src/parser/GlobalConfigSchema.json",
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.4.1/src/parser/GlobalConfigSchema.json",
   "configsList": [
     "sustainability-stoplight",
     "sustainability-stoplight-bra",
-    "sustainability-stoplight-pry",
     "sustainability-stoplight-mex-chp",
+    "sustainability-stoplight-pry",
     "tutorial",
+    "tutorial-replication",
     "demo-html",
-    "demo-html-video",
     "demo-html-input",
-    "demo-survey",
+    "demo-form-elements",
     "demo-training",
     "demo-html-trrack",
-    "demo-click-accuracy-test",
+    "demo-react-trrack",
+    "demo-screen-recording",
     "demo-image",
-    "demo-upset",
     "demo-vega",
-    "demo-video-slider",
     "demo-video",
     "demo-dynamic",
+    "demo-condition",
     "demo-style",
     "demo-yaml",
+    "demo-ranking-widget",
+    "demo-upset",
+    "demo-choropleth-map",
     "example-brush-interactions",
     "example-cleveland",
+    "example-llm-chatbot",
     "example-mvnv",
     "example-VLAT-adaptive",
-    "example-VLAT-full-randomized",
-    "example-VLAT-mini-randomized",
+    "library-adaptive-vlat",
     "library-beauvis",
     "library-berlin-num",
     "library-calvi",
     "library-color-blindness",
     "library-demographics",
+    "library-graph-literacy-scale",
     "library-mic-check",
-    "library-screen-recording",
     "library-mini-vlat",
     "library-nasa-tlx",
     "library-previs",
     "library-quis",
     "library-sam",
+    "library-screen-recording",
     "library-smeq",
     "library-sus",
+    "library-umux",
+    "library-umux-lite",
+    "library-virtual-chinrest",
     "library-vlat",
-    "library-adaptive-vlat",
-    "library-graph-literacy-scale",
     "test-audio",
+    "test-device-restriction",
     "test-library",
     "test-likert-matrix",
     "test-parser-errors",
@@ -59,35 +65,29 @@
     "sustainability-stoplight-bra": {
       "path": "sustainability-stoplight-bra/config.json"
     },
-    "sustainability-stoplight-pry": {
-      "path": "sustainability-stoplight-pry/config.json"
-    },
     "sustainability-stoplight-mex-chp": {
       "path": "sustainability-stoplight-mex-chp/config.json"
     },
-    "productivity-manager": {
-      "path": "productivity-manager/config.json"
-    },
-    "task-gamification": {
-      "path": "task-gamification/config.json"
+    "sustainability-stoplight-pry": {
+      "path": "sustainability-stoplight-pry/config.json"
     },
     "tutorial": {
       "path": "tutorial/config.json"
     },
-    "demo-video-slider": {
-      "path": "demo-video-slider/config.json"
+    "tutorial-replication": {
+      "path": "tutorial/replication-config.json"
     },
     "demo-html": {
       "path": "demo-html/config.json"
     },
-    "demo-html-video": {
-      "path": "demo-html-video/config.json"
+    "demo-screen-recording": {
+      "path": "demo-screen-recording/config.json"
     },
     "demo-html-input": {
       "path": "demo-html-input/config.json"
     },
-    "demo-survey": {
-      "path": "demo-survey/config.json"
+    "demo-form-elements": {
+      "path": "demo-form-elements/config.json"
     },
     "demo-training": {
       "path": "demo-training/config.json"
@@ -101,11 +101,14 @@
     "demo-dynamic": {
       "path": "demo-dynamic/config.json"
     },
+    "demo-condition": {
+      "path": "demo-condition/config.json"
+    },
     "demo-html-trrack": {
       "path": "demo-html-trrack/config.json"
     },
-    "demo-click-accuracy-test": {
-      "path": "demo-click-accuracy-test/config.json"
+    "demo-react-trrack": {
+      "path": "demo-react-trrack/config.json"
     },
     "demo-image": {
       "path": "demo-image/config.json"
@@ -119,6 +122,15 @@
     "demo-yaml": {
       "path": "demo-yaml/config.yaml"
     },
+    "demo-ranking-widget": {
+      "path": "demo-ranking-widget/config.json"
+    },
+    "demo-choropleth-map": {
+      "path": "demo-choropleth-map/config.json"
+    },
+    "example-llm-chatbot": {
+      "path": "example-llm-chatbot/config.json"
+    },
     "example-brush-interactions": {
       "path": "example-brush-interactions/config.json"
     },
@@ -127,12 +139,6 @@
     },
     "example-mvnv": {
       "path": "example-mvnv/config.json"
-    },
-    "example-VLAT-full-randomized": {
-      "path": "example-VLAT-full-randomized/config.json"
-    },
-    "example-VLAT-mini-randomized": {
-      "path": "example-VLAT-mini-randomized/config.json"
     },
     "library-adaptive-vlat": {
       "path": "library-adaptive-vlat/config.json",
@@ -158,12 +164,12 @@
       "path": "library-demographics/config.json",
       "test": true
     },
-    "library-mic-check": {
-      "path": "library-mic-check/config.json",
+    "library-graph-literacy-scale": {
+      "path": "library-graph-literacy-scale/config.json",
       "test": true
     },
-    "library-screen-recording": {
-      "path": "library-screen-recording/config.json",
+    "library-mic-check": {
+      "path": "library-mic-check/config.json",
       "test": true
     },
     "library-mini-vlat": {
@@ -186,6 +192,10 @@
       "path": "library-sam/config.json",
       "test": true
     },
+    "library-screen-recording": {
+      "path": "library-screen-recording/config.json",
+      "test": true
+    },
     "library-smeq": {
       "path": "library-smeq/config.json",
       "test": true
@@ -198,13 +208,12 @@
       "path": "library-vlat/config.json",
       "test": true
     },
-    "library-graph-literacy-scale": {
-      "path": "library-graph-literacy-scale/config.json",
-      "test": true
-    },
     "test-audio": {
       "path": "test-audio/config.json",
       "test": true
+    },
+    "test-device-restriction": {
+      "path": "test-device-restriction/config.json"
     },
     "test-library": {
       "path": "test-library/config.json",
@@ -227,6 +236,18 @@
     },
     "test-step-logic": {
       "path": "test-step-logic/config.json",
+      "test": true
+    },
+    "library-umux": {
+      "path": "library-umux/config.json",
+      "test": true
+    },
+    "library-umux-lite": {
+      "path": "library-umux-lite/config.json",
+      "test": true
+    },
+    "library-virtual-chinrest": {
+      "path": "library-virtual-chinrest/config.json",
       "test": true
     },
     "example-VLAT-adaptive": {
