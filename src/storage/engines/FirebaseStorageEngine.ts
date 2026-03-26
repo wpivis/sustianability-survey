@@ -488,6 +488,34 @@ export class FirebaseStorageEngine extends CloudStorageEngine {
     }
   }
 
+  protected async _getScreenRecordingSummaryUrl(
+    task: string,
+    participantId: string,
+  ): Promise<string | null> {
+    const storage = getStorage();
+
+    const primaryRef = ref(
+      storage,
+      `${this.collectionPrefix}${this.studyId}/screenRecordingSummary/${participantId}_${task}`,
+    );
+    try {
+      return await getDownloadURL(primaryRef);
+    } catch {
+      // fall through
+    }
+
+    const fallbackRef = ref(
+      storage,
+      `${this.collectionPrefix}${this.studyId}/screenRecordingAnalysis/${participantId}_${task}`,
+    );
+    try {
+      return await getDownloadURL(fallbackRef);
+    } catch {
+      console.warn(`ScreenRecording summary for task ${task} and participant ${participantId} not found.`);
+      return null;
+    }
+  }
+
   protected async _getTranscriptUrl(
     task: string,
     participantId: string,

@@ -231,6 +231,10 @@ export abstract class StorageEngine {
   // Gets the screen recording URL for the given task and participantId. This method is used to fetch the screen recording video file from the storage engine.
   protected abstract _getScreenRecordingUrl(task: string, participantId?: string): Promise<string | null>;
 
+  // Gets the download URL for the given task and participantId's screen recording summary.
+  // Optional because not all storage engines or studies may have precomputed summaries.
+  protected _getScreenRecordingSummaryUrl?(task: string, participantId?: string): Promise<string | null>;
+
   // Gets the transcript URL for the given task and participantId. (Optional - not all storage engines need to implement this, only if they generate transcripts).
   protected _getTranscriptUrl?(task: string, participantId?: string): Promise<string | null>;
 
@@ -1119,6 +1123,47 @@ export abstract class StorageEngine {
     return this.getAsset(url);
   }
 
+  // Gets a precomputed summary for the given screen recording task/participant.
+  async getScreenRecordingSummary(
+    task: string,
+    participantId: string,
+  ) {
+    if (!this._getScreenRecordingSummaryUrl) {
+      return null;
+    }
+
+    const url = await this._getScreenRecordingSummaryUrl(task, participantId);
+    if (!url) {
+      return null;
+    }
+
+    return this.getAsset(url);
+  }
+
+  // Saves a precomputed summary for the given screen recording.
+  async saveScreenRecordingSummary(
+    summaryBlob: Blob,
+    taskName: string,
+    participantId: string,
+  ) {
+    if (this.studyId === undefined) {
+      throw new Error('Study ID is not set');
+    }
+
+    const participantKey = `screenRecordingSummary/${participantId}`;
+    await this._pushToStorage(participantKey, taskName, summaryBlob);
+    await this._cacheStorageObject(participantKey, taskName);
+  }
+
+  async saveScreenRecordingSummaryText(
+    summaryText: string,
+    taskName: string,
+    participantId: string,
+  ) {
+    const blob = new Blob([JSON.stringify({ summary: summaryText })], { type: 'application/json' });
+    return this.saveScreenRecordingSummary(blob, taskName, participantId);
+  }
+
   // Saves the video stream to the storage engine. This method is used to save the screen recorded video data from a MediaRecorder stream.
   async saveScreenRecording(
     blob: Blob,
@@ -1201,6 +1246,9 @@ export abstract class StorageEngine {
       await this._copyDirectory(`${sourceName}/participants`, `${targetName}/participants`);
       await this._copyDirectory(`${sourceName}/audio`, `${targetName}/audio`);
       await this._copyDirectory(`${sourceName}/screenRecording`, `${targetName}/screenRecording`);
+      if (await this._directoryExists(`${sourceName}/screenRecordingSummary`)) {
+        await this._copyDirectory(`${sourceName}/screenRecordingSummary`, `${targetName}/screenRecordingSummary`);
+      }
       await this._copyDirectory(sourceName, targetName);
       await this._copyRealtimeData(sourceName, targetName);
     }
@@ -1248,6 +1296,9 @@ export abstract class StorageEngine {
         await this._deleteDirectory(`${deletionTarget}/participants`);
         await this._deleteDirectory(`${deletionTarget}/audio`);
         await this._deleteDirectory(`${deletionTarget}/screenRecording`);
+        if (await this._directoryExists(`${deletionTarget}/screenRecordingSummary`)) {
+          await this._deleteDirectory(`${deletionTarget}/screenRecordingSummary`);
+        }
         await this._deleteDirectory(deletionTarget);
         await this._deleteRealtimeData(deletionTarget);
       }
@@ -1317,6 +1368,12 @@ export abstract class StorageEngine {
         `${snapshotName}/screenRecording`,
         `${originalName}/screenRecording`,
       );
+      if (await this._directoryExists(`${snapshotName}/screenRecordingSummary`)) {
+        await this._copyDirectory(
+          `${snapshotName}/screenRecordingSummary`,
+          `${originalName}/screenRecordingSummary`,
+        );
+      }
       await this._copyDirectory(snapshotName, originalName);
       await this._copyRealtimeData(snapshotName, originalName);
       successNotifications.push({
